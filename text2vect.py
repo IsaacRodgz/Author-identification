@@ -69,10 +69,18 @@ def calculate_score(author_predicted):
 			count+=1
 	return count/len(author_predicted)
 
+def calculate_score2(scores, predicted):
+	count = 0
+	for value1, value2 in scores:
+		if value2 == predicted[1]:
+			count+=1
+	return count/len(scores)
+
 def predict():
 	#Predicted authors
 	prediction = []
 	X, vectorizer = get_authors_matrix()
+	print("\nNum of rows: "+str(math.ceil(X.shape[0]*0.3))+"\n")
 	for i in range(7):
 		new_author_vector = get_new_author_vector(i, vectorizer)
 		prediction.append(predict_author(X, new_author_vector, i))
@@ -80,17 +88,25 @@ def predict():
 	#Confidence values
 	res = [[] for i in range(7)]
 	X_aux, vectorizer = get_authors_matrix()
+	new_author_vector_aux =[]
+	for i in range(7):
+		new_author_vector_aux.append(get_new_author_vector(i, vectorizer))
 	for j in range(10):
 		print('\ninteration: '+str(j))
 		X = cut_array(X_aux)
 		for i in range(7):
-			new_author_vector = get_new_author_vector(i, vectorizer)
-			new_author_vector = cut_array(new_author_vector)
+			new_author_vector = cut_array(new_author_vector_aux[i])
 			res[i].append(predict_author(X, new_author_vector, i))
 
+	print("\n\n")
+	print(res)
+	print("\n\n")
 	scores = []
-	for author_predicted in res:
-		scores.append(calculate_score(author_predicted))
+	#for author_predicted in res:
+	#	scores.append(calculate_score(author_predicted))
+
+	for r, p in zip(res, prediction):
+		scores.append(calculate_score2(r, p))
 
 	print("\nResult\n")
 	for p, s in zip(prediction, scores):
