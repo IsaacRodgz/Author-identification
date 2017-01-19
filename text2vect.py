@@ -56,9 +56,7 @@ def predict_author(X, new_text_vect, author_label):
 
 	return author_label, min(residuals)[1]
 
-def cut_array(X):
-	num_rows = math.ceil(X.shape[0]*0.3)
-	selected_rows = random.sample(range(X.shape[0]), num_rows)
+def cut_array(X, selected_rows):
 	X_temp = np.delete(X, (selected_rows), axis=0)
 	return X_temp
 
@@ -93,18 +91,25 @@ def predict():
 		new_author_vector_aux.append(get_new_author_vector(i, vectorizer))
 	for j in range(10):
 		print('\ninteration: '+str(j))
-		X = cut_array(X_aux)
+		num_rows = math.ceil(X.shape[0]*0.7)
+		selected_rows = random.sample(range(X.shape[0]), num_rows)
+		X = cut_array(X_aux, selected_rows)
 		for i in range(7):
-			new_author_vector = cut_array(new_author_vector_aux[i])
+			new_author_vector = cut_array(new_author_vector_aux[i], selected_rows)
 			res[i].append(predict_author(X, new_author_vector, i))
 
-	print("\n\n")
-	print(res)
-	print("\n\n")
-	scores = []
-	#for author_predicted in res:
-	#	scores.append(calculate_score(author_predicted))
+	prediction_=[]
+	for i in range(7):
+		cs={}
+		for r in res[i]:
+			try:
+				cs[r]+=1
+			except KeyError:
+				cs[r]=1
+		prediction_.append(cs)
+	#print(prediction_)
 
+	scores = []
 	for r, p in zip(res, prediction):
 		scores.append(calculate_score2(r, p))
 
@@ -115,6 +120,3 @@ def predict():
 if __name__ == "__main__":
 	#vectorize(sys.argv[1])
 	predict()
-
-	#octpy
-	#5532777633
