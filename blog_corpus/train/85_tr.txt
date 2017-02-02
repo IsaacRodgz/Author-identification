@@ -1,0 +1,1186 @@
+ urlLink Local Radar Live radar feed of Cincinnati ... pretty cool.
+
+ urlLink Brighthand.com: Wireless LAN CF Cards arrive: I can't wait until these are available (mid September). Surfing the net from the couch with my PocketPC.
+
+ urlLink Great American Ballpark Progress Keep track of progress of the future home of the Cincinnati Reds
+
+ urlLink Money 2002 Deluxe vs. Quicken 2002 Deluxe - Software Reviews - CNET.com MS Money is the better product, but only if you are willing to use MS Passport. I downloaded and played with it last night. The UI is very good, plus it has "MoneySide" (see screen shot) when you are surfing other sites. I could sync with my bank at a cost of $3.00/month plus $10.00 set up fee. Click to enlarge
+
+ urlLink Making Linux usable tops Torvalds' list - Tech News - CNET.com Even Torvalds gets it!
+
+ urlLink Guerrilla usability - Web Building - CNET.com More usability stuff
+
+ urlLink Reviewed: D-Link 11Mbps Wireless LAN Compact Flash Adapter So you can go wireless with your PocketPC
+
+ urlLink PocketPCThoughts.com The best PocketPC news/blog site out there. I visit this site daily.
+
+ urlLink Tech News - CNET.com A site I visit on an hourly basis
+
+ urlLink Blink.com My Daily link site
+
+ This is my first blog ... I am just get use to it!
+
+ urlLink PocketPC steals the show at DemoMobile Here comes Pocket PC!
+
+ urlLink Let's Talk Computers - Interviews with New Riders Publishing - About Don't Make Me Think Author of a great book
+
+ urlLink Microsoft's one-two punch for handhelds - Tech News - CNET.com And I recently just got a new Compaq iPaq ... argghh.
+
+ urlLink Summer of violence takes heavy toll Find out where all the violence in Cincy is happening:
+
+ Happy New Year! ... good bye 2001 ... glad to see you go. -W
+
+ urlLink Jobs earns $1; Apple stores forecast loss - Tech News - CNET.com "...Apple Computer gave CEO Steve Jobs $1 in regular salary and an airplane in fiscal year 2001, while other executives each received 1 million stock options in a down year for the Mac maker..."
+
+ urlLink Dot-com job losses ease in December - Tech News - CNET.com "...Challenger Gray & Christmas, a Chicago-based outplacement firm, said job losses at dot-com companies totaled 2,403, down from 2,901 in November and well below the 10,459 job cuts announced in December last year. It was the fourth time in six months that the number of planned dot-com job cuts fell..."
+
+ urlLink In the U.S., Interactive TV Still Awaits an Audience "...Viewers in the U.S. can't even define interactive television, much less demand it," said Arthur Orduna, vice president for marketing at Canal Plus Technologies, a subsidiary of Vivendi Universal that creates interactive television technology. "No one in the U.S. has ever stood up and said, `I want interactive television.' ..."
+
+ urlLink Year in Review: X marks the spot - Tech News - CNET.com Everything is coming up "X" or a version 10. New Mac OS, latest version of MS Office, and even the latest Star Trek movie.
+
+ urlLink What Good is Information Architecture Anyway?
+
+ urlLink Handspring's Treo enters second market - Tech News - CNET.com
+
+ User Expectations For the Location of Web Objects
+
+ urlLink Attack of the killer conventions
+
+ urlLink Information Architecture: The Discipline and the Role
+
+ urlLink Uzilla: A Usability Testing Technology Service
+
+ urlLink Google does not allow pop-up ads of any kind on our site.
+
+ urlLink The need for simple English on the Web
+
+ urlLink ZDNet: Story: Will Microsoft pull the plug on Apple?
+
+ urlLink Apple brings Power Macs up to speed - Tech News - CNET.com
+
+ urlLink ABCNEWS.com : Glut of Award Shows Growing Worse
+
+ urlLink ZDNet: Story: The new wireless Palm i705--hot...or not?
+
+ urlLink Get the Teletubbies Windows XPerience
+
+ urlLink Blogger Pro - Power Push-Button Publishing
+
+ urlLink Innovation Architecture
+
+ urlLink PCWorld.com - Palm I705 Makes Early Debut
+
+ urlLink BW Online: Can Jobs "Think Outside the Pretty Box"?
+
+ urlLink Technology Special Report: The Future of Apple
+
+ urlLink Google: Focus on the user and all else will follow
+
+ urlLink ZDNet: Story: How living on a Mac nearly made me change careers "IF THERE IS a creative bone in your body, it's hard not to look at the Macintosh and not feel something tingle--which is precisely what Apple is counting on." &nbsp;I have always known this to be true, but when you hear it as clealry as that I can't help, but to finally make the decision to get a Mac (although I have one at work). Now the decision is which one. Flat Panel? without a doubt (Apple only makes computers with flat sreens now). Laptop or desktop? That is the question. Titanium or iBook?
+
+ urlLink New Site: MSN MapPoint "Microsoft Corp. today announced the release of MSN MapPoint through the MSN network of Internet services. Built on the MapPoint .NET Platform, MSN MapPoint expands Microsofts suite of popular mapping software and represents the beginning of MapPoint technologys migration to Microsoft .NET Web Services." I heard on CNet radio that Microsoft really took a long look on how people really used map sites. Then again, they say that about every new product. However, the interesting thing is they designed the site by watching people's behavior, and how they were actually using the maps during and after printing them out... its all about users behaviors.
+
+ urlLink WSJ.com: Apple's New iPhoto Handles Thousands of Digital Pictures "iPhoto concentrates on organizing your photos and then sharing them with others. There are some limited editing tools, but the emphasis is on managing and sharing a large collection of digital photos, not tweaking each one to perfection." Walter certainly likes iPhoto. I think this is his article from WJS.com that you have to pay for although it seems it is available for free at ptech.wsj.com .
+
+ urlLink Tour The NEW Wall Street Journal Online "we've rebuilt our systems and updated our design, making it easier for you to tap all the resources of the world's most trusted source of business news and information." They have some very interesting customization features to personalize the layout. I have always been interested in Walter Mossberg articles. The service is $59 a year.
+
+ urlLink Digital Web Magazine - Tutorial: Flash Usability "Just because you know how to use Flash doesn't mean you should use it or break the usability rules. Many designers have fun with it and ignore the usability rules. That's OK when the purpose is to be humorous or have fun." I certainly agree with this statement. I only hope designers understand what the "purpose of their site" actually is, and follow some of his suggestions.
+
+ urlLink Bridging the gap between design and engineering cultures "In their minds, my presence was not valuable to their process, but the information I was delivering might be." I would certainly agree with her point of view with a lot of engineers, but I think that the amount of collaboration can depend on the type of engineers you have to deal with on the project. I find some, although few, are open to talk about issues.
+
+ urlLink Fitts's UI Law Applied to the Web "The basic idea in Fitts's Law is that any time a person uses a mouse to move the mouse pointer, certain characteristics of objects on the screen make them easy or hard to click on. The farther the person has to move the mouse to get to an object, the more effort it will take to get to. The smaller the object is, the harder it will be to click on." Just make clickable buttons obvious and large enough to notice.
+
+ urlLink Flat-screen iMac wows design guru "Apple's new iMac has won the endorsement of the influential computer design guru Don Norman. 'I searched it thoroughly and studied it carefully looking for problems or flaws,' he said. 'I couldn't find anything. It is brilliant design,' he told the BBC World Service programme Go Digital." I am getting closer and closer to purchasing a Mac. Not necessarily an iMac, but certainly a flat-screen Mac.
+
+ urlLink developerWorks: Usability : More Web-based wizard tips and tricks "Don't be mistaken; developing a wizard is a project in itself, even though it may be part of a larger project. While wizards should appear easy from a user's perspective, they can be quite complicated to design and develop." Just like any UI design ... it seems simple up front, but it always takes more thought than most people realize.
+
+ urlLink AOL's Netscape sues Microsoft - Tech News - CNET.com "In some ways, the Netscape lawsuit is trying to achieve where the government failed to do so at trial, such as proving Microsoft tried to extend its Windows monopoly to the browser market." I am so tired of this discussion. Business tactics aside, IE was, and is clearly the better browser. If you have ever had to develop a web site you would certainly understand this.
+
+ urlLink Microsoft reshuffles UltimateTV, cuts jobs - Tech News - CNET.com "The reorganization means that UltimateTV will no longer be a part of the Microsoft TV division and will become a part of a new television services group within Microsoft's MSN division, according to the company." Looks like MS is betting a lot on MSN Services.
+
+ urlLink Graphic blush: CorelDraw boxed in Illustrator "Agency uses archrival Adobe to package Ottawa company's flagship program." I think this is hilarious. If you think about it ... it makes total sense. They farmed out their packaging design to an outside agency, which is pretty standard stuff, and what is the De facto standard drawing program? I am sure this type of scenario occurs within other industries as well, and is a lot more common place than you might think.
+
+ urlLink Field Studies Done Right: Fast and Observational (Alertbox Jan. 2002) "Field studies should emphasize the observation of real user behavior. Simple field studies are fast and easy to conduct, and do not require a posse of anthropologists: All members of a design team should go on customer visits)." The key here is fast, and you don't need to spend a lot of time and money
+
+ urlLink Designing for the Bottom Line (Web Techniques, Dec 2001) "We've come a long way since the early, anything-goes era of the mid-'90s, when flashy marketing sites, gratuitous JavaScript, and gyrating logos were the norm. Thanks in no small part to a cottage industry of usability evangelists like Jakob Nielsen and Jared Spool, the Web community has come to accept as almost received wisdom that the user experience approach to design is a Good Thing (with apologies to Martha Stewart)." A great article on things I have been preaching within my company although on deaf ears.
+
+ urlLink Are new Power Macs on the way? - Tech News - CNET.com "There are a number of indications that Apple will introduce new Power Macs this quarter, perhaps as soon as next week, resellers and analysts say. An Apple representative declined to comment." I guess I'll wait and see to see if I get an iMac now.
+
+ urlLink Web Usability - Designing with the User in Mind "This guide is intended for professionals working within the internet industry, such as producers, writers, editors, web designers, user interface designers, and marketing people who have an impact on the delivery and display of content on the internet." Yet another usabilty resource. Can't get enough of them.
+
+ urlLink A Flat, Flat, Flat Screen World "Flat screens are set to replace traditional monitors for good. "In the next two years every major player will market an all-in-one flat panel (computer system)," says one analyst." One day our kids will be asking us about those "big boxes" we once used for monitors.
+
+ urlLink iMac hopefuls face longer waits - Tech News - CNET.com "Strong demand for Apple Computer's new top-of-the-line iMac means a longer wait for prospective buyers." Well the iMac is selling fast ... as expected. Maybe cool is "IN" now, however by definition not everyone can be cool ... that means cool would be normal. Moving on ... how much of a dent could it possibly make in the PC market share? Well ... I am thinking about getting one.
+
+ urlLink Slashdot | Steve Jobs And The Oh-So-Cool iMac "The truly successful technologies and technology companies are utilitarian and dull -- decidedly non-hip. You will never seen a Microsoft or AOL exec talking about how cool the their companies or products are, only how useful and easy to use." Interesting ... could that be true for web sites as well? My artistic side would like to disagree, but in reality anything that you want to appel to the mass market will probably be "utilitarian and dull" and "decidely non-hip", but useful and easy to use.
+
+ urlLink Xbox-based home gateway a runner, says analyst "The rumoured transformation of the Xbox into a home entertainment hub is real, and will launch this year, according to Prudential Securities analyst Hans Mosesmann." More info on the possibility of a Microsoft "PC" in the living room.
+
+ urlLink Gates: Security a top priority - Tech News - CNET.com "When we face a choice between adding features and resolving security issues, we need to choose security," Gates wrote in the e-mail. "Our products should emphasize security right out of the box." Is this a PR blitz? Regardless they need to do something.
+
+ urlLink Sony phasing out pen-tablet PCs - Tech News - CNET.com "The demise of the Pen Tablet line underscores the difficulty that manufacturers face in trying to bring new technologies to market. It also in some ways highlights some of the challenges awaiting the Tablet PC, a portable PC with a touch screen coming in the second half of 2002 from Compaq Computer and others." I have never used this product, but if all you could do was use the pen on your desktop then I am not surprised it failed. You need to pick it up, set it on your lap, sit on your couch, and move around wirelessly to use a pen-based system sucessfully. I don't think this moinitor is wireless, but I am not sure. Also missing is Microsoft's "special version of XP" for a Tablet PC due out within the year. I am looking forward to the Tablet PC and pen computing.
+
+ urlLink WebWord.com: Information Architecture for the Rest of Us "information architecture in a very simple and clear manner" I can see the book now ... "IA for Dummies". It its a good article.
+
+ urlLink Xbox may spawn entertainment hub - Tech News - CNET.com "Microsoft plans to transform its new Xbox game console into a general home device that handles everything from e-mail to video recording, according to analysts." Creeping into the living room ... here they come, and personally I am looking forward to see what they come up with in the "Homestation".
+
+ urlLink Extreme Programming vs. Interaction Design "..When two development design visionaries meet, there's room for consensusbut not much.." Can't we all just get along. These guys really go at it.
+
+ urlLink Vision series - CNET News.com: Sun's CEO, Scott McNealy "..It has been a tough year for Sun Microsystems. The recession has sharply reduced corporate demand for the company's high-priced servers, and many of its customers have gone out of business altogether.." The first in a series of all the big cheeses in technology today from CNET.
+
+ urlLink BW Online | Come On, Steve -- Think Beyond the Mac "..Apple's market share will keep shrinking unless it applies its design genius to other areas, like a wireless, networked media center.." Although I agree, I think Steve is taking one step at a time.
+
+ urlLink the OTHER usability search engine "..This experimental engine only searches selected usability, HCI (Human Computer Interaction) sites.." Very "googlelike" ... haven't used it much, but I will be testing it out.
+
+ urlLink A List Apart: Why Don't You Code For Netscape? "..We design for all browsers and devices by authoring to W3C recommendations including XHTML 1.0 Transitional and Cascading Style Sheets.." This isn't a Netscape bashing article, but more about following web standards.
+
+ urlLink NYPL: Style Guide, XHTML: Guidelines & Benefits "..Branch Libraries projects must be authored in valid XHTML 1.0 Transitional and styled with valid Cascading Style Sheets. See the XHTML and CSS sections below for detail.." All about publishing with XHTML ... the future of the web.
+
+ urlLink TechTV | First Look: Danger Hiptop ''..Danger Research finally unveils its all-in-one mobile device.." This is going to be a very cool device. They announced that they will be selling the device through a major carrier, but they won't say who. Looking forward to more information.
+
+ urlLink AOL shadows Microsoft on instant alerts "..The web services skirmish between America Online Inc (AOL) and Microsoft Corp continued yesterday, as the service provider launched a set of real-time alerts that extend to mobile devices and mirror Redmond's own .NET Alerts system.."
+
+ urlLink Please Lick This iMac "..Yet another utterly annoying, nearly perfect gizmo gem from those shameless bastards at Apple.." Uhhh... a rather negative look at the new iMac ... or is it?
+
+ urlLink Three in one: Handspring Treo "..Meet the innovative force behind the new Handspring Treo, which combines PDA, wireless Internet access and a mobile phone.." Looking forward to this device. Will it have "always-on" e-mail is my question.
+
+ urlLink CES gaining ground on Comdex? - Tech News - CNET.com "..The Consumer Electronics Association, producer of CES, announced that exhibitors bought up a record 1.2 million square feet of floor space this year. Final attendance figures won't be released until late Friday, but the show appeared to be on track to beat or meet last year's crowd of 126,000.." I'd rather got to CES (Consumer Electronics Show). It basically emulates what is happening with computing technology today. Computers are extending into everyday products in the home. Transistors and operating systems are not just in a PC on your desk anymore. Thus a "Consumer Electronics Show" is becoming more interesting than a just a "general computer" conference.
+
+ urlLink For Apple, to Be Flat Is a Virtue "..Apple believes that flat screens are the future. In fact, except for a lingering pair of last year's sub-$1,000 iMac models, Apple has banished C.R.T.'s (cathode-ray tubes, the traditional, bulky glass screens) from its product line.."
+
+ urlLink The Round Mound of iMac Rebound "..Everyone's going cock-a-hoop for Apple's new iMac. Mac users love it and so do PC people. One analyst thinks it will be the best-selling computer ever made. Leander Kahney reports from Macworld in San Francisco.."
+
+ urlLink At CES, music for home and road - Tech News - CNET.com "..pumps up the volume of high-tech gear focused on letting people indulge their musical tastes and do computing tasks throughout their homes and on the road.." Great coverage and interesting video on products on the show floor.
+
+ urlLink Frontend Usability InfoCentre - "Usability and Cost-Cutting" ".. Investment in usability, and particular the adoption of user-centred design programmes, is really about reducing costs in the long term.."
+
+ urlLink Mactopia:Windows Media Player for Mac OS X "..Sporting a new Aqua interface, our new OS X Player runs natively on OS X version 10.1.."
+
+ urlLink Preview "Freestyle": New technologies for Windows XP to enable next-generation PC media center experiences "..Enjoy extended digital media experiences, TV, and a complete PC through the power of Windows XP.." Turn your computer into a TV? I am not sure if this makes any sense. Sure I can sit on the couch and change things on my computer, but why would I? Maybe back in the dorm days.
+
+ urlLink Windows XP in your living room - Tech News - CNET.com "..At the Consumer Electronics Show, Microsoft Chairman Bill Gates will show off an interface intended to turn PCs into home electronics or entertainment systems. Think XP with a remote control.."
+
+ urlLink The Battle of the Boxes: PC vs. TV "..The rivalry between the PC and TV will take on new urgency as three prominent technology executives sketch out competing visions of their digital product lines.."
+
+ urlLink TIME.com - Apple's New iMac "..How Steve Jobs made a sleek machine that could be the home-digital hub of the future.."
+
+ Little under the weather today. Not feeling all that well.
+
+ urlLink CES 2002: iRealtyPix.com Virtual Tours "..Official Virtual Tour of CES (Consumer Electronics Show) 2002 in Las Vegas.." This is pretty interesting if you would love to go to the show, but couldn't make it to Las Vegas.
+
+ urlLink Will Apple live up to Macworld hype? - Tech News - CNET.com "..Whether Jobs can meet his own hype is an open question. But perhaps more important is whether his products and plans can help Apple grow its market share beyond the current 5 percent.." All I know is whatever they announce tommorow at Macworld, it better be something good after all the hype.
+
+ urlLink Apple - QuickTime TV - Macworld San Francisco 2002 Keynote "..Watch Apple CEO Steve Jobs deliver the Macworld Expo keynote address from Moscone Center in San Francisco. See the live webcast right here on January 7 at 9am PT exclusively in QuickTime. It's an event you won't want to miss.." That's 12:00 Noon EST tommorrow. Find out if "iWalk" is for real (could be an Apple PDA or something related). Later Monday night, find out what Bill Gates has to say in his CES keynote. Monday is going to be an interesting tech news day.
+
+ urlLink Microsoft device to bridge TV, PC - Tech News - CNET.com "..Microsoft will demonstrate on Monday a tablet-shaped device that will serve as a bridge between the TV, the PC and the company's .Net services, according to sources familiar with the plans.."
+
+ urlLink Music Software Users Installed Tracking Program Unknowingly "..Internet users who installed popular software for sharing music and other computer files also unwittingly accepted a program that tracked their Web surfing habits.." Nothing ever is free.
+
+ urlLink Hackers set sights on home PC users "..The hackers can steal your identity, destroy your data or use your computer to launch attacks on Web sites or your friends.." Are you worried? ... you probably should be if you have a broadband or "always-on" connection such as Roadrunner or Zoomtown.
+
+ urlLink CES offers electronics makers new hope - Tech News - CNET.com "..Consumer electronics companies will get a chance to change their luck next week in Las Vegas.." Looking forward to this next week. Starts on Monday with Bill Gates keynote ... I am looking for Microsoft's new version of "Ultimate TV" (and other DVRs like TiVo) ... find out more at Consumer Electronics Show .
+
+ urlLink Doing It All: One Gadget, Tried Twice "..The industry has been fumbling to figure out what kind of communicator the masses are waiting for.." As much as I would like to think there is an all-in-one mobile device out there. I think we are still a long way away from something the mass market will actually use.
+
+ urlLink ABCNEWS.com : 'N Sync Reportedly to Appear in Star Wars Sequel "..Justin, Chris, JC, Joey and Lance reportedly appear for just a split second, as anonymous Jedi Knights in a huge battle scene. Then, they get blown up by battle droids.." George Lucas is selling out again. To bad they can't be blown up for real.
+
+ urlLink DUMMIES.com | Web Usability For Dummies "..Web Usability For Dummies goes beyond the current best-sellers by going beyond usability analysis and offering readers real, hands-on methods for improving site usability and testing usability.." You know usability has become mainstream when the Dummies series comes out with a book about it.
+
+ urlLink NYTimes.com: Digital Technology Is Reconfiguring the Taxi "..Electronic screens have appeared atop New York cabs, projecting news and sports scores. Wireless organizers have been put into back seats, giving passengers a chance to send e-mail or visit Web sites. Television screens, satellite-based locating devices and surveillance cameras are being installed, all to enhance safety or passenger enjoyment. (Not to mention, in some cases, new ways to deliver advertising.).."
+
+ urlLink WebTV founder's next act unfolding - Tech News - CNET.com "..Consumer demand for interactive TV has yet to meet industry expectations, but that isn't stopping another hopeful from gambling on the ill-defined and elusive market.."
+
+ urlLink Cincinnati.com: Ballpark's profile more defined "..The skeleton of a giant is taking shape along the riverfront. Concrete and steel that is the framework for Great American Ball Park has transformed the site of the Reds' new home from a dirt lot into the outline of a $330 million sports stadium during the past year.." Cool photos of the progress of Great American ballpark in Cincinnati. Sure wish they take down FirStar Center as well after they finish.
+
+ urlLink Yahoo! wrests HotJobs from Monster.com Yahoo! seems to want to buy up everything to add to its growing offerings.
+
+ urlLink Windows XP: rough around the edges
+
+ urlLink XP update to sport more than just fixes - Tech News - CNET.com
+
+ urlLink WebmasterBase - Web Services Demystified
+
+ urlLink ZDNet: Story: Why UltimateTV was an ultimate failure
+
+ urlLink webBusters Usability - Steve Krug of "Don't Me Think" Interview
+
+ urlLink Interaction Design: Beyond Human-Computer Interaction
+
+ urlLink Picture this: Photoshop on Mac OS X - Tech News - CNET.com
+
+ urlLink Flash 6 Beta Screen Shots
+
+ urlLink Macromedia - Flash Player 6.0 : Public Beta
+
+ urlLink Working Paper: Creativity Models
+
+ urlLink ASIS&T Information Architecture Summit themed "Refining our Craft"
+
+ urlLink Microsoft unveils wireless strategies - Tech News - CNET.com
+
+ urlLink infoSync : Smartphone 2002 arrives
+
+ urlLink Palm prepares pair of color handhelds - Tech News - CNET.com
+
+ urlLink What Does Usability Mean - Looking Beyond Ease of Use
+
+ urlLink Working with CSS - Introduction to CSS Layout
+
+ urlLink Design Interact: Insights
+
+ urlLink Microsoft still ironing out IM kinks - Tech News - CNET.com
+
+ urlLink Runtime Collective: Why Usability?
+
+ urlLink Alertbox: Winter Olympics Site: Not Even Bronze
+
+ urlLink Olympics Site Not Medal-Worthy
+
+ urlLink A List Apart: Better Living Through XHTML
+
+ urlLink Apple slams door on Windows themes - Tech News - CNET.com
+
+ urlLink Gates courts developers for .Net - Tech News - CNET.com
+
+ urlLink Macromedia Announces Broad Cross Product Support for .NET Framework
+
+ urlLink Accessible Design Guidelines via Webword.com
+
+ urlLink Quicktime Compatibility with Windows XP
+
+ urlLink Why Web services will be the Next Big Thing
+
+ urlLink How Useful is WSJ's Redesign?
+
+ urlLink WSJ's $28 Million Renovation
+
+ urlLink eBay revamping its auction-listing form - Tech News - CNET.com
+
+ urlLink Handspring: Treo 180 Now Available ... Finally
+
+ urlLink IBM plays with chameleon-like computer - Tech News - CNET.com
+
+ urlLink A List Apart: Backward Compatible Style Switcher
+
+ urlLink WebReview.com: Weblogs for Professional Web Sites
+
+ urlLink WebTechniques.com: Raise Your Standards
+
+ urlLink Macromedia - Edge: Rich Clients and the Internet Experience in 2002
+
+ urlLink PC Magazine: Top 100 [undiscovered] Web Sites
+
+ urlLink Macromedia Has Big Plans for Flash
+
+ urlLink The un-vision: What Steve Jobs WON'T do at Apple
+
+ urlLink PCMag.com: The Blog Phenomenon by John C. Dvorak
+
+ urlLink Signal vs. Noise: Web Standards Discussion
+
+ urlLink WebmasterBase - The Importance of Web Standards
+
+ urlLink Usability Centre - interview with Steve Krug
+
+ urlLink No More Popup Ads, "opt out" instead
+
+ urlLink Yahoo! with "new" advertising
+
+ urlLink Microsoft pushes Flash for interactive TV - Tech News - CNET.com
+
+ urlLink goodexperience.com: Is the PC desktop really dead?
+
+ urlLink When designers ignore consumers, products can flop
+
+ urlLink Nvidia to debut new graphics chips - Tech News - CNET.com
+
+ urlLink WebWord.com: Installing Norton AntiVirus 2002
+
+ urlLink Designing for the Web: Part 1: The Web is about publishing
+
+ urlLink Integrated Pocket PC Devices in the Works
+
+ urlLink ZDNet: Story: Why I just love the new iMac (and why you might, too)
+
+ urlLink 18% see cell phones as their main phones
+
+ urlLink Layout and Content of Popular Sites
+
+ urlLink Jakob Nielsen's Alertbox: Avoiding Commodity Status
+
+ urlLink Adobe GoLive - Design and develop professional Web sites
+
+ urlLink A List Apart: Web Services
+
+ urlLink A tale of one man and his blog
+
+ Branded 3G UIs a must
+
+ urlLink Thunder Lizard Productions - Top 10 Tips for Usable Flash
+
+ urlLink Mozilla 1.0 nears release - Tech News - CNET.com
+
+ urlLink Boxes and Arrows: CEOs are from Mars...
+
+ urlLink Boxes and Arrows: Got usability? Talking with Jakob Nielsen
+
+ urlLink CNN.com - Study finds Web sites prying less
+
+ urlLink Boxes and Arrows: Summit Beginnings: Saturday
+
+ urlLink Random Comments on the 3rd ASIS&T IA Summit
+
+ urlLink IE 6 garners one-third of browser market - Tech News - CNET.com
+
+ urlLink Web developers wary of AOL switch - Tech News - CNET.com
+
+ urlLink A List Apart: Modifying Dreamweaver to Produce Valid XHTML
+
+ urlLink AOL mail: OK for others, not itself
+
+ urlLink AOL 7.0 tests Netscape browser - Tech News - CNET.com
+
+ urlLink Is Weblog Technology Here to Stay or Just Another Fad?
+
+ urlLink WebmasterBase - SWF v. SVG - Which Should You Choose?
+
+ urlLink Style Sheets vs. JavaScript
+
+ urlLink Yahoo! News - Dot-Com Job Cuts Near Two-Year Low
+
+ urlLink Flash MX Is a Big Step Forward
+
+ urlLink Web navigation: traffic light, not neon light design
+
+ urlLink XML.com: The Visual Display of Quantitative XML
+
+ urlLink Flash MX: More than just eye candy - Tech News - CNET.com
+
+ urlLink Deep Linking is Good Linking (Alertbox March 2002)
+
+ urlLink Create Usable Web Sites - - ADVISOR.com
+
+ urlLink Why should I redesign my site with Cascading Style Sheets?
+
+ urlLink Cell phones, PDAs catch Wi-Fi fever - Tech News - CNET.com
+
+ urlLink Macromedia - Dreamweaver MX : Top 10 New Features
+
+ urlLink How you can design for the scan reader
+
+ urlLink Anchordesk: Why I trust Microsoft more than my bank
+
+ urlLink Apple's new eMac sports 17-inch screen - Tech News - CNET.com
+
+ urlLink Usability for Senior Citizens (Alertbox April 2002)
+
+ urlLink CNN.com - Helpful support on tech endangered list?
+
+ urlLink WebmasterBase - Interview - Vincent Flanders of Web Pages That Suck
+
+ urlLink New iMac lifts Apple's market position - Tech News - CNET.com
+
+ urlLink Study: Customers wary of online IDs - Tech News - CNET.com
+
+ urlLink 20 Cool Visual Studio .NET IDE Features
+
+ urlLink ZDNet: Story: Why Handspring is losing its grip
+
+ urlLink TechTV lays off 50, shuffles programming - Tech News - CNET.com
+
+ urlLink Boxes and Arrows: Just how far beyond HCI is interaction design?
+
+ urlLink Windows XP Visual Guidelines
+
+ urlLink ActiveWin.com - New MSN Hotmail Service Today
+
+ urlLink Gates says states' remedy "impossible" - Tech News - CNET.com
+
+ urlLink Why Do New iMacs Surf So Slowly?
+
+ urlLink The Omni Group: New version - OmniGraffle 2.0
+
+ urlLink The end of the free cell phone? - Tech News - CNET.com
+
+ urlLink CNET imagines the perfect e-mail client
+
+ urlLink Amazon.com: Skip Intro: Flash Usability and Interface Design
+
+ urlLink Survey: Passport required--not appealing - Tech News - CNET.com
+
+ urlLink BW Online: Apple's Hot New Market: PC Converts
+
+ urlLink Boxes and Arrows: Alan Cooper Speaks! Impressions from BayCHI
+
+ urlLink BW Online: PC to Apple?
+
+ urlLink Dont Dumb Them Down
+
+ urlLink Examples of cool web design: April 15, 2002 issue of New Thinking
+
+ urlLink Kids' Corner: Website Usability for Children (Alertbox April 2002)
+
+ urlLink HCIRN Reflections: Why is usability so hard?
+
+ urlLink Macromedia - Flash MX: Samples and Tutorials
+
+ urlLink A List Apart: Fixing Your Site With the Right DOCTYPE
+
+ urlLink Mira device makers give nod to Intel - Tech News - CNET.com
+
+ urlLink Boxes and Arrows: Unraveling the mysteries of metadata and taxonomies
+
+ urlLink form, function, emotion: Inside the philosophy and process of Frog Design
+
+ urlLink Mozilla poised for revival - Tech News - CNET.com
+
+ urlLink GUUUI - The Bottom-line of Prototyping and Usability Testing
+
+ urlLink Microsoft busy on all fronts - Tech News - CNET.com
+
+ urlLink CNN.com - New look for Wall Street Journal
+
+ urlLink developerWorks: Usability : The Cranky User: Drowning in Aqua
+
+ urlLink A Conversation with Don Norman
+
+ urlLink Humans: A Designer's Guide
+
+ urlLink Microsoft on track with the Mac? - Tech News - CNET.com
+
+ urlLink Design Interact: Insights
+
+ urlLink Guidelines for Keyboard User Interface Design
+
+ urlLink IBM Ease of Use: What is usability?
+
+ urlLink Vision of Flash-based Web raises doubts - Tech News - CNET.com
+
+ urlLink Macromedia Studio MX - Software Reviews - CNET.com
+
+ urlLink Off Topic: Indiana Jones to return for fourth film
+
+ urlLink ThunderHawk web browser for Pocket PC review
+
+ urlLink strange systems: Using Wireframes
+
+ urlLink SVG: An XML approach to graphics
+
+ urlLink ZDNet: Story: Handspring's Treo 90: Why the price ISN'T right
+
+ urlLink Why Dilbert loves the Internet
+
+ urlLink Alertbox: Supporting Multiple-Location Users
+
+ urlLink Don't get burned by bad mapping
+
+ urlLink XP makeover highlights antitrust tweaks - Tech News - CNET.com
+
+ urlLink Treo release set, but field is crowded - Tech News - CNET.com
+
+ urlLink ZDNet: Story: Netscape 7: Nice, but I'll stay with IE. Here's why
+
+ urlLink Microsoft, Verizon team on MSN services - Tech News - CNET.com
+
+ urlLink Hot Career Trends for the 21st Century
+
+ urlLink Time for communications to take charge of your website
+
+ urlLink Netscape 7.0 heats up browser wars - Tech News - CNET.com
+
+ urlLink labs.google.com - Google Demos
+
+ urlLink Boxes and Arrows: Designing on both sides of your brain
+
+ urlLink MSN fishing for disgruntled AOL users - Tech News - CNET.com
+
+ urlLink X-Files: Science Fact or Fiction?
+
+ urlLink FORTUNE - Alsop on Infotech - Ode to the Yahoo of Yore
+
+ urlLink OFF TOPIC: Forbes.com: Best Cities For Singles
+
+ urlLink NEW BOOK: The Essential Guide to User Interface Design, 2nd Edition
+
+ urlLink Macromedia - Designer & Developer : Using Timelines for States
+
+ urlLink Macromedia - Edge : May 2002
+
+ urlLink AOL won't let IE take Mac test - Tech News - CNET.com
+
+ urlLink ZDNet: Story: Apple's Xserve: Why it's a big deal for all of us
+
+ urlLink Microsoft releases monster IE patch - Tech News - CNET.com
+
+ urlLink Macromedia - Designer & Developer : The Design of Dreamweaver MX
+
+ urlLink Flash MX: From fluff to serious application builder?
+
+ urlLink What's All the Talk About Blogging?
+
+ urlLink Why DHTML Will Win
+
+ urlLink Jakob Nielsen's Alertbox: Top-10 Guidelines for Homepage Usability
+
+ urlLink A List Apart: CSS: Going to Print
+
+ urlLink Flash: Blogging Goes Corporate
+
+ urlLink B&A: Why Im not calling myself an Information Architect anymore
+
+ urlLink WebmasterBase - Interview - Jeffrey Zeldman of A List Apart
+
+ urlLink To Flash or not to Flash
+
+ urlLink Is contract work a good career move?
+
+ urlLink Boxes and Arrows: CHI 2002-Changing the world, changing ourselves
+
+ urlLink Waiting For the Wireless Revolution
+
+ urlLink Jobs: Mac OS 9, rest in peace - Tech News - CNET.com
+
+ urlLink Search for Web services leads to Google - Tech News - CNET.com
+
+ urlLink Gratuitous Graphics and Human-centered Website Design
+
+ urlLink DVD Menu Design: The Failures of Web Design Recreated Yet Again
+
+ urlLink NEW BOOK: Usability: The Site Speaks for Itself
+
+ urlLink Complex Times Demand Greater Simplicity
+
+ urlLink Interactive TV: The big kludge - Tech News - CNET.com
+
+ urlLink How to Use Dreamweaver MX to Code for Web Standards (XHTML)
+
+ urlLink Is Adobe claiming that it owns a patent on tabs?
+
+ urlLink Adobe wins Macromedia patent suit - Tech News - CNET.com
+
+ urlLink My blog, my self - Tech News - CNET.com
+
+ urlLink Macromedia promises better Web apps - Tech News - CNET.com
+
+ urlLink Macromedia's Studio MX Stakes Out the Middle Ground
+
+ urlLink Apple files Flash lawsuit - Tech News - CNET.com
+
+ urlLink Microsofts IE 6.0 is the most popular browser on the web
+
+ urlLink Google to Power Search Functions Across AOL Brands
+
+ "Earlier this year, Macromedia unveiled its MX initiative. The MX initiative is billed as an "integrated family of client, tool, and server technologies" that is built on a Java foundation. Chances are most Java developers are not aware of what this means for them. In other words, as a Java developer, what can MX do for you? The answer in short is a great deal! In fact, not only can MX technology improve the speed in which you develop your Java based web applications, but it can also help you create a truly rich user experience." Pretty sweet. The "rich user interface" is on it's way!
+
+ "Since the dawn of the PC era, various companies have undertaken various initiatives to move computing away from keyboard and mouse-based input and towards the more natural interfaces of pen and voice. And while voice computing has seen some limited success, pen computing is set to explode with the introduction of Microsoft's Tablet PC platform, driven by a new Windows XP version logically named Windows XP Tablet PC Edition." I personally cannot wait for this! Regardless of the "electronic ink", I just think using a tablet is such a natural way to use a "computer". I especially can't wait to surf and work from the couch.
+
+ "The next version of Microsoft Office, code-named Office 11, will be released next May, Microsoft Corp.'s Jeff Raikes, vice president of productivity and business services, announced yesterday at the PC Expo/TechXNY conference in New York." I haven't even used Office XP yet. Yet more proof to me that MS must really depend on upgrades to keep a nice steady revenue stream for continued growth that it's seen over the years.
+
+ "Although the idea behind Extensible Stylesheet Language for Transformations (XSLT) is simple, putting it into practice can be difficult, in part due to the number of attendant abbreviations and acronyms: XSL, XPath, etc. Furthermore, the available introductory material on XSLT suffers from the same weakness as introductory XML material in general in assuming that the reader is intimately familiar with analogous HTML technologies." I admit I was thoroughly confused about XSL, XSLT, XPath, CSS, XHTML, and XML when it first came out. What is really important to understand is XSL (same as XSLT) takes XML and "Transforms" it into the user interface XHTML (HTML). That's it basically, so don't try to over analyze all the acronyms.
+
+ "Apple's new ad campaign is laughable, and it's not going to work. Desperation. That's the word that comes to mind when I see the Apple 'Switch' ad campaign, also referred to as the "Real People" campaign." Wow again! Yet another Macintosh bashing article from PC Magazines' John C. Dvorak. If you didn't read his previous anti-Mac article urlLink check it out .
+
+ "Study: Vast divide between broadband, dial-up Internet users. Americans who use a high-speed Internet connection at home tend to go online more often, stay there longer and become actively involved in creating their own content, a study of Internet users found." No kidding. This seems to me that this is common sense. Especially if your career has anything to do with developing content and "code", your going to get a good connection. It's like being surprised a carpenter actually has good tools.
+
+ "The twice-yearly Macworld Expo may be the biggest event in the Macintosh world, but two key developers are taking a pass on next month's show in New York." I'd love to see where each of them make their money. What percentage sales are Windows versus the Mac OS with a product by product breakdown.
+
+ "Dreamweaver MX 6.0 has new features for every level of Web developer, taking this Macromedia product decidedly upscale without leaving beginners behind. The new version folds UltraDev, the company's Web application builder (which no longer exists as a standalone product), and adds more database code support and server code libraries. That makes Dreamweaver the only program developers will need to create high-performance, database-driven sites." Macromedia is certainly making a big splash everywhere you look these days. I myself started using Dreamweaver MX , and I am still not sure how I feel about it. My first impressions are mostly negative, mainly because I was use to my "tried & true" environment, so it's possibly just getting use to the new IDE. I am finding things I like though, we will have to wait and see.
+
+ "Each new development environment attempts to gain architect and developer support with the promise of Web "custom control" technologies--technologies to help architects and developers avoid the costly and time-consuming process of handwriting and hand-tuning HTML, JScript, and DHTML in order to create a robust, maintainable, scalable, and gracefully degrading (i.e., supporting earlier browser releases) user interface." Server controls basically take the mess of HTML out of the picture for developers. So if you made your living cleaning up traditional developers HTML "code", then you might want to look for a new career. User controls are basically "programmable server-side includes" that you use for header, footers, and navigation.
+
+ "Want to find the best flicks? Check out Metacritic.com, where opinions from dozens of critics are delivered hot and fresh to your PC or PDA." I like how you can see the score of any review "at-a-glance". I don't have to sort through the interface to see what I came there for there in the first place. They use color nicely as well to help inform you of scores. urlLink Check it out &#187;
+
+ "A SpectraCom survey found that the color palette on a site was the most important attribute for roughly 41% of women and 34% of men." Color is actually more important than navigation. I guess this could because navigation has been standardized on a couple basic paradigms, and color is more subjective. Also loud, obnoxious, and hard-to-read colors could certainly make a difference on my feelings towards a web site design.
+
+ "Isn't it about time the Macintosh was simply discontinued, put down like an old dog? Why, exactly, does Apple maintain this line of machines instead of starting fresh or at least introducing something new with fresh legs. The Mac has become the AS/400 of desktop computing, except for the fact that it's prettier. Of course, if Apple never moves forward, what happens to the copycat Windows platform?" "Wow! I don't think I have ever read such a harsh criticisms from John C. Dvorak at PC Magazine. You can join the urlLink discussion , it's sure to be lively one.
+
+ "Richard Koman talks with Colin Moock, the author of O'Reilly's Actionscript: The Definitive Guide, about Macromedia's re-christened suite of MX applications and how they can be used to develop Web services and richer interfaces." Here it comes, ready or not, Macromedia Flash as a full blown development environment.
+
+ "Satellite radio services XM and Sirius offer more than just nationwide, digital-quality broadcasts and hundreds of channels. They could also put an end to radio as we've known it. Here's why I think that's a good thing." If I spent more time in my car I would get satellite radio in a second. When I buy a new car I will definitely look into purchasing a car with it already built into the dash.
+
+ "Opera will make Macromedia Flash Player available to consumer electronics manufacturers and software platform providers on a range of devices from wireless handhelds to set-top boxes, extending Macromedia's reach into the embedded space." I tell you what, Macromedia is doing everything it can do to make their Flash player as ubiquitous as possible. Every time I think of an excuse of why Flash will hit a road block as a development tool Macromedia seems to plug it.
+
+ urlLink FREE IDE from MS: ASP.NET The Web Matrix Project
+
+ urlLink PIXELSURGEON interview : jakob nielsen
+
+ urlLink Microsoft updates IE for Mac
+
+ urlLink True Web Power: XHTML with CSS2
+
+ urlLink Ask Jeeves adopts minimalist motif - Tech News - CNET.com
+
+ urlLink CSS Style Switcher in ASP
+
+ urlLink Microsoft accidentally distributes virus - Tech News - CNET.com
+
+ urlLink Iterative design can be lazy design
+
+ urlLink BW Online: Will Cable Unplug the File Swappers?
+
+ urlLink The Layout Reservoir - BlueRobot
+
+ urlLink Programming ASP.NET UI server controls
+
+ urlLink Helping Businesses Evaluate Their Internet Presence
+
+ urlLink Cooper U Interaction Design Practicum (5 day course)
+
+ urlLink The Web Standards Project, Phase II
+
+ urlLink iPod opening up for Windows users - Tech News - CNET.com
+
+ urlLink Yahoo cleans up home page with beta - Tech News - CNET.com
+
+ urlLink Browsing Around for New Targets
+
+ urlLink Handspring reads writing on the screen - Tech News - CNET.com
+
+ urlLink Apple - Switch from Windows to Mac commericals
+
+ urlLink The eBay Way of Life
+
+ urlLink Business 2.0 - Beating Bill
+
+ urlLink The Unbearable Messiness of DVD Menus
+
+ urlLink Reduce Redundancy: Decrease Duplicated Design Decisions
+
+ urlLink Flazoom.com - The Cooler: An Open Letter to Jakob 'MX' Nielsen
+
+ urlLink Yahoo to give home page a makeover - Tech News - CNET.com
+
+ urlLink Product complexity driving you crazy? Learn where to cut.
+
+ urlLink Amazon unwraps timed discounts - Tech News - CNET.com
+
+ urlLink Extend App Usability With Smart Clients
+
+ urlLink Macromedia - MX : Executive Presentation
+
+ urlLink Microsoft PowerToys for Windows XP
+
+ urlLink The Anatomy of a Demo
+
+ urlLink Aqua Human Interface Guidelines
+
+ urlLink Mozilla finally turns 1.0 - Tech News - CNET.com
+
+ urlLink Start Now: Develop with Users
+
+ urlLink Macromedia.com: Ready, Set, Go: Usability Testing
+
+ urlLink Record Store: Your First Web Application in Dreamweaver MX
+
+ urlLink Getting Started with ASP.NET
+
+ urlLink The Treo: Close but No Cigar
+
+ urlLink New Book: Handheld Usability
+
+ urlLink pMachine - Publish Your Universe!
+
+ urlLink E*TRADE Financial - Investing (using Flash!)
+
+ urlLink Flash critic to coach Macromedia - Tech News - CNET.com
+
+ urlLink J R R Tolkien was an information architect
+
+ urlLink Return of the Rich Client
+
+ urlLink BOM.com uses Flash effectively (via Flazoom.com)
+
+ urlLink Handspring bouncing Springboard slot - Tech News - CNET.com
+
+ "I'm at New Paradigms in Using Computers day at IBM's Almaden Research Center in San Jose. It's the 10th annual event where bright people in the technology and social-science arenas talk about the state of the art of the user interface and what we can do to make it better."
+
+ "Developing a new product or service is tricky. When everything goes well, the product can redefine a market or even create an entirely new one, to the benefit of its manufacturer and its consumers. When the product doesn't click with its audience the costs can be staggering. How do you ensure that your new product doesn't flop? One effective method is to conduct a requirements definition phase before developing a new product." OK ... don't most firms already do this? Most projects I have worked on have had this done in the beginning stages of the product. The only issues I have experienced are clients who don't take the time to figure out what their customers or users really want rather than building something they think they may want, which in a lot of cases can be completely different things.
+
+ "The rival software makers settle all claims in a series of patent suits between the companies. Terms of the settlement were not disclosed." I'd love to what the terms exactly were. Macromedia did do away with "pull away tabs" in their new MX product line. I am not sure if Adobe changed anything within their user interface of any of their products.
+
+ "Toward a New Breed of Computers: Jef Raskin, 'father of the Macintosh', looks at how to build a better computer user interface. Watch today at 7 p.m., 10 p.m. and tomorrow at 1 a.m. All times Eastern." If you can get TechTV watch "Screen Savers" tonight. It will be interesting to see what Jef Raskin has to say about building a better UI.
+
+ "My career in user interface graphic design began when I worked for Apple Computer between 1983 and 1986. My job: icon and font designer for a new computer, the Macintosh." I am currently reading the book " urlLink The Second Coming of Steve Jobs ", an unauthorized biography. It was interesting to read about Susan Kare, a User Interface Designer who designed the original Macintosh user interface way back in 1984. She was also one of the few people who could stand up to Steve Jobs.
+
+ "Branding, the creation of a distinct, memorable and compelling visual image, often conflicts with the goal of creating fast-loading, easy-to-use Web sites. Visual branding is typically based on the use of large graphics, text that is set as graphics, and special effects such as frames, image maps, custom navigation icons, and animated text and graphics." Why is it so hard to understand that branding on the web is the usability of the site or product. If you can accomplish the task the site was built to do, you feel empowered. You feel good. That builds loyalty. That is your brand. You can also have clean, crisp site that looks good as well if you know what your doing. It's a shame very few people understand this. It's not about a spinning logo, large gradient fills, or Flash Intros. All that builds is dissatisfaction and annoyances to why you really came to the site in the first place, unless of course you came to look at pretty pictures or frivolous animations.
+
+ "The FCC reports that there were 12.8 million broadband internet connections in the US at the end of 2001, 11 million of which were residential and small business." Based on urlLink estimated numbers of users in the US , that is only about 8% of the total estimated number of users (164 million) have broadband connections. However, I am comparing total number of users in January 2002, and total broadband users in July 2002, but it's clear broadband has not caught onto the typical user, so once again bandwidth should be a major consideration when designing your site.
+
+ "Covalent's support of ASP.Net gives .Net users a choice of Web servers instead of one option, Microsoft's Internet Information Server (IIS). More importantly, it means Windows operating system users will finally get some support. Apache has been available on Windows 2000/XP for some time, but it was without any help from Microsoft." This is really good news for everyone, however unlike IIS and Apache this compatibility will cost you. Not sure of the pricing, but I am not sure it will be free.
+
+ "We do the digging so you don't have to: 50-plus Web winners, from new and little-known sites to powerful features buried in your everyday bookmarks." This is an interesting list of sites of the obvious, but not so obvious great sites on the internet. One interesting site I liked was urlLink Qualys Browser Checkup . This site checks your browser and tells you if you are up-to-date or if there are any security issues you need to be worried about.
+
+ "Windows XP Media Center Edition provides a very simple user interface that obviously harkens back to the standard XP interface style. Users can connect a Media Center PC, available from Samsung and HP this year, to a television set and home stereo and use a remote to view home videos, music and photos, watch DVD movies, and program Digital Video Recorder (DVR) capabilities through a nice onscreen program guide. And the DVR allows you to watch, pause, and record live TV like you would with a TiVo or Ultimate TV device." urlLink Here are some interesting screen shots and information about Windows XP Media Center Edition. Microsoft is doing everything it can to extend the use of the PC within your home. I think this would be great for the dorm room, especially if you have a ton of MP3s stored on your hard drive. Just sit back and use the remote from a distance to listen to your music as you study or whatever activities that require music when you are in college.
+
+ "Forget converting Windows users. Instead, go all-out to give Macheads a reason to switch to OS X. In return, Gates should cut Office X's price." I have gone to the Apple stores and checked out the new Macs with OS X. At first I really thought OS X was cool, but after playing around with it a while I have to say I like XP better, which I know use daily. This is for one main reason. Web browsing on the Mac with OS X is so slow. At first I thought it was me, but urlLink I later found out , it wasn't just me.
+
+ "An Italian inventor built the first typewriter to help a blind countess write legibly. Alexander Graham Bell invented the telephone because his wife and mother were deaf. The remote control was invented for people with limited mobility. From the typewriter to the remote control, special access tools developed for disabled individuals eventually become conveniences for everyone." Interesting little facts I never knew. Accessibility is really about making your information or your ideas accessible to the broadest audience as possible.
+
+ "MS's upcoming Windows XP Media Center Edition does more than add a personal video recorder and a new interface to the OS. It could be the opening salvo in the company's bid to control home entertainment. Let me explain." I think urlLink Sony and their PlayStation 3 will have something to say about that, not to mention AOL Time Warner. Their will be plenty of choices for the consumer in this area of digital entertainment.
+
+ urlLink "Roll-up, flexible televisions, akin to the melting watches of Salvador Dali's surreal landscapes, have become possible thanks to a glowing plastic compound perfected in the laboratories of Cambridge Display Technology." This looks interesting.
+
+ "FROM A PURELY product perspective, Steve's keynote was, for the most part, a snooze. Despite Apple's secrecy fetish, all the really interesting stuff was well known before Steve stepped onstage. But if they read between the lines, I think the Mac faithful got some big news from the computer industry's last rock star." I am not sure that if any Mac users really care. The biggest applications I imagine Apple users need to worry about is Word, Internet Explorer, and maybe Excel. There are certainly a lot of alternatives to them. However, I would be curious to know many macheads use MS software considering they hate them so much.
+
+ "Happy birthday! Dreamweaver is five years old. In software years that makes it middle aged, but Dreamweaver is far from going through a mid-life crisis; it has been reborn fitter, faster and much, much stronger." I am not so sure we have much to worry about. Unless Dreamweaver can design user friendly sites, come up with great ideas, and adapt to user expectations as well, then I feel ok about my profession.
+
+ "Time Warner Cable will start letting some of its customers pause live television and digitally record programs through a new set-top box that is similar to those sold by TiVo and ReplayTV." I wonder how long it will take to get to my neck of the woods.
+
+ "Apple Computer on Wednesday introduced a slew of new computer features, which founder Steve Jobs' described as 'cool, very, very cool' and 'coolest'. Jobs said Apple was cutting prices of two iPods -- offering a 1,000-song model for $299 and a 2,000-song model for $399 -- and introducing a 4,000-song model for $499." Can't wait to get my hands on one of these (20 Gigs). I think Steve Job's said they will be available sometime in August. He wants to get the new iPods to the Mac faithful first.
+
+ "Ellen Feiss is a student, a really glossy-eyed student." urlLink She must have taken a huge bong hit right before urlLink they filmed her . It really is hilarious how clueless this girl seems. Where do they get these losers. I understand their point with the switch ads, but the only thing theses ads prove is how ignorant some people are about computers in general. What they are basically saying is " Are you an idiot like these people? Then you should buy a Macintosh! ". I like the Mac, but they are actually discouraging me from buying one by this advertising campaign.
+
+ "Useless animation and navigation don't go together. An example of what not to do when designing a navigation paradigm." This has to be one of the most annoying navigation paradigms I have seen in awhile. First of all, the "orbiting" links or navigation elements only tell you the first letter of the destination, so your pretty clueless of where to go to unless you mouseover all the elements. The fact that the navigation elements are moving is only the beginning of your aggravation. The real fun is when you try to mouseover an element, and then try and move to another element . It's basically torture.
+
+ "Just as Web sites are still grappling with usability concerns, and trying to balance artistic independence with graphical standards, so too are producers of GUIs faced with the tricky proposition of making changes without confusing or losing users." This isn't surprising to me. The issue to me for Microsoft, Apple, and other OS developers is that they must design a UI used by beginning, average, and power users all at the same time.
+
+ "News Monkey Flash MX RSS Viewer has been updated. Flash 6.0 player needed." This is a cool news feeder using XML news feeds from a variety of content providers. I really wanted to develop this myself (not an original idea), but it looks like he beat me to the punch. It does show the power of the "6.0 Flash Player" and XML. It could even become your start page.
+
+ "PC makers to start taking Tablets Mira displays, on the other hand are "an interesting concept that combines the PC with the Web Tablet, allowing consumers to access their PCs via wireless displays." But they are going to be pretty rudimentary at first. Wait until the next-gen devices out in early 2004 and capable of handling video streaming and other multimedia apps." I can't wait for the Tablet PC and Mira. There has been a lot of hype surrounding the Tablet PC, but everything I have seen and heard, it looks promising.
+
+ "Finding something on a confusing Web site is a trial-and-error process that seems to take forever. It's even difficult to find the information again after it's been discovered once. The problem lies in the difference between how web designers think and how the frustrated Internet user thinks , said Kansas State University psychologist Keith Jones." Isn't this obvious. It amazes me that some web designers still think that users actually want to see their elaborate graphic intense sites. Or marketing types think users want to see and hear their elaborate, overblown, long-winded Marketing story. Users don't care! They want to get something done. Until designers start to understand their users sites will never be usable.
+
+ "On the eve of Apple Computer's semi-annual MacWorld event, Microsoft has dropped a bombshell on the company: Work harder to accelerate Mac OS X sales, or Microsoft will exit the Mac market forever. This sentiment is one shared by many Mac developers, as Mac OS X has not sold well at all, as reported recently in WinInfo Daily UPDATE." Ouch! I guess Apple should have never came out with the " urlLink switch " advertising campaign which was a direct attack on Microsoft's revenue.
+
+ "This is the new CHIplace interactive discussion forum. Here you will find discussions on Human-Computer Interaction research issues. These discussions are related to conferences, such as CHI, CSCW, DIS, and other ACM SIGCHI-organised conferences, general hot topics for discussions in the area, and community and organisational topics." A new place to discuss and learn more about interactive design, brought to you by ACM SIGCHI (Special Interest Group on Computer-Human Interaction).
+
+ "Microsoft now believes that networking devices, known as routers, may be the key to controlling the digitally wired home. By selling routers that link PCs to game consoles, TVs, and other household devices, Microsoft is hoping to serve as the gatekeeper connecting consumers to the multibillion-dollar world of digital entertainment: games, movies, music, and other services." More on Microsoft taking over your home, but now they seem to think they need to developer hardware or connected devices as well as software.
+
+ "Several of the pages on my Microsoft Internet Explorer Favorites menu have customized icons associated with them. How can I create such an icon so that visitors who bookmark my site will see that icon in their own Favorites menus?" I have never taken the time to do this, but you might. The big down fall about this is that whenever a user deletes their temporary internet files (cleans cache), the shortcut or favorite losses it's icon image that you created. Here is urlLink Microsoft's explanation on how to do this.
+
+ "This is a collection of good-looking websites that are built with minimalism in mind, the idea of beauty through less is more ." It's nice to know I am not the only one out there who feels this way. Although, I feel the term minimalist is incorrect. Almost sounds like there is no design at all. I have always liked the term clean . I think it's much harder to design a clean site that users understand, than a site with too much "design" and graphics, that looks like an acid trip.
+
+ "So how do we provide what customers need without getting caught in feedback loops? The key is to design before you code. By design, I mean much more than interior decoration: I mean developing architectural blueprints that account for everything from navigation to transactions, from workflow to customer communication processes." It's all about design before you build. This is obvious with construction of a building, but not with applications. I think it's common sense, but many traditional developers believe we can always figure out the "User Interface" later.
+
+ "Bill Gates already has your desktop. Now he wants to dominate your living space as well. In Gates's ideal electronic home, PCs, TVs, videogame consoles, window shades, microwave ovens, refrigerators, and handheld computers will all be linked together and governed by Microsoft software." I don't mind Microsoft as such a dominating force in the software industry. As long as they make my digital world easier to live in, I don't mind what they do. There are plenty of bitter people and organizations out there keeping them honest. Why waste your valuable time on such activities, besides the fact there are so many other people doing it, and when there are so many more interesting things to do in the world. It's much more productive to take advantage of what a monopoly has to offer the consumer, than it is to spend time trying to fight it. If you ever talk to a Linux or Apple user, it amazes me how much of their time is spent complaining about Microsoft.
+
+ "Making small changes to the process, and bringing responsibility in-house, means you can spend less and get more from your usability testing program." Cheaper isn't always better, but it's better than nothing. But still, there is a lot of informal (cheaper) ways to test your web site although it may not catch everything, I am willing to bet the really big things that matter.
+
+ "Inspired by actual events, the heroic thriller K-19: The Widowmaker is National Geographic's first feature film." Check out this great use of Flash. It has a lot of nice things, but by far what they did right that just about every other Flash site doesn't do well&#8212;it has very crisp fonts. Most Flash content has blurry, hard to read fonts. I just hope more Flash developers quit using urlLink anti-aliasing for smaller fonts, and also use san-serif typefaces as well (which goes for HTML as well).
+
+ "Another advantage of Flash is that its applications and content can be easily transferred from one platform to another. Unlike Java and C++, Flash is not device-specific." The cross-platform performance of Flash may be the real "Right Once, Run Everywhere". Has Macromedia successfully accomplished what Sun has been trying to do for years? Did Microsoft get caught sleeping just like IBM did years ago? Only time will tell.
+
+ "WaSPs Dreamweaver Task Force has posted an assessment of Dreamweaver MX. The Task Force worked with Macromedia through various stages of product development to help improve Dreamweavers support for web standards and accessibility." Turns out that Macromedia did a pretty good job creating an editor that produces standards-compliant HTML, CSS, and XHTML. Interesting enough there is no Adobe GoLive or Microsoft FrontPage "Task Force" at urlLink WaSP . I would imagine this has to do with the fact that the other software publishers do not work with third-party organizations and developers as much as Macromedia.
+
+ "Apple Computer plans to serve up a new iMac model with a larger flat-panel display during next week's Macworld Expo trade show, according to sources." Wow ... there is no excuse anymore not to buy a Mac. I like the iMac, but it's screen was just to small. This to me is a huge difference and will probably make the difference in finally buying a mac.
+
+ "Changes in recent pre-release builds of the next major Mac OS X update, Jaguar, indicate that Apple's iTools web services will be renamed at next week's Macworld Expo/New York." I probably urlLink won't be able to go to MacWorld now, but I just thought this little tidbit was funny. Apple is actually copying from Microsoft's marketing message. Is there even a ".mac" top-level domain name?
+
+ "Macromedia's quest to make the Web work better enters new and uncharted territory Tuesday with the release of server software for adding communications functions to Web sites." I am not sure what to think about this. Need to see some examples. Unfortunately Macromedia isn't showing any at the moment, except for an executive presentation that really doesn't show me anything, except synchronized video that developers have been doing for over six years. However, check out Macromedia's urlLink Flash Communication Server MX Application Development Center to see the presentation. Pretty wordy don't you think.
+
+ "Let TopStyle Pro 3.0 help you move forward by tapping into the power of cascading style sheets and XHTML. Written by Nick Bradbury, creator of HomeSite, TopStyle Pro contains powerful tools for building standards-compliant sites." Yet another tool to build web pages, although this targets "hand-coders". I use this integrated within Dreamweaver MX to do all my CSS work. Now it can do XHTML pages as well, so I am not sure how this fits into the Dreamweaver integration scheme of things. Which editor should I use? I think the answer will be both, but we will have to wait and see.
+
+ "A resource to creating websites with Dreamweaver MX, Flash MX, and ASP.NET." I have been waiting for this, although it seems they have a lot more content on their " urlLink Java Development Center ". Could they prefer Java? I imagine internally they do considering their own Java product (J2EE server) called JRun, but publicly would never say such a thing.
+
+ "Standards mean little to developers looking for the biggest audience online: IE users. The call for Web authors to comply with standards comes as a new wave of competitors seeks to dislodge Microsoft from its perch as the No. 1 browser maker." Once AOL integrates Netscape (Mozilla) into it's client, developers will have to back away from this stance. Then and only then will they see the power of developing to standards (or maybe the Flash Player).
+
+ "For a director with a near-fetishistic love of sleek, macho gadgetry -- and whose films rarely flirt with notions of brevity or subtlety -- it's fitting that Michael Bay's World War II drama be given such an ostentatious DVD berth: On the four feature-packed platters of "Pearl Harbor: The Director's Cut Vista Series," "Pearl Harbor" the film is treated with nearly as much reverence as Pearl Harbor the event." I purchased this on urlLink Amazon.com and watched it this weekend. There is a lot of great content on the DVD from History Channel documentaries to commentaries from the director, producers, and all the major actors. If your a behind the scenes fan, this is a great DVD to get. However, this DVD design suffers from too much design and not enough functionality, especially the packaging. From a user interface perspective, the menu structure has the annoying long transitions which we really get old in a hurry. But the most annoying thing is you have to keep drilling down within the menu structures by selecting "More", rather than having all the selections within one screen.
+
+ "A wireframe, as you probably know, describes the contents of a web page by illustrating a mock layout. Usually wireframes are rendered in some kind of drawing program, like Visio or Illustrator, but can also appear as bitmaps or even HTML. In his latest installment, Dan Brown, shows how the wireframe can transcend layout and work for all team members." If you ever watch the "special features" of any DVD lately, you'll notice at the beginning of the movie making process the director has animatics made of all the scenes within the film. These are analogous to wireframes within the web design process. They are both just simple, basic, and rough layouts of the final product to be used as a first step in production. More importantly they are an inexpensive tool used for discussion purposes for all members of the team as well as clients. This step in both the movie making and web design process saves time and money, and allows the designer/director to adjust the big picture before moving onto the next stage where large-scale changes become much more costly.
+
+ "Its a Notebook, It's a Tablet, It's a hybrid The PaceBook combines the functions of a notebook, LCD PC and tablet PC. The company claims that it is the first notebook in the world to work in portrait mode." This looks pretty interesting, although it doesn't use the Tablet PC version of Windows XP (which isn't available yet). I am not sure how you use the pen or if there is any built in software. You can check out many more urlLink photos here .
+
+ "The team at Macromedia explored the power of Macromedia Flash MX to create a rich, engaging web application interface. From their experience came a long list of reasons why Macromedia Flash is an excellent platform for designing and developing powerful interfaces." So yeah, all you need to do is design to the "proprietary" Flash Player that Macromedia controls. Rich user interface without all the problems of DHTML, sounds very tempting. urlLink Web standards advocates would say you should design to a standard that all browsers support and promoted by a standards body such as the W3C. Could the Flash Player become the Microsoft of client side technologies? Should developers just forget standards, and develop to the "de facto standard", all controlled by one company?
+
+ "Macromedia has published three versions of the PetStore Blueprint application, including Sun's J2EE version running without modification on JRun 4 with a Flash front-end. I gotta say, the Flash Petsore is breath-taking! Even more interesting is the J2EE integration." Regardless of the back end you are using Macromedia wants the Flash player to be the front end. Still, the problem is will traditional developers welcome Flash as a solid UI or will they just consider it a toy for graphic designers.
+
+ "NewzCrawler gathers news content from each source channel and displays them in different views: scrolling list, News Balloon and News Ticker. NewzCrawler features habitual MS Outlook Express-like user interface." If your a news junkie like me, this is a must-have tool for managing all your news feeds with support for all syndicated news given in XML-based formats (XML\RSS, CDF, BackSlash, ScriptingNews etc.).
+
+ "Sunnyvale's Yahoo Inc. launched a newly designed home page late Monday night, the first fundamental change to the Web portal's gateway since 1995. The home page features a cleaner layout, but few additional features beyond what was already offered." It certainly is cleaner, and I love the fact that they removed the "serif" fonts like Times New Roman. Still waiting on the rest of their services to follow suit.
+
+ "But many people remain confused, at best, about the idea of switching to the Mac. So this week, I'll look at the state of Mac vs. Windows machines and discuss who might consider switching." I visited an Apple store today, and this article was being distributed within the store. When I asked several of them to tell me why I should buy a Mac instead of a PC, they really didn't have much to say.
+
+ "Kev guides you along the road to ASP.NET expertise with an example of how ASP.NET can be used to process simple form submissions." This is a great introduction to using ASP.net and processing forms.
+
+ "It is time to show the world, what standards based browsers are capable of doing. With that notion in mind, 333 Creative Central is proud to announce the sponsorship of a Dynamic XHTML Web site building contest." Well I like to see how easy it is to develop a "Dynamic" or "Rich User Interface" in Dyanmic XHTML compared to doing it all in Flash. That's a contest I'd like to see.
+
+ "Has RSS run out of steam? Quite the opposite. There's more action than ever, but it's shifted into a decentralized mode. That's just what the RSS network needed to do in order to truly operate at Internet scale." I have started playing around with my own personal aggregation of all the "feeds" I care about. This is incredibly powerful to the user. However, I can't imagine the big content providers making their content available through this channel, as it bypasses their site altogether not to mention their advertising. However, I do think it will have great usage instead in personal publishing (blogs)."
+
+ "Get your work into the hands of the masses. Start building for fast-growing mobile device platforms." Once again Macromedia is giving developers what they need to develop Flash content everywhere. I am beginning to think serious about Flash as the only viable cross-platform client-side development environment. I think Microsoft was so scared of Sun and Java that the Flash Player has snuck it's way onto all devices and machines users care about. Reminds me how Apple thought IBM as the enemy, to only find out Microsoft was their real competition (on the client side).
+
+ "Web sites tailored to wireless platforms have been slow, hard to read, often uninformative and always difficult to use properly. But changes are in the air, as it were, with wireless phone carriers rolling out high-speed networks and phones with color screens, and manufacturers of personal digital assistants (PDAs) adding built-in wireless functions to their devices." All I know is it isn't their yet, but I am certainly looking forward to it.
+
+ "Microsoft's Windows XP Tablet PC Edition OS isn't slated to launch until Nov. 7, but companies such as Motion Computing, Hewlett-Packard, Toshiba, and Fujitsu already have revealed plans to release Tablet PC products. Groove Networks also has lofty visions for digital ink." I think the urlLink Tablet PC is going to be huge. If not for the market it will be for me and how I use a computer. I just can't wait to see second generation products so all the kinks are worked out. However, I imagine I will be an early adopter.
+
+ "Netscape Communications on Thursday launched the latest version of its Web browser amid mounting evidence that most Internet surfers are choosing Microsoft's Internet Explorer instead." Netscape's browser share is 3.4 percent!! That's less than Apple's computer OS share, and I know of plenty of projects that have blown off Mac support. There's your argument not to worry about Netscape 4.x, and all the headaches that comes along with it, not to mention the time and money it will cost your client.
+
+ "After years of delays and false promises, the cellular-phone carriers in the U.S. are finally rolling out higher-speed data networks that allow users to get onto the Internet wirelessly." The urlLink addiction continues...
+
+ "Jeff Jankelovits has sold a lot of gadgets in his 23 years as president of Mobile Audio Specialists Inc., a Manhattan retailer. But one thing he hasn't sold much of is satellite radio, a twist on an old medium that arrived late last year. "If I've moved 10 of them since the start of the year, that's a lot," he says. 'I think this might be another case of where expectations exceed demand.'" I have XM Radio and I love it. I don't listen to FM or AM radio at all anymore. To me it's "cable in your car". If you are in your car for any extended period of time, or your a music or news junkie like me, this is an incredible service that once you have it you'll never want to go back to limited FM/AM.
+
+ "Good news for e-retailers and e-marketers, bad news for employers&#8212;25% of employees surveyed for a Websense report say they have become addicted to or compulsive in their personal net usage at work." I guess admitting the problem is the first step for recovery. However, I am not sure who is actually admitting there is a problem&#8212;the employee or the company.
+
+ "Meet the next generation PC for your home or home office that combines convenience and technology. The sleek compact design of the new All-In-One Gateway Profile 4 provides the freedom of more space and the incredible performance required to meet all of your computing and digital needs." Gateway is going head-to-head with Apple and the iMac on this one and even publishing an urlLink independent comparison report . I think it looks pretty cool although I am not the target audience for this PC. It does seem to be a pretty powerful little machine. I guess I'll have to go to my local Gateway Country store to kick the tires in person.
+
+ "We wanted to offer you something special for Dreamweaver MX, some tips that you wouldn't find by browsing the manual, so we went straight to MX's development team and asked them for their favorite gems." I don't use Dreamweaver exclusively and I doubt I ever will, but here are some interesting tips for using the new tool especially if you're using urlLink ASP.net . Another great tool is urlLink TopStyle Pro 3.0 which was developed by the creator of Homesite. It originally was for CSS editing, but can now be used for XHTML editing as well.
+
+ "Limitations in HTML's markup definition mean, for all its advantages, HTML still produces an inferior interface to desktop applications, says Stahl. And now that developers have alternatives to HTML for truly distributed architectures&#8212;alternatives that don't require heavy-handed client installs&#8212;many will find themselves rediscovering the power of Windows Forms-based apps." This guy really doesn't get it. Sure I like the idea of richer user interfaces, but the one thing that both Macromedia and other HTML nay-sayers don't talk about is that no matter what component you build your UI in, it has to be designed well and with the user's task in mind. I have seen much cleaner user interfaces in HTML than others built in Flash. It's the design stupid, not the technology .
+
+ "Hell hath no fury like a paying customer scorned. Whether because of a declining level in customer service or the ease of publishing on the Internet, hundreds--if not thousands--of dissatisfied customers have taken their complaints public, giving birth to a new form: The Corporate Complaint Web site." Nothing like a grudge. These people need to let it go, and move on with their lives. I understand standing up for what you believe in, but these sites seem more like an unhealthy obsession, although I did find them entertaining for a brief moment.
+
+ "Starbucks is now serving up high-speed wireless Internet access at about 1,200 of its coffee shops, the company said Wednesday." This is what I have been waiting for a long time. However, they don't mention the new locations that they will be adding, or at least urlLink I couldn't figure it out . Another major downside is the price. At urlLink $29.99/month , I can't imagine many people taking advantage of this unless they spend all their time at Starbucks. Regardless, it sounds like an interesting service for Internet addicts like me.
+
+ "Jeffrey Zeldman and A List Apart have long been advocating for Web standards the use of CSS and XHTML in Web design. As Netscape 4.x and other browsers not supporting the W3C standards die out, we can justify skipping the old-school HTML methods." According to these standards, I know my site is obsolete. New "standards-compliant" version coming soon if not later.
+
+ "Tiny text tyrannizes users by dramatically reducing task throughput. IE4 had a great design that let users easily change font sizes; let's get this design back in the next generation of browsers." I used to think that giving the user this ability wasn't that important, especially realizing the damage users could do to your design if they changed the font size from within IE. But that is really a selfish point of view, and shows that you care more about the design than you do your users. If someone has trouble with your fonts, allow them to enlarge them so it's easier to read. You'll also need to make your layout "scalable" or "liquid" enough to handle this. Yet another reason to write standard compliant HTML. Note: Unfortunately this site design doesn't follow this line of thinking. OK, so I need to update my site.
+
+ "The reason why Visio is the favorite prototyping tool of many interaction designers is because of its ready-made interface objects, you can drag-and-drop onto pages and its ability to link pages together and export them as web pages. But what distinguishes Visio from other prototyping tools is its use of layered backgrounds." Visio is my tool of choice for site maps and urlLink wireframes , or anything I want to explain visually. I have used Illustrator, but it really isn't built for site mapping and prototyping unless that is the only tool you know. The drag and drop capabilities and custom stencils of Visio is what I like best. However, the one thing that bugs me most is I need more layers, instead of being limited to one layered background. Of course I would need to move to an Adobe product to get that functionality.
+
+ "New systems sport faster memory and speedier system architecture, and mark a return to dual-processor systems. The eMac, meanwhile, gets a DVD upgrade." It's about time. No matter how cool I think they are, I still can't see buying a urlLink Mac . If you do go down that road be prepared to look at blurry fonts (anti-aliased) and urlLink slow browsing speeds , especially compared to a PC.
+
+ "Are you in the process of ordering a web site to a Web Agency? Then, you're probably aware that setting the requirements right will help in getting a better final product in a shorter time. Do you know that relying on open standards can help you in this task?" W3C's selling point for using web standards in web design. The one thing that matters to me is you can write one code base for all browsers and platforms. If you have done any web design and development at all, it's not difficult to understand this is a pretty powerful reason to switch to XHTML.
+
+ "The first draft of XHTML 2.0 makes its debut--and it's already raising concerns over compatibility. As the Web marches into the future, some developers say they're concerned about what will become of its past." The big concern is backward compatibility. The XHTML 2.0 working draft forces you to move all your HTML to XHTML. The W3C postion is if we are moving the web to XML then we have to make the move . However, I can't imagine IE 7.0, or any new version of a major browser not supporting HTML 4.x, not to mention all of the developer tools currently in the marketplace.
+
+ "Blockbuster is quietly testing a new DVD subscription-rental program, aimed directly at undercutting competition from Web-based mail-order service Netflix." I wonder if they give you the option to return them to your local store as well? I would doubt it as that undermines the entire business model. All I know is I am sick of paying late fees.
+
+ "One way to ixnay site-maintenance costs is to finally get that site up to standards. Paul reveals three fast and cheap ways to make it happen." It's all about the budget. If you design to web standards you need only develop one code base instead of writing to a specific browser or spending many hours writing hacks to old proprietary browsers. You have to let go of the 4.x browsers which only has a 5% market share. If you can sell that you can make your life much easier. I think the best way to sell losing Netscape 4.x is to mention the additional budget dollars you'll need to support the lame browser.
+
+ "Jeremy Allaire, one of the first development gurus to emerge during technology's big shift to Web-based computing, tries to answer the question that many traditional application developers have been asking about the new, improved Macromedia MX product line: What's in it for me?" This is a nice commercial for Macromedia. Supposedly it's written for the hardcore developers who live in C++ or Java. If this is who he is trying to appeal to, why does he spend so much time talking about Cold Fusion? From my experience this is the audience who thinks of Cold Fusion as a toy.
+
+ "One big idea can change everything. And XM Satellite Radio is one big idea: Radio to the Power of X. It's America's most popular satellite radio service at only $9.99 a month, and a new audio experience on your radio with the unmatched clarity of 100 digital channels wherever you drive." I recently became a subscriber of XM Radio after purchasing the hardware at Circuit City. It's pretty sweet. I don't know why I didn't get it sooner. It's basically cable TV for your car. There is a ton of music categories to listen to, but I got it primarily for news and talk radio such as CNET Radio, ESPN, CNN, CNN/SI, Discovery, and a whole lot more.
+
+ "Starbucks Express allows you to order and pay for your favorite beverages with the touch of a button - then simply pick it up and go!" This sounds like a great idea to get your morning coffee quick and easy every day. It'll cost you 25 cents per coffee for the service. The only question I have is how do they know it's you when you pick up your coffee? What keeps people form form just grabbing some else's coffee. I am sure they have it figured out, I am just curious. They are currently test marketing in Seattle and Denver.
+
+ "According to Retail Forward's 2001 Top 50 E-Retail study, released yesterday, Amazon.com was the number one e-retailer last year generating $3.12 million in online revenue. Retail Forward notes that Amazon's revenue for 2001 represented roughly 22% of the total revenue for all 50 companies in the study. Interestingly, Retail Forward also finds that eight of the top 10 e-retailers in 2001 were multi-channel -- up from five in 2000 and just three in 1999." According to this article, I guess focusing on one product line isn't such a good idea in eCommerce these days. In reality I think these figures only make sense because a "Wal-Mart" is going to sell a lot more than a specialty or hobby shop. Interesting Wal-Mart isn't anywhere to be seen.
+
+ "George Olsen of Interaction by Design adds his thoughts to the UN discussion on the role of Jakob Nielsen in the usability community." I wouldn't feel to sorry for Jakob Nielsen. Between his book sales and the fact he " urlLink sold out " to Macromedia about Flash usability, I am sure he is doing fine.
+
+ "Users have highly emotional reactions to newsletters which feel much more personal than websites. In usability testing, success rates were high for subscribe and unsubscribe tasks, but users were frustrated by newsletters that demanded too much of their time."
+
+ "What has changed is how I think about CSS, and the underlying structure of (X)HTML to which it is applied. For example, I find that most pages on the web contain a menu of links in a navigation area. These are often marked up as a string of links, often in separate DIVs or paragraphs. Structurally, however, they are a list of links, and should be marked up as such." I have always avoided using "lists" (ol/ul/li), because of the lack of control in the spacing. I always used tables because it was what I knew, and I had more control over the "white space". As this article explains, with the power of CSS you have much more control of these "lists" than you ever had with HTML tables.
+
+
+
+ urlLink Thanks for all the help in finding our way, and for feeding the addiction .
+
+ "This computer could turn out to be a very big deal. Not so much because its the first under-$200 new PC to hit the marketplace or because it runs a version of Linux which can run some Windows programs &#8212; but because the idea had been embraced by the number one online service."
+
+ "Microsoft has made much of its Tablet PC vision over the past two years. ZDNet UK brings you a hands-on preview of what the devices are really like."
+
+ "As GPRS grows increasingly common, many people have begun considering it to be an ideal solution for mobile data connectivity. The downside about the technology is that few carriers have as of yet introduced all-you-can-eat packages, leading to subscribers having to monitor their costs just like back in the good ol' days with dial-up Internet connections - but there's help to be found."
+
+ "Over the years, HTML has only become bigger, never smaller, because new versions had to maintain backward compatibility. That's about to change. On 5 August 2002, the first working draft of XHTML 2.0 was released and the big news is that backward compatibility has been dropped; the language can finally move on. So, what do you as a developer get in return? How about robust forms and events, a better way to look at frames and even hierarchical menus that don't require massive amounts of JavaScript."
+
+ "This tutorial creates the ASP.NET version of the Edit Listing Details page from Chapter 16 of The Joy of Dreamweaver MX: Recipes for Data-Driven Web Sites."
+
+ ".NET clearly bears a strong resemblance to Java. It offers many of the same features, while adding interesting additions of its own (code metadata, versioned assemblies, etc). Microsoft, however, is better positioned to create a cross-market software unification framework than Sun Microsystems ever was (or is). This will result in a rapid expansion in .NET's popularity which eats into Java's market share as it grows to take over the development world."
+
+ "Popular search site aggregates 4000 news feeds to offer real-time news service." urlLink Feeding the addiction.
+
+ "bsquare's new hardware reference design, codenamed Maui, is all that with its 400 MHz XScale processor, Windows CE 4.1, GSM/GPRS connectivity and a 16-bit VGA color display."
+
+ "Nicholas Negroponte explains why Wi-Fi "lily pads and frogs" will transform the future of telecom. EVERYTHING you assumed about telecommunications is about to change. Large wired and wireless telephone companies will be replaced by micro-operators, millions of which can be woven into a global fabric of broadband connectivity." "Lily pads and frogs". That's a pretty interesting and even entertaining analogy. Call me paranoid, but there just seems like a lot serious issues involved with Wi-Fi. The main issue off the top of my head is that this gives hackers, spammers, and terrorists easy access to the internet to do what they do without ever identifying themselves. I am sure this is fairly easy to do without a wireless network as it is, but let's not make it even easier for them. I am all for free wireless access, but there needs to be some accountability if something bad happens. Aaaarrgghhh ... I am starting to sound like a parent.
+
+ "Aiming to fend off the mounting spam sent to Hotmail public e-mail accounts, MSN on Wednesday is expected to announce a deal with BrightMail, which makes anti-spam filters. The deal expands on an earlier partnership between San Francisco-based BrightMail and Microsoft's MSN, which has deployed BrightMail filters on its Internet access service." This is great news for Hotmail users. I have pretty much filtered out the majority of junk mails sent to me via the "custom filters" and "inbox protector tool" built into Hotmail. I get maybe, at the most five spam e-mails a day, and I have signed up for a lot of newsletters over the years. For the most part I am pretty happy with amount of spam I get now. I just hope it doesn't get worse.
+
+ "XUL is a new Netscape/Mozilla XML dialect that describes the elements of a traditional user interface. Faster and cleaner than HTML, it might just be the quickest way yet to code a UI." To bad very view people actually use Netscape. It was interesting though to see how you could develop a UI with XML and XUL.
+
+ "This October will see Microsoft launch a new type of pen-based PC, potentially one of the most significant developments in mainstream personal computing since the arrival of the laptop and the windows-powered PDA. Dubbed the Tablet PC, and running a special version of Windows XP, the new platform counts as big news for a stagnant PC market currently devoid of exciting ideas." I am looking forward to getting my hands on a Tablet PC.
+
+ "PHP developer Mattias has defected to .NET! Here, he explores the advantages of his favorite .NET language: ASP.NET, to illustrate .NET's superiority over PHP." Wow that's amazing. An obsessed PHP developer switching to a Microsoft product. If this can happen their may be hope for the Middle East after all.
+
+
+
+ "You can do many things on your own to reduce stress and the tension it causes. Most are fairly simple and will take little or no instruction. Using them regularly is the key." This is off topic, but this is good advice.
+
+ "Two interesting market surveys indicate that Windows has actually gained market share in the most recent quarter, even though PC sales have almost flattened and will likely grow at an abbreviated rate through 2003." Windows now controls 97.46 percent of the global desktop operating system market, compared to just 1.43 percent for Apple Macintosh and 0.26 percent for Linux . So much for the Apple's switch campaign and Linux extremists.
+
+ "While the benefits of moving to XHTML are well accepted, most developers and development shops have not yet made the move. The most popular development tools, including Visual Studio.NET, do not generate XHTML by default, making the transition difficult (seemingly) in the short term." I would love to see this article, but no matter what I do I can't purchase the article. Their payment service won't take my money. I have been using Dreamweaver MX a lot lately anyway which has great support for XHTML.
+
+ "Just in time for the playoffs, RealNetworks and Major League Baseball step up to the plate with a deal that lets fans listen to their games on the go." Uhh ... maybe someone should tell Real about a product with the same service for free that has been around awhile. It's called a radio . OK ... I understand people listening to their favorite baseball teams while at work, or at home on their computer, but if I am going mobile I think I'll just bring along my cheapo radio or listen to it in my car. I guarantee you'll get better battery life and bigger bandwidth.
+
+ "Microsoft on Wednesday introduced its long-awaited digital media software, Windows Media Player 9 Series, in an effort to establish dominance for its operating system in distributing high-quality digital content." The "instant-on" is pretty cool. No more waiting for it to buffer up. That is critical for an impatient person like myself. I have a broadband connection so it seems to work pretty good, although I have only played with it briefly. Check out the urlLink demos here , and I highly recommended checking out the urlLink Halo 2 preview .
+
+ "With a growing number of technology users, hardware creators at Microsoft are introducing various designs of computer devices to meet the wide variety of personal preferences consumers have today." urlLink I am interested in urlLink the Notebook Optical Mouse . Unfortunately it doesn't seem to be wireless. I use to have three wires coming out of my laptop at any given time (network, power, and mouse). I got rid of the network with my Wi Fi (802.11b) wireless PC card. Now I'd like to get rid of another with the mouse.
+
+ "China has blocked access to popular U.S. Internet search engine Google amid government calls to tighten media controls ahead of a major Communist Party congress." Not to get on some "ra-ra" United States cheer, but hearing news like this surely has to make you proud to be an American. I am not so ignorant to think our government tell us everything, but this is a blatant attempt of a government to control their citizen's right of getting to information. But, hey&#8212;that's communism.
+
+ "Analysts say that automakers' support for satellite radio would likely determine whether the new technology succeeds." As a XM Radio subscriber this is good news. I am not in the market to buy a car right now, but when I do I hope XM Radio will be an option from the majority of car dealers. This a step in the right direction.
+
+ "If you are a knowledge worker, a key skill you require is how to classify content. Classification skills are needed in order to better organize content on your computer, for your emails, and for how you compose documents. If you have responsibility for a website, classification is an essential skill." This is all about creating a navigation paradigm. You need to know how to classify tasks and content that all types of user will understand. Otherwise they will get lost and be unable to get around your web site.
+
+ "If you're a web designer or developer and you are not attending DevCon 2002 this year, you are missing out. Macromedia DevCon is the premiere web design and development conference." I really wanted to attend this conference, unfortunately do to my work schedule I was unable to attend.
+
+ "Prices and features of tablet PC models from Acer, Toshiba and Viewsonic, posted on CompUSA's Web site this week, range from just over $2,000 to $2,500." Actually these are cheaper than originally planned. If you had been following the progress of the Tablet PC, you would know the price point was expected to be the cost of a normal laptop plus a premium for the extra functionality. The target consumer is not the home user, but rather "the knowledge worker", or businesses.
+
+ "Get more bang for your buck with the special retail package that combines the popular Xbox Video Game System with the new Controller S and two of the hottest games available, JSRF&#8212;Jet Set Radio Future and SEGA GT 2002!" I think I am going to finally take the plunge and get a Xbox, although once I get started I don't know if I'll be able to stop. There goes my productivity.
+
+ "Does the power of the world's most popular search engine pose a threat to the Web's independence?"
+
+ "With an eye toward its bottom line, Yahoo has decided to jettison its own proprietary scripting language in favor of the open-source alternative PHP." Wow ... this is news worthy. Next I guess we will see CNET reporting the movement to "open-source" HTML in all web sites.
+
+ "Microsoft has postponed the launch of its highly touted new Smart Display--the tablet-sized gadget formerly known as Mira. That's a good move--because there are some pretty stupid things in the Smart Display's design."
+
+ "PDAs based on Microsoft's Pocket PC operating system now account for 30 percent of the worldwide PDA market compared to 48.6 percent for PalmSource's market leading Palm OS, according to research released Monday by Dataquest, a unit of research company Gartner." Microsoft begins it's market share growth in yet another area. So let's see ... if your keeping score that's operating systems, productivity applications, windows development tools, and internet browsing are all completely dominated by Microsoft. Server OS, online gaming, media players, personal finance, game consoles, online services, PDA OS, smart phone OS are all on their way or in the works to become at the very least a major player in their perspective markets. Am I missing something?
+
+ urlLink I literally fell out of my chair laughing when I saw this Apple "switch" parody.
+
+ "The first beta runs only on Windows 2000 and XP. Will Microsoft drop support for earlier Windows versions?" Why I think this is quite stupid to even talk about: If you don't know the difference between all the versions of Windows, then this won't matter to you because you''ll do just fine with all the other versions of Office or Works If you know the difference then your an idiot for running anything less than Windows 2000 Keeping Office to one code base can only be good for everyone (less bugs, more features, more stable, etc...)
+
+ "Even small holiday decorations can increase joy of use and make websites feel more current and more connected to users' lives and physical environment. The key is to commemorate without detracting from your users' main reasons for visiting the site." Nothing like stating the obvious, although this may not be apparent to some designers. "Subtle differences can have a big impact", the theme to this month's Alertbox. I guess then big differences can really annoy users.
+
+ "MSN chief Yusuf Mehdi is not one to shy away from a good fight. Learn how he plans to lead his troops." The MS hype machine is in full gear. See my thoughts below on using MSN 8.
+
+ "Microsoft's MSN is a fraction of the size of America Online, yet AOL looks increasingly like the underdog." I have been using MSN 8 (software only) for several days, and I really like it. I am not an AOL user, I am just a typical Internet broadband addicted user who thought AOL users where ignorant for needing "training wheels". There are a lot of great features I won't go into it, but the one idea I really like is keeping all my tasks, appointments, and addresses online. MSN gives a really rich user interface to all my data. And if I decide I don't want to pay the $10.00/month anymore, I can cancel my subscription, and use the web-based version to access it for free. Also, I can take it all with me since MSN 8 allows syncing to my Pocket PC (Palms too, if you can believe that). I am really looking forward to when Microsoft Smart Phone 2002 hits the United States. Yet another cool interface to my data. I certainly feel like a "Microsoft whore", but I really do enjoy it.
+
+ "Pyra sparked up its popular Blogger.com site again Friday after shutting it down earlier in the day in response to a hacker attack." I thought some things were really funky when I was trying to blog today. So LINUX isn't secure?
+
+ "Two days after city inspectors ripped up illegal Nike advertising decals glued to sidewalks along Central Park West, Microsoft unleashed a swarm of large adhesive butterflies in Manhattan. They settled yesterday morning on sidewalks and doorways; traffic signals, stop signs and planters. They alighted on the bluestone paving around Grand Army Plaza and the granite corners around Grand Central Terminal." "The butterflies found on vertical surfaces were made of flimsy plastic, held in place by static electricity and easily removable. The sidewalk decals were a heavier plastic, with a roughly textured surface. Though they were stuck to the pavement, they too could be lifted off fairly easily."
+
+ This totally blew my mind. I have my calendar and address book all up to date and stored in my Hotmail account. I don't want to switch to a new MSN.com e-mail account. Hotmail is a Microsoft product! You could use MSN Explorer (v7.0) with Hotmail, but not MSN 8.0. This has to be th stupidest move yet. I was really looking forwarded to trying it out. Aarrrggghhh!!!! Update: I have discovered you can use your Hotmail account, but not as the primary account . You have to sign up for a MSN account first. Then log in as that new MSN account to MSN 8.0, and add your current hotmail account as a secondary user under Account Manager within MSN. So you can use Hotmail with MSN, but you have to get an MSN e-mail as well. Nobody in customer service seemed to understand this concept. This way I would imagine MSN can say they have "X" many MSN users, not just Hotmail users. Now that I understand this it does make sense, however they need to explain this to customer service and post it clearly on their web page.
+
+ "MSN 8 makes it easy to get a personalized 30-second view of what's important with the new and improved My MSN page." I think I have finally found a worthwhile portal that I can personalize.
+
+ "Both Microsoft and AOL have released their latest versions, and after weeks of testing, it's clear that MSN has surpassed AOL with better e-mail and spam fighters." urlLink Check out what MSN 8.0 has to offer. I know I will be checking it out when it is released tommorrow (Thursday).
+
+ "Can a fledgling nonprofit organization with half a dozen employees challenge the largest software company in the world." Of course not.
+
+ "Now that I've had a chance to look at the first handset based on Microsoft's new Smartphone OS, I'm prepared to say this may be the best phone I've ever used. But that doesn't mean I'm going to toss my PDA anytime soon. Here's why." Looks like we will have to wait until next year to get our hands on one of these.
+
+ "Editor-in-chief Jorgen Sundgot has spent a week with the Orange SPV - the first device built on the Smartphone 2002 platform. Now, he shares his take on the first Windows phone."
+
+ "Smart Software and Small, Stylish Mobile Handsets. At a packed celebration in a posh London nightclub, Microsoft today announced the worldwide availability of the Microsoft Windows Powered Smartphone software."
+
+ "It has all the cool features that make a digital video recorder so much better than a VCR -- and now it's a whole lot cheaper"
+
+ "Here you can easily generate cool text-images from almost any picture you have on your computer for free. Please take a look at our Samples-pages to see what the finished text-images can look like"
+
+ "A dearth of hard evidence about the mysterious D.C. shooter has sparked a mad rush to the Internet, where blogs are bursting with speculation about the assassin's identity. Noah Shachtman reports from New York."
+
+ "Analysts and bankers predicted that banking on the Web was on the verge of taking off. Now, there's no denying it."
+
+ "Tired of using tables to design your pages? Get modern and use CSS instead."
+
+ "The PC world is in a funk. Consumers don't want new machines, businesses aren't upgrading, and Michael Dell is grabbing all the profits. So what's a rival PC maker to do? Sell new software, build new devices--and pray that innovation brings customers back. Soon."
+
+ "Don't know what to do with all those unwanted America Online compact discs that scream "Sign on today"? Jim McKenna and John Lieberman say they have the answer: Send them back. In an effort to get AOL to stop sending the CDs, the two men started a Web site asking people to send the discs to them." The site's location is urlLink NoMoreAOLcds.com
+
+ urlLink &nbsp;&nbsp; urlLink I thought this was an interesting little discovery today at Amazon.com. Although it's a very simple implementation, I am starting to see a lot of DHTML or "DIV scripted" elements on the web these days.
+
+ "Scientists study regular folks to see how they really use their PCs: Earlier this month, Kiel flew to Phoenix to visit the Goodells, one of the 40 families shes currently following (all were randomly selected by a focus-group service and are visited up to a dozen times). For the past week they were using MSN 8, the new version of the companys online service, which will be released later this month backed by a $150 million-plus marketing campaign." The editors of Newsweek chose a terrible title. At first glance I thought this was an article about Microsoft software watching what you did online. It was a pleasure to discover that it was about usability field testing of MSN 8.0.
+
+ "There's no brawl like the brawl over a GUI technology. XML is the new entrant into this particular pit-fight, and it looks like the ultimate winner to Nigel McFarlane. The future of GUI development isn't class libraries, frameworks or platforms&#8212;it's XML." More on the cool technology: XUL... see below for more, and my thoughts.
+
+ "From the cerebral to the silly to the downright bizarre, the Internet is full of sites clamoring for your attention. But should you visit them? Well, that's a matter of choice (and personal taste). The editors at PC Magazine have browsed their share, and those listed here are our choice for the Top 100 Web sites. You'll recognize many of the names; others may be unfamiliar, but we hope all will be informational or at the very least entertaining." It's that time of year again.
+
+ "XUL is a new Netscape/Mozilla XML dialect that describes the elements of a traditional user interface. Faster and cleaner than HTML, it might just be the quickest way yet to code a UI." This is some pretty cool stuff. Although I don't think it's a standard, nor do I think Microsoft is supporting XUL (I don't know this for sure, couldn't find anything on MSDN), so this is pretty moot.
+
+ "Cable operators like to brag they revolutionized TV and will keep doing so. But their pioneering spirit is being tested. They're trying to decide whether to offer customers set-top decoders equipped with a device, the personal video recorder (PVR), that can free TV viewers from the tyranny of the nightly programming grid."
+
+ "A new licensing plan is ticking off lots of corporate buyers." Playing right into the Linux's game plan.
+
+ "Opera Software says it has finally solved the long-standing problem of reading big, bulky Web pages on tiny cell phone screens, posing a potential threat to both WAP and to Microsoft."
+
+ "Rosoff sees tablet systems as the larger reason for Microsoft pushing back the release of Windows CE for Smart Displays. "They really want Tablet PC (devices) to be the 802.11b wireless walk-around-the-house device, but there's too much potential sales confusion with Mira," he said. "Tablet PC is more important to them, and they don't want to interfere with it." I did think it was confusing at first what exactly the differences were between the " urlLink Tablet PC " and a " urlLink Windows CE for Smart Displays ".
+
+ "By converting to the hybrid markup language XHTML and adopting Cascading Style Sheets, Wired News is now faster to load and can be read by practically every version of every Web browser. It can be displayed on a wider range of browser platforms, including mobile phones, PDAs and televisions. It's more accessible to the visually impaired, and may be updated on any or all of its thousands of pages quickly, with a simple list of commands." An urlLink interview with the "Network Design Manager" at Lycos (owner of Wired News).
+
+ "Flash designs are easier for users with disabilities to use when designers combine visual and textual presentations, minimize incessant movement, decrease spacing between related objects, and simplify features." The latest on Macromedia's "purchased" support from Jakob Nielsen.
+
+ " Gabriel: You're most like the ArchAngel of Communication, in charge of things like telephones, libraries, internet, and the 411 phone menu. You're organised and are not shy about inflicting that organisation on others." Imagine that.
+
+ "In this four-part special report, CNET examines key technologies, competitors and internal mistakes that are exposing cracks in the Microsoft kingdom." urlLink CNET is "Microsoft-bashing" once again. I be amazed if this rag of an online newspaper could ever produce some sort of objectivity.
+
+ "Throughout the development of Windows XP Media Center Edition (XP MCE), Microsoft said that the system's digital video recording (DVR) capabilities could not be used to copy content from the media center PC to another system, either by DVD or across a home network. In early October 2002, however, the company reversed course, based on feedback from its customers, partners, and even the television industry, the latter of which has a hidden ace up its sleeve regarding copy-protected TV shows."
+
+ "MSNBC now offers MSN Alerts! This free service lets you receive important messages through your MSN Messenger or Windows Messenger, your e-mail, or your mobile device. You control how and when you receive these messages by specifying your preferences during the easy setup process." Yet another reason why I like urlLink MSN Messenger .
+
+ "The HP Media Center PC is powered by Microsoft Windows XP Media Center Edition, which turns a PC into a media center that integrates digital entertainment experiences." urlLink
+
+ "Many game players have been left in the lurch as a result of Microsoft's apparently successful efforts to shut down one of the leading sellers of Xbox hacking tools." Over the years I have noticed CNET to be somewhat biased in it's reporting of tech news. Their position, like many, seems to be always anti-Microsoft in nature. This headline takes the cake. If they were reporting the general news you'd probably read headlines like "New Security Cameras in Banks Unfair to Bank Robbers".
+
+ "With its initial entry into the handheld market, ViewSonic has fired the first of what will likely be many shots in the Pocket PC price wars. After playing with the new Pocket PC V35 for the past few days, I'm not sure what I find more impressive: the device's $299 price, or the fact that ViewSonic has delivered such an excellent PDA at that price."
+
+ "Joining several colleges from Windows & .NET Magazine at a late June Reviewer's Workshop for Windows .NET Server 2003 near Microsoft's Redmond headquarters, I received an almost mind-numbingly technical overview to the vast array of new features in the company's next server operating system. One thing is clear: Windows Server has grown up dramatically since the early NT days, and it now scales up to the most scalable and advanced hardware on the planet."
+
+ "Microsoft presents "Insider Live" on TechTV in October and November. The two live events will take you behind the scenes for info on new products soon to be released from Microsoft. The program will offer product demos, giveaways, and an insider look at Microsoft R&D. There is one "live" event per month." Update: For the most part I thought this show was pretty stupid, although I did like the urlLink Pocket PC Phone Edition demo. The secret code is "Innovation".
+
+ "Mary Dion has gotten used to the funny looks after new acquaintances ask her what she does for a living. Confusion and skepticism just come with the territory, when you change your occupation from accountant to professional solitaire player." In need of a career change?
+
+ "How far have we come since the early days of the Web? Usability expert Tim Bray, founder and CTO of Antarcti.ca Systems (www.antarcti.ca), says we're still taking baby steps, but we already have the tools to move forward."
+
+ "Thinking of an all-Flash business site? Think again! As Nick explains, building a business site in Flash can limit your ability to attract business prospects, effectively deliver the content they want, and keep them interested." Typical Flash developer: "Yeah, but this stupid animation is so cool. I'd rather wow them with fancy colors, graphics, and animation than the acutal message from a company. It's all about about my cool visuals ... dude."
+
+ "You don't do good software design by committee. You do it best by having a dictator. From the user's point of view, you must have a coherent design philosophy, and I don't see how that could come about from open source software. The person who's done it best is Steve Jobs, and he's well-known for being a tyrant." I like to think if the "committee" or team is very small, and is led by a "Lead Designer" with a thorough understanding of their users is the best scenario.
+
+ "When Windows XP was released, users immediately could see that something was different. It came with an updated user interface that looked more polished. The new look came with a new term: A visual style. A visual style represents the customization of the main parts of the Windows graphical user interface (GUI)." Actually, the article should be called "Everything you wanted to know about urlLink WindowsBlinds , the premiere Windows skinning software". Still an interesting read, although there are urlLink other products that do the same thing. I would like to see a review of the two products to really understand their differences.
+
+ "Despite new standards, some developers continue to build flawed websites. New software will allow producers to automatically check Web page designs for accessibility as they code." This is pretty much a sales pitch for the Nielsen Norman Group's urlLink LIFT for Macromedia Dreamweaver . LIFT works with many editors, but they are pushing the "Nielsen Norman Group edition", an extension to Dreamweaver.
+
+ "The CNET SearchBar is a customizable Internet Explorer toolbar that sits at the top of your browser. It allows you to quickly access and search your favorite CNET.com sites. It installs in seconds and is COMPLETELY FREE to use." urlLink I already can't live without the urlLink Google toolbar , but a new toolbar just came out from CNET which is another resource I visit on an hourly basis. Not sure if I can handle this much on my toolbar, but I am going to give it try. I have many " urlLink BookMarklets " on the "My Links" toolbar as well, so it's getting a little crowded.
+
+ "A software maker is trying to redefine how people interact with their PCs. The idea is to allow people to execute commands with a simple flick of the wrist, rather than navigate through complicated point-and-click toolbars and drop-down menus." Find out more about urlLink mouse gestures with Opera . I haven't looked, but I imagine someone has added this functionality to IE with an add-on.
+
+ "Microsoft Corp. thinks it's found a killer app for its Tablet PC: as a home for a new breed of electronic magazines." Yet another way to "feed the addiction". I can't wait to get my hands on a Tablet PC. I just hope thet aren't a big let down.
+
+ "Marking a dramatic turnabout in its cumbersome consumer Web strategy, the software giant plans to launch MSN 8, the next version of its online service, on Thursday October 24." I am beginning to feel like a Microsoft whore, but I am actually looking forward to seeing MSN 8. I have never paid for MSN, but if the software makes my life easier, I may subscribe. I'll have to take a look when it comes out. I'm not sure if I can handle all the urlLink bright colors though.
+
+ "Microsoft said it plans to offer smaller companies a more lenient licensing plan intended to stem any potential defections to Linux or other open-source software." I had a feeling this would happen eventually. I think the biggest impact on the market that Linux will have is cheaper Microsoft products, rather than any type of platform change. You gotta love those geeks for that.
+
+ "McDonald's Corp. soon will accept credit and debit cards for payments at restaurants across the country." Personally, I think everyone should accept plastic. Everything is easier to track in personal finance software. I have no clue where my "Cash Withdrawals" go. Now if we can just get Wendy's on board.
+
+ "In usability tests of 46 Flash applications, we identified several basic issues related to Web-based functionality's ephemeral nature. Some findings restate old truths about GUIs; others reflect the Net's new status as nexus of the user experience."
+
+ "My name is Doug, and I'm a recovering Windows user. A couple of years ago, I made the made the switch in the opposite direction of Apple's latest campaign. I can even recount how the downward spiral started." I too am a recovering Windows user who once loved the Macintosh, but now has turned to the dark side. Unfortunately, unlike Anakin, "it is to late for me".
+
+
+
+ "The software king has big plans for making the world of mobile phones safe for Windows. Can phone makers, and a little Norwegian company called Opera, stop the onslaught?" I'm looking forward to seeing the urlLink MS Smartphone , but my expecations are low as I don't think this is a Microsoft strength. I think this is one area where Microsoft will never dominate, and rightly so.
+
+ "Where's Apple Computer's answer to the Tablet PC? The Mac maker isn't talking yet, but I predict it will have plenty to say about Microsoft's new portable-computing initiative next year&#8212;if the pen-driven slate takes hold in the market." If Apple comes out with a tablet computer I can guarantee there won't be an outcry from Windows users. Unlike the way the "ribbed-mock-turtleneck-wearing-cry-baby" fans from Apple who blame Microsoft for why their life hasn't turned out they way they thought it would. In fact I think most Windows' users will look forward to what any technology company can add to pen-based computing.
+
+ "Graphics chip maker ATI Technologies unveils a new Linux version of the software that's necessary to make its graphics cards work." This is news? It shows you the state of support for Linux when it's big news when new drivers come out for your OS.
+
+ "Software doesn't work. Customers are in revolt. The plan? It's simple: Build software people will actually like. Seriously."
+
+ "After years of hype, tablet PCs are finally here. They cost more than regular notebooks. But, after playing around with some of the early models, Josh says, for him, the "oooh" factor is worth the extra dough." If your a Mac user you should understand that "cool has a cost". I am headed to see the Tablet PC tomorrow at a Microsoft urlLink sponsored event . After researching both the "Tablet PC" and "Smart Displays", I am beginning to think I'd rather have the urlLink smart displays which will be available on January 8th.
+
+ "Our editors have combed the Web for the most useful sites for everything from asset allocation to job hunting to pursuing a passion like woodworking. You'll find over 3,500 sites reviewed here. Our editors rate sites according to five criteria: Content, Design, Speed, Navigation and Customization. You'll find our top picks at the beginning of each category clearly marked."
+
+ "UnitedLinux, a group of four second-tier Linux companies working to catch leader Red Hat, releases its first version of the open-source operating system." Doesn't sound to "united" to me. This is one thing about Linux I don't get. There are just too many distributions to choose from if you do become so mad at Microsoft that you want an alternative. There are just "too many choices", thus a decision an average user must make about something they don't understand. Most users have enough decisions in life, that what OS they are running isn't going to be a high priority. Until the Linux community understands this, Linux on the desktop will never catch on to mainstream computing. Windows will always be "good enough" (if not better), and it's only getting more stable with the release of XP. The only way I could see Linux catching for a typical user is if their workplace started using Linux. If consumers were forced to use it, then maybe they'd see the benefits. I would think most people want to use the same system at home as they do at work.
+
+ "A new online movie service won't work with the Mac. Is Apple being pushed offscreen in the digital revolution? Apple has also fallen behind the PC pack in popular music file-trading software and download subscription services, according to a review of applications currently available to consumers. "
+
+ "A person might also ask what Macromedias true focus is these days. From all indications, it is Flash, but many might argue it should be ColdFusion, because Flashs revenue-generating potential is significantly smaller. Their latest developer convention also shows a bias toward designers, because most of the sessions aren't meant for developers."
+
+ "While it's easy to find information on buying a house, guarding your privacy or entertaining the kids, the Internet is still a pretty strange animal. Here's a look at some new things you can do on the Web, as well as the latest ways to do some of the old things better."
+
+ "If you're like me, the terms Web Designer and Web Developer hardly describe the actual day-to-day work you do. I'm currently employed at a large hospital with the title of Lead Web Developer. Do I lead? Umm-hmm. Do I do "Web" work? Yep. Am I a developer? Sometimes. Does the title Lead Web Developer describe my job? Not really."
+
+ "Since the release of ASP.NET, I've been fascinated by the way that you can use server controls to build interactive Web pages with very little effort. They automatically create the appropriate XHTML-compliant output, depending on the browser type that is accessing the page, making it easy to build quite complex ASP.NET pages quickly."
+
+ "Gamers go wild in Net forums comparing Microsoft's Xbox Live, launching Friday, with Sony's online offering for PlayStation 2. The online console gaming war is far from won, but it appears Xbox has an edge."
+
+ "This is an early alpha build and the final Longhorn product will bear little resemblance to what you see here. If you think back to the early Whistler builds, which featured the "Watercolor" visual style, you'll get the right idea: Longhorn is a work in progress, mostly current generation technology, and much of what's in there is just the same old stuff from XP. Major UI work, a database-based file system, integrated DVD burning, and other cool features are still to come." urlLink The feature I like best is the "sidebar" functionality. This is similar to the " urlLink Dashboard " in MSN 8.0 which I can't live without now that I have been using it regularly. The funny thing is I have been using urlLink my own poor-man's version for years. Ever since IE 4.0, I have been using the "links toolbar" that you can pull out from the bottom toolbar, and place on any side of the screen, and then set it to "auto-hide". It was great way to get to all the apps I used on a regular basis, but it never had real-time data integrated into it.
+
+ "The music subscription venture reaches a deal to provide content from Warner Music, giving the online service music from all five major labels." This is good news. I was a subscriber to urlLink PressPlay , but it seemed they never had the artist I was looking for at the time. This will hopefully solve some of my issues I had with the service. "Stealing" music was becoming too much of a hassle for me. I just want to get to the music I like, and I am willing to pay for it at a resonable cost for a reliable service that is easy to use . I'm just not sure if I like the " urlLink portable downloads " idea. They only allow you to burn them twice, and the files you download are tied to your hard drive not to you, so if you get a new machine you better keep the hard drive.
+
+ "E-commerce may not be the most addictive activity (less than 40% do it often), but Ipsos-Reid reports almost all net users have made an online purchase."
+
+ "As a staunch hand coder, I have honestly never been a major fan of the Dreamweavers and UltraDevs of the world. They have never been fast enough, the code has never been clean enough or laid out correctly, and the features and menus have always been far too cluttered and hard to use. Dreamweaver MX has changed my mind about many (but not all) of these concerns. Although I still prefer to write code myself, Dreamweaver offers a viable alternative." I would consider myself a staunch hand coder myself as well as an avid Homesite user, and I would have to say I like Dreamweaver MX for the most part. It's performance and speed could use some work though, but when it comes to database development it takes out a lot of the grunt work.
+
+ "Opera Software releases a stripped-down, rebuilt version of its browser software, in its latest bid to chip away at Microsoft's dominance."
+
+ I thought this was hilarious. I am sure we all can relate to this.
+
+ "ViewSonic plans to announce on Tuesday the details of some of its first portable displays that will use Microsoft software to expand how PCs are used in the home." I think I might prefer this device over the Tablet PC, because it uses the power of my desktop machine. I need a beefed up desktop for gaming. You are tied to your desktop and your home via Wi-Fi, but that is where I would use it anyway. I still haven't figured out if I can use it as a second monitor , then pick it up, and use it around the house. I can't imagine not being able to do this, but it would be the perfect scenario. Also, I imagine it doesn't have the cool Tablet PC software as well, so I am not sure about inputting information, or is it just primarily meant to be a "read-only" type of device. I'll have to do some more investigation before I decide. Check out more info on urlLink Viewsonic's Smart Displays at their web site.
+
+ "Information architects from across the world today announced the launch of the Asilomar Institute for Information Architecture. The leadership of AIfIA includes expert practitioners, teachers, and authors from organizations including Yahoo!, AOL/TimeWarner, IBM, Lucent Technologies, MasterCard International, Wells Fargo, Wachovia Corporation, Razorfish, Adaptive Path, the Transportation Security Administration, the University of North Carolina and the University of Texas." This looks like a great resource for promoting Information Architecture. All the big names I have come to know and respect are involved in this organization.
+
+ "After years of targeting professional Web developers and designers, Macromedia has a new type of customer in mind for its latest product--you." This sounds like a great idea for static sites where the content lives in HTML, but how does it work if the content is stored in a database? I imagine most publishing systems already handle this. How many people actually still use static sites? However, it is a great example of developing a tool to a role or a single task. Check out the urlLink Contribute Development Center .
+
+ "The average mid-sized company could gain $5 million per year in employee productivity by improving its intranet design to the top quartile level of a cross-company intranet usability study. The return on investment? One thousand percent or more." Jakob's selling usability services again. I am glad somebody is pushing it though.
+
+ "Learn how to devlop an effective user interface for the Smartphone's compact form factor." I know that urlLink Smartphone 2002 hasn't gotten a lot of traction at this point, but I thought I'd post this article anyway. I am looking forward to seeing a Smartphone 2002 device, I just don't want to wait forever.
+
+ "The days of having an intranet just because "it's a good idea" are over. As a manager, you need to deliver hard data that justifies investment in your intranet. You need to show that a dollar spent on your intranet will deliver more value that a dollar spent elsewhere. Otherwise, your budget will shrink."
+
+ "Six major magazine publishers, including Forbes and the New Yorker, plan to don a new image for tablet PCs, creating digital facsimiles of their periodicals and pushing the fold on Web advertising."
+
+ "This fall, Dell is bringing a new Pocket PC to market that is sure to make waves; two models will be available, each of which are packed with features and to sell at very low prices."
+
+ "The reality of a single cross-language, cross-platform GUI interface programming model is in sight, based on an XML description language supported by fast native runtimes. Will Mozilla, Eclipse, or someone else step in and complete the last mile that gives all developers a common way to design and program fast cross-platform user interfaces?"
+
+ "Taking advantage of the graphical nature of the operating system, Corel Grafigo (free download) is designed for "corridor warriors" who want to sketch ideas for collaboration and annotation on a Tablet PC. Grafigo is an uncomplicated graphics program that integrates shape recognition, handwriting recognition, and real-time collaboration tools. For general Tablet PC use, Grafigo is a logical complement to Windows Journal." This is the application I have been waiting to use for a long time. This would be great for sketching ideas and passing them onto other people. I imagine Microsoft Visio will have similar capabilities.
+
+ "Upon the release of LIFT - Nielsen Norman Group edition (full review here), Mr. Usability himself, Jakob Nielsen agreed to sit down and answer some of the SitePoint Community's burning questions about Web usability."
+
+ "The contribution of thousands of users has been largely overlooked. Some standard features in most computer interfaces - user configurable menus, flexible open/save dialog boxes, tear-off menus - were dreamed up by people working in bedrooms or back offices."
+
+ "In the course of my search for the Next Big Thing in handheld devices, I've become convinced of one thing: Gadgets that try to be all things--cell phone, PDA, pager, camera--to all people will never succeed."
+
+
+
+ "After many trials and failures, Microsoft says it finally has tablet PC software that works. Here's the inside story." Only a couple more days until you can get your hands on one of these. urlLink Here is an interesting interview with the Bill Gates about the Tablet PC.
+
+ "Hewlett-Packard on Tuesday plans to debut a revamped HP.com Web site designed to boost its direct sales effort and better integrate products acquired from Compaq Computer." I am a big fan of urlLink News.com , but they really miss the boat on some very simple functionality that they never seem to incorporate into their stories. Where is the freaking link to urlLink HP.com ? They always link contextually to other stories within News.com, but they never link to what they are talking about within the story. They have been doing this for years. I always have to do a Google search to find the site or company that the article is discussing. I know the pain is minor, but considering how simple it would be for them to add these "off site" links they should do it. This story really brought my annoyance to the breaking point. Here the article is all about a site's redesign, but they never even link you to it. Arrrghh ... end of rant.
+
+ "In BusinessWeek's Annual Tech Buying Guide, you'll find what you need to know before shopping for a handheld, wireless device, or computer." urlLink
+
+ "The influence of Dell Computer, which perfected made-to-order PC retailing, is spreading. Sales of custom-made products are changing how some retailers do business online, how some consumers shop and how some products are designed." urlLink Check out Nike's customization features at urlLink NikeID.Nike.com . I thought for sure this interface was going to be done in Flash, however after further investigation it's all done with with Javascript/CSS/HTML or "DHTML".
+
+ "Microsoft's five-year antitrust case may have reached its anticlimactic end. Unless one side or another decides to appeal, a decision by U.S. District Judge Colleen Kollar-Kotelly on Friday could mark the final chapter in a case once said to be a definitive one for antitrust law in the 21st century."
+
+ "Imagine my surprise when I reviewed MSN 8 and didn't just like it, but decided to start up a subscription. What is the world coming to?" I guess I am not the only one who was pleasantly surprised by MSN 8.0.
+
+ "The U.S. District Court in Washington, D.C. has issued an opinion on proceedings related to a Proposed Final Judgment in the government's antitrust case against Microsoft. Media advisories, Microsoft comment and relevant links are being posted to this page as quickly as they become available. Please check back regularly today and through the weekend for updates." urlLink Bill Gates is grinning ear to ear.
+
+ "It's making its own technology easier for others to adopt, and it's even incorporating features it hasn't invented."
+
+ "The future of personal computing is about to be unveiled, and it's in the form of the Tablet PC. Its size and features make your desktop look practically ancient."
+
+ "In the last few years, HTML editing software has become increasingly complex and sophisticated. The good news for designers is that excellent programs are now available at a variety of price points. However, picking the right HTML editor requires analyzing one's skills, goals and working environment."
+
+ "This TechNote covers Frequently Asked Questions about server-side technologies and databases supported by Dreamweaver MX." If your unsure what Dreamweaver has to offer for server-side development, this is a great place to start. You may be surprised of it's capabilities&#8212;it's not just for graphic designers anymore.
+
+ "Designed for movement. Whether you're running or riding, round is good. Structurally sound. Comfortable to hold. Thoroughly wearable." Just purchased this today, in the hope of motivating me to workout more. It's a MP3 Player with 128 MB of RAM which plays MP3 and WMA files. I really like the ergonomics of this device. It will work great when flipping through songs while running. I have no idea at this point what "psa[play" means. I thought it was a typo when I first read it, and don't get me started on the "designer packaging" that took surgery with a knife to get the "box" open.
+
+ "Every year brings new mistakes. In 2002, several of the worst mistakes in Web design related to poor email integration. The number one mistake, however, was lack of pricing information, followed by overly literal search engines."
+
+ "The other day at work we were talking about how you get Web scripters hooked [on ASP.NET]. I convinced them that the ultimate example is to throw a data grid at them. Bust out the DataReader and bind it to the control...BAM! You're done. No looping through script to build the table cells or any such nonsense. When you really start to grasp OOP, it gets even better. I just launched a rich-text editor that puts all of the IE editing functionality into one line of code, and the fact that you can do that really blows people away. That was never something you could do with ASP, PHP, or Perl.
+
+ "Linux seller MandrakeSoft issued a plea for cash Friday, encouraging people to buy products, MandrakeClub memberships or company stock." View the urlLink plea on Mandrake's web site .
+
+ "Secretive Swedish smartphone start-up Neonode has now taken the wraps off of its N1 Neonode, smaller than the Nokia 3650 and running a Microsoft OS - but not Smartphone 2002."
+
+ "Apple has seen its share of the overall operating system market slide in recent years as Linux gains popularity. IDC estimates that the market share for Mac OS dropped to 3.1 percent in 2001 from 4.6 percent two years earlier . Windows, in contrast, has more than 90 percent market share. Certainly by...2005, possibly by the end of 2003, Linux will pass Mac OS as the No. 2 operating environment." I thought the above comment was the most interesting part of this article. I think it makes it clear Linux is displacing alternatives to Windows rather than Windows itself for the time being. Apple on the desktop and Solaris on the server.
+
+ "Dreamweaver MX's script-generation capabilities highlight an increasingly important development trend, where developers make smart choices, but smart development environments do the grunt work of writing the code." I know quite a bit about about writing scripts, and I still love Dreamweaver MX "script-generation capabilities". I can concentrate on what my application does rather than getting bogged down in syntax. I can still write my own code within this environment, I just need to be aware what is MX generated and what I wrote. A method I found useful was to use "server behaviors" for binding the recordset/data to the page, and then writing my own scripts to manipulate the data within the UI. I used Dreamweaver on my last project and I was much more productive than if I had wrote ever line of code myself.
+
+ "On January 7, 2003, Microsoft will release the second Plus! pack for Windows XP, Plus! Digital Media Edition, which the company bills as the ultimate photo, music, and movie enhancement pack for its best-selling XP operating system."
+
+ "One of the main advantages that ASP.NET provides over traditional ASP is the event-driven manner in which it performs its processing. The removal of the need to write complex and laborious code to detect what action the user selected on a web page can shorten the development cycle whilst also abstracting code from presentation. Another benefit that would be provided by the conversion of ASP to such an event-based programming model is the easier porting of applications from ASP to ASP.NET, where this is the natural paradigm for development."
+
+ "Use VB.NET and the MVC pattern to create a user interface framework for collaborative development. By cleanly isolating display elements from data, the MVC pattern lets multiple programmers develop and modify UI functionality at the same time without problems."
+
+ "OneStat.com, the number one provider of real-time web site analytics, today reported that Microsoft's Internet Explorer has a total global usage share of 95 percent. Microsoft's Internet Explorer continues to dominate the global browser market. The global usage share of Netscape 7has increased with 0.1 percent from 0.5 to 0.6 percent. Mozilla's global usage share is 1.1 percent and Opera 6 has a global usage of 0.8 percent." Lets' all say it together, "IE dominates, and as much as I like Netscape, Mozilla, and Opera, they don't matter much".
+
+ "A flaw found in Macromedia's animation software leaves Web surfers vulnerable to attack when they visit an Internet site or, possibly, open an e-mail, a security firm said Tuesday." Secuirty holes everywhere these days.
+
+
+
+ "The look 'n' feel of your website is important. However, it is less important than your text-based content. In most commercial websites, the role of the traditional graphic designer is relatively minor. The role of the information architect is central. The role of the editor and author is critical." I guess "It's better to feel good than to look good".
+
+ "Gallup reports that 15% of US adults plan to shop online this holiday. How will they use the net? According to BizRate, 57% of e-buyers go directly to the relevant merchant's site."
+
+ "MandrakeSoft has taken a step away from the open-source philosophy, changing license terms for a Linux-based firewall so customers that want product support may no longer install the software on as many computers as they wish."
+
+ "Several vulnerabilities have been found in the MySQL database system, a light database package commonly used in Linux environments but which runs also on Microsoft platforms, HP-Unix, Mac OS and more."
+
+ "In an about-face, Apple Computer says it will sell some machines after January that can boot into Mac OS 9, the older version of the company's operating system." I have a friend who develops software for schools and Apple has pretty much shoved OS X down their throats, but they are reluctant to create all new software for OS X because a lot of schools are moving to PCs. On a positive note for Apple fans, at least Steve Job's ego isn't preventing them from keeping OS 9 around a little longer, although OS 9 users are only prolonging the inevitable.
+
+ "In 2002, Microsoft posted gains in court, revenue, product lineup. As Sun Microsystems, AOL Time Warner and Oracle struggle with low stock prices, revenue declines and layoffs, the company they all love to hate had a phenomenal year." MS biggest competition is themselves, Linux, and all the new type of electronic devices. I believe the PC will always be the "hub" of all those devices, mainly because the "form factor" of dealing with your content or personal data will always be optimal on a larger screen, not smaller.
+
+ "The FCC did it again: HTC's second device based on Microsoft's Smartphone 2002 platform has been exposed - and yes, looks aren't the only resemblance it bears to the Orange SPV." I still think this is an area that MS will only get a minor market share.
+
+ "New interactive posters draw movie fans into the action and give studios information about how viewers respond to coming attractions."
+
+ "Get tips, tools, articles, and tutorials on Dreamweaver MX, ColdFusion MX, and more when you visit the new Macromedia MX Application Center on DevX. In addition, you'll have access to a special DevX-only offer for a $50.00 savings on Dreamweaver MX. Check out the Macromedia MX Application Center now!"
+
+ "Tired of trying to keep up with the latest fads in Web Design theory? As Chris explains, this offering from Jesse James Garrett describes how the theories all fit together - and that the common thread is user-centered design."
+
+ "Keeping up with key technologies is the best thing you can do to give yourself an edge in the employment market now&#8212;and in the future. Are you at least semi-proficient with all 10 of the technologies on our list?"
+
+ "In terms of delivering content to all different types of platforms, developers have seen some real advantages with HTML. Before HTML, they faced major challenges creating applications when users had a variety of hardware, operating systems, and software platforms. We've gotten very used to the comforts of browser independence." urlLink Macromedia keeps touting this "one screen metaphor" idea, but at least make sure it's not one shitty screen . Look at that thing&#8212;italic text that is next to impossible to read. This "one screen" is going to give me a headache. Is this best Macromedia has to offer in the demonstration of a "rich user interface"?
+
+ urlLink
+
+ "There are growing signs of economic recovery in Silicon Valley, the heart of the tech industry, which could fuel a stronger U.S. rebound." Good news, although Yahoo had a layoffs today.
+
+ "Declaring "there is no need for war," a coalition of celebrities released a letter Tuesday calling on the Bush administration to stick with diplomacy to end the crisis with Iraq." Don't get me started on these idiots who are out of touch with the real world. Not to mention uniformed, and let's face it we are all uniformed on what our government really knows about Iraq, so don't make idiot claims like you know Iraq doesn't have WOMD. I hate to say it, but in this case I tend to lean towards trusting the government on what they really know about Iraq, especially after fears of terrorism. I am just looking forward to Saturday Night Live making fun of them this weekend. Although Al Gore is hosting so who knows what they will do. By the way, take a look at the list of these losers. I haven't heard of a lot of them.
+
+ "Microsoft on Tuesday released blueprints designed to help technology managers install Windows more efficiently and at a lower cost." Yet another way Microsoft will prevent defections to Linux. I firmly believe Microsoft will take all the steps needed to prevent any real threat to it's monopoly desktop (not server). If they see any erosion of their market share, like the "Godfather" of the industry, they will give businesses "offers they cannot refuse". Is that wrong? Is that corrupt? I don't think so&#8212;it's just smart business, and that is why Microsoft is where it is today.
+
+ "Spider-Man learned it the hard way, and so are Web developers: With great power comes great responsibility." I agree with this a 100%. The problem with a lot of Flash designers is they think more about what looks cool rather than what is easier for the user to comprehend. I think the real art in web design is an easy to understand UI that looks elegant, and a lot of times Flash designers give you the opposite. They don't understand it's not about "the art", but about the user.
+
+ "The world of magic is a world where inanimate objects come alive; it's as if they had computational power, sensors, awareness, and connectivity." I can't believe it. Jakob Nielsen actually came out with an article that doesn't have to do with his new "employer" Macromedia.
+
+ "The computer maker on Monday will begin selling its first tablet PC--a device developed by start-up Motion Computing that bears both companies' names." You can get more info at urlLink Gateway and urlLink Motion Computing .
+
+ "Yes, it's a monopoly. But there's no question that it changed our world. Which was more innovative, the invention of the graphical user interface at Xerox PARC" (not by Steve Jobs/Apple) "or finding a way to create an industry that brought this wonderful capability to hundreds of millions of people? The former wouldn't have mattered much without the latter." "Microsoft bashers" will have a hard time dealing with this article.
+
+ "According to a recent survey from RoperASW, over one-half of US adults plan to buy new software this holiday season. Roper also determined that 24% say they will buy a digital camera and 23% will buy a DVD player."
+
+ "Impressionism. Pointillism. Cubism. All the great painting styles make an appearance at a new exhibit showcasing breathtakingly bizarre and colorful images, created by mother nature and a high-flying helper." urlLink
+
