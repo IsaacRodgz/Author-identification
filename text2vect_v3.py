@@ -6,20 +6,19 @@ import numpy as np
 import random
 import math
 
-#octave.addpath('octave')
-
-corpus_size = 7
+corpus_size = 20
 percentage = 0.3
 
 def get_new_author_vector(n_author, vectorizer):
 	w_dir = os.getcwd()
-	directory = [x[0] for x in os.walk(w_dir+'/data')][1:]
+	directory = [x for x in os.walk(w_dir+'/blog_corpus/test')][0][2]
+	directory = sorted(directory, key=lambda file: int(file.split("_")[0]))
 
 	#Get text to classify
-	dir_new_text = directory[n_author]+"\\"+os.listdir(directory[n_author])[3]
+	dir_new_text = w_dir+'/blog_corpus/test/'+directory[n_author]
 	print(dir_new_text)
-	file = open(dir_new_text)
-	new_text = file.read()
+	with codecs.open(dir_new_text, 'r', 'utf-8') as outfile:
+		new_text = outfile.read()
 
 	#Convert text to classify into vector
 	new_text_vect = vectorizer.transform([new_text])[0].transpose().toarray()
@@ -32,15 +31,15 @@ def get_authors_matrix():
 	#Get all author texts
 	w_dir = os.getcwd()
 	directory = [x for x in os.walk(w_dir+'/blog_corpus/train')][0][2]
+	directory = sorted(directory, key=lambda file: int(file.split("_")[0]))
 	corpus = []
-	for each_text in directory:
-		file = open(w_dir+'/blog_corpus/train/'+each_text)
-		corpus.append(file.read())
-		file.close()
+	for i in range(corpus_size):
+		print(directory[i])
+		with codecs.open("blog_corpus/train/"+directory[i], 'r', 'utf-8') as outfile:
+			corpus.append(outfile.read())
 
 	#Transforming texts to matrix
 	vectorizer = CountVectorizer(min_df=2, stop_words='english', ngram_range=(1,4), analyzer = 'char')
-	#vectorizer = StemmedCountVectorizer(min_df=2, stop_words='english', ngram_range=(1,4), analyzer = 'char')
 	vtf = vectorizer.fit_transform(corpus).transpose()
 
 	return vtf.toarray(), vectorizer
@@ -51,18 +50,7 @@ def predict_author(X, new_text_vect, author_label):
 	lasso_reg = linear_model.Lasso(alpha = 1.0,fit_intercept=True, max_iter=10000, tol=0.0001)
 	lasso_reg.fit(X, new_text_vect)
 
-	'''
-	nu=0.001
-	tol=0.001
-	stopCrit=3
-	X_ = np.matrix(X)
-	y_ = np.matrix(new_text_vect)
-
-	x_0, nIter = octave.SolveHomotopy(X_, y_.T, 'lambda', nu, 'tolerance', tol, 'stoppingcriterion', stopCrit)
-	'''
-
 	#Calculate distances and predict author
-	#w_predicted = x_0
 	w_predicted = lasso_reg.coef_
 	num_authors = X.shape[1]
 	residuals = []
