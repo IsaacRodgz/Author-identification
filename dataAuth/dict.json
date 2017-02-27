@@ -1,0 +1,23 @@
+{
+	"author_info": 
+		{
+			"1" : "Ambrose Bierce",
+			"2" : "Arthur Conan Doyle",
+			"3" : "Edgar Allan Poe",
+			"4" : "Erckmann Chatrian",
+			"5" : "Fitz James O Brien",
+			"6" : "Guy De Maupassant",
+			"7" : "Rudyard Kipling"
+		},
+
+	"solution":
+		{
+			"1.txt" : "Ambrose Bierce",
+			"2.txt" : "Arthur Conan Doyle",
+			"3.txt" : "Edgar Allan Poe",
+			"4.txt" : "Erckmann Chatrian",
+			"5.txt" : "Fitz James O Brien",
+			"6.txt" : "Guy De Maupassant",
+			"7.txt" : "Rudyard Kipling"
+		}
+}

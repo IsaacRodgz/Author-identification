@@ -22,14 +22,14 @@ def extract_post(blog):
 	return posts
 
 path = os.getcwd()
-directory = [x[2] for x in os.walk(path+'/blogs')][1]
+directory = [x[2] for x in os.walk(path+'/blogs')][0]
 
 amount = 0
 corpus = []
 i = 0
 
 while amount < 100 and i < len(directory):
-	with codecs.open(path+'/blogs/blogs/'+directory[i], "r",encoding='utf-8', errors='ignore') as file:
+	with codecs.open(path+'/blogs/'+directory[i], "r",encoding='utf-8', errors='ignore') as file:
 		blog = file.read().split()
 		posts = extract_post(blog)
 		if len(posts) > 500:
@@ -40,14 +40,23 @@ while amount < 100 and i < len(directory):
 
 p = 0.7
 
+newpath = "blog_corpus/problem/"
+if not os.path.exists(newpath):
+	os.makedirs(newpath)
+
 for i in range(len(corpus)):
 	size = math.floor(len(corpus[i])*p)
 	train = corpus[i][:size] 
 	test = corpus[i][size:]
-	with codecs.open("blog_corpus/train/"+str(i)+"_tr.txt", 'w', 'utf-8') as outfile:
+
+	newpath = "blog_corpus/author/"+str(i)
+	if not os.path.exists(newpath):
+		os.makedirs(newpath)
+
+	with codecs.open("blog_corpus/author/"+str(i)+"/"+str(i)+"_tr.txt", 'w', 'utf-8') as outfile:
 		for paragraph in train:
 			outfile.write(paragraph+"\n\n")
-	with codecs.open("blog_corpus/test/"+str(i)+"_te.txt", 'w', 'utf-8') as outfile:
+	with codecs.open("blog_corpus/problem/"+str(i)+"_te.txt", 'w', 'utf-8') as outfile:
 		for paragraph in test:
 			outfile.write(paragraph+"\n\n")
 

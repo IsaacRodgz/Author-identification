@@ -5,30 +5,41 @@ import json
 import numpy as np
 import argparse
 import random
+import codecs
 import math
 import os
+from random import shuffle
 
-def get_new_author_vector(n_author, vectorizer):
+def get_author_vectors(vectorizer):
 	w_dir = os.getcwd()
-	directory = [x for x in os.walk(w_dir+'/data/problem')][0][2]
+	directory = [x for x in os.walk(w_dir+'/dataAuth/problem')][0][2]
+	#shuffle(directory)
 	
+	author_vector_list = []
+
 	#Get text to classify
-	dir_new_text = w_dir+'/data/problem/'+directory[n_author]
-	print(dir_new_text)
-	file = open(dir_new_text)
-	new_text = file.read()
+	for i in range(len(directory)):
+		dir_new_text = w_dir+'/dataAuth/problem/'+directory[i]
+		print(dir_new_text)
+		file = open(dir_new_text)
+		new_text = file.read()
 
-	#Convert text to classify into vector
-	new_text_vect = vectorizer.transform([new_text])[0].transpose().toarray()
-	new_text_vect = new_text_vect.reshape((new_text_vect.shape[0],))[:]
+		#Convert text to classify into vector
+		new_text_vect = vectorizer.transform([new_text])[0].transpose().toarray()
+		new_text_vect = new_text_vect.reshape((new_text_vect.shape[0],))[:]
 
-	return new_text_vect
+		author_vector_list.append((new_text_vect, directory[i].split(".")[0]))
+
+	return author_vector_list
 
 def get_authors_matrix(columns):
 
 	#Get all author texts
 	w_dir = os.getcwd()
-	directory = [x[0] for x in os.walk(w_dir+'/data/author')][1:]
+	directory = [x[0] for x in os.walk(w_dir+'/dataAuth/author')][1:]
+	#shuffle(directory)
+	authors_id = [directory[i].split("\\")[6] for i in range(len(directory))]
+
 	corpus = []
 	if columns > 1:
 		for each_text in directory:
@@ -48,9 +59,9 @@ def get_authors_matrix(columns):
 	#vectorizer = StemmedCountVectorizer(min_df=2, stop_words='english', ngram_range=(1,4), analyzer = 'char')
 	vtf = vectorizer.fit_transform(corpus).transpose()
 
-	return vtf.toarray(), vectorizer
+	return vtf.toarray(), vectorizer, authors_id
 
-def predict_author(X, new_text_vect, author_label, columns):
+def predict_author(X, matrix_ids, new_text_vect, columns):
 
 	#Lasso
 	lasso_reg = linear_model.Lasso(alpha = 1.0,fit_intercept=True, max_iter=10000, tol=0.0001)
@@ -64,12 +75,12 @@ def predict_author(X, new_text_vect, author_label, columns):
 		w = np.array([0.0]*num_authors, dtype = float)
 		w[i] = w_predicted[i]
 		y_hat = np.dot(X,w)
-		residuals.append((np.linalg.norm(y_hat-new_text_vect), i))
+		residuals.append((np.linalg.norm(y_hat-new_text_vect), matrix_ids[i]))
 
 	if columns > 1:
-		return author_label, math.floor(min(residuals)[1]/columns)
+		return math.floor(min(residuals)[1]/columns)
 	else:
-		return author_label, min(residuals)[1]
+		return min(residuals)[1]
 
 def cut_array(X, selected_rows):
 	X_temp = np.delete(X, (selected_rows), axis=0)
@@ -83,36 +94,37 @@ def calculate_score(scores, predicted):
 	return count/len(scores)
 
 def result(prediction, scores):
-	with open('data/dict.json') as data_file:    
+	with open('dataAuth/dict.json') as data_file:    
 		data = json.load(data_file)
 
 	print("\nResult\n")
 	for p, s in zip(prediction, scores):
-		print("Author: {0}, Predicted: {1}, Confidence: {2}\n".format(data["authors"][p[0]], data["authors"][p[1]], s))
+		print("Author: {0}, Predicted: {1}, Confidence: {2}\n".format(data["author_info"][p[0]], data["author_info"][p[1]], s))
 
 def predict(iteration, corpus_size, percentage, columns):
 	#Predicted authors
 	prediction = []
-	X, vectorizer = get_authors_matrix(columns)
-	print("\nNum of rows extracted: "+str(math.ceil(X.shape[0]*percentage))+"\n")
+	X, vectorizer, matrix_authors_id = get_authors_matrix(columns)
+	author_vectors = get_author_vectors(vectorizer)
+	
 	for i in range(corpus_size):
-		new_author_vector = get_new_author_vector(i, vectorizer)
-		prediction.append(predict_author(X, new_author_vector, i, columns))
+		prediction.append((author_vectors[i][1], predict_author(X, matrix_authors_id, author_vectors[i][0], columns)))
 
 	#Confidence values
+	print("\nNum of rows extracted: "+str(math.ceil(X.shape[0]*percentage))+"\n")
+
 	res = [[] for i in range(corpus_size)]
-	X_aux, vectorizer = get_authors_matrix(columns)
-	new_author_vector_aux =[]
-	for i in range(corpus_size):
-		new_author_vector_aux.append(get_new_author_vector(i, vectorizer))
+	X_p = X
+	author_vectors_p = author_vectors
+
 	for j in range(iteration):
 		print('\ninteration: '+str(j))
 		num_rows = math.ceil(X.shape[0]*(1.0-percentage))
 		selected_rows = random.sample(range(X.shape[0]), num_rows)
-		X = cut_array(X_aux, selected_rows)
+		X = cut_array(X_p, selected_rows)
 		for i in range(corpus_size):
-			new_author_vector = cut_array(new_author_vector_aux[i], selected_rows)
-			res[i].append(predict_author(X, new_author_vector, i, columns))
+			new_author_vector = cut_array(author_vectors_p[i][0], selected_rows)
+			res[i].append((author_vectors[i][1], predict_author(X, matrix_authors_id, new_author_vector, columns)))
 
 	prediction_=[]
 	for i in range(corpus_size):
@@ -133,19 +145,12 @@ def predict(iteration, corpus_size, percentage, columns):
 if __name__ == "__main__":
 
 	parser = argparse.ArgumentParser(description='This program predicts the author of a text given a set of authors and sample texts')
-	parser.add_argument('-i','--iter', nargs='?', help='Number of iterations to calculate confidence value', type=int, const=10)
-	parser.add_argument('-s','--size', nargs='?', help='Number of authors', type=int, const=7)
-	parser.add_argument('-p','--percent', nargs='?', help='Percentage of rows extracted to calculate confidence value', type=float, const=0.3)
-	parser.add_argument('-c','--columns', nargs='?', help='Number of sample texts per author', type=int, const=1)
+	parser.add_argument('-i','--iter', nargs='?', help='Number of iterations to calculate confidence value', type=int, default=10)
+	parser.add_argument('-s','--size', nargs='?', help='Number of authors', type=int, default=7)
+	parser.add_argument('-p','--percent', nargs='?', help='Percentage of rows extracted to calculate confidence value', type=float, default=0.3)
+	parser.add_argument('-c','--columns', nargs='?', help='Number of sample texts per author', type=int, default=1)
+	parser.add_argument('-m','--model', nargs='?', help='Model used to predict', type=str, default="laso")
 
 	args = vars(parser.parse_args())
-	if args['iter'] == None:
-		args['iter'] = 10
-	if args['size'] == None:
-		args['size'] = 7
-	if args['percent'] == None:
-		args['percent'] = 0.3
-	if args['columns'] == None:
-		args['columns'] = 1
-
+	
 	predict(args['iter'], args['size'], args['percent'], args['columns'])

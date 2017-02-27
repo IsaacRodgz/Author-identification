@@ -6,7 +6,7 @@ import numpy as np
 import random
 import math
 
-corpus_size = 20
+corpus_size = 10
 percentage = 0.3
 
 def get_new_author_vector(n_author, vectorizer):
@@ -126,5 +126,3 @@ def predict():
 if __name__ == "__main__":
 	#vectorize(sys.argv[1])
 	predict()
-
-#x_0, nIter = octave.SolveHomotopy(A_, y_, 'lambda', nu, 'tolerance', tol, 'stoppingcriterion', stopCrit)
