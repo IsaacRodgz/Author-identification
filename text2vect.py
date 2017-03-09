@@ -9,9 +9,12 @@ import codecs
 import json
 import math
 import os
+
+from sklearn.feature_selection import VarianceThreshold
+from itertools import compress
 #from random import shuffle
 
-def get_author_vectors(vectorizer, path, corpus_size):
+def get_author_vectors(vectorizer, path, corpus_size, sel):
 	w_dir = os.getcwd()
 
 	if path == "book":
@@ -35,12 +38,14 @@ def get_author_vectors(vectorizer, path, corpus_size):
 		#Convert text to classify into vector
 		new_text_vect = vectorizer.transform([new_text])[0].transpose().toarray()
 		new_text_vect = new_text_vect.reshape((new_text_vect.shape[0],))[:]
+		
+		new_text_vect = np.array(list(compress(new_text_vect, sel)))
 
 		author_vector_list.append((new_text_vect, directory[i].split(".")[0]))
 
 	return author_vector_list
 
-def get_authors_matrix(columns, path, corpus_size):
+def get_authors_matrix(columns, path, corpus_size, var):
 
 	#Get all author texts
 	w_dir = os.getcwd()
@@ -73,11 +78,20 @@ def get_authors_matrix(columns, path, corpus_size):
 	#Transforming texts to matrix
 	vectorizer = CountVectorizer(min_df=2, stop_words='english', ngram_range=(1,4), analyzer = 'char')
 	#vectorizer = StemmedCountVectorizer(min_df=2, stop_words='english', ngram_range=(1,4), analyzer = 'char')
-	vtf = vectorizer.fit_transform(corpus).transpose()
+	vtf = vectorizer.fit_transform(corpus)
 
 	print(authors_id)
 
-	return vtf.toarray(), vectorizer, authors_id
+
+	############################
+	print("Feature selection...")
+	print(vtf.toarray().T.shape)
+	sel = VarianceThreshold(threshold=(var))
+	matrix = sel.fit_transform(vtf.toarray())
+	print(matrix.transpose().shape)
+
+	############################
+	return matrix.transpose(), vectorizer, authors_id, sel.get_support()
 
 def predict_author(X, matrix_ids, new_text_vect, columns, model):
 
@@ -128,11 +142,11 @@ def result(prediction, scores, path):
 		for p, s in zip(prediction, scores):
 			print("Author: {0}, Predicted: {1}, Confidence: {2}\n".format(p[0], p[1], s))
 
-def predict(iteration, corpus_size, percentage, columns, model, path, chars):
+def predict(iteration, corpus_size, percentage, columns, model, path, chars, var):
 	#Predicted authors
 	prediction = []
-	X, vectorizer, matrix_authors_id = get_authors_matrix(columns, path, corpus_size)
-	author_vectors = get_author_vectors(vectorizer, path, corpus_size)
+	X, vectorizer, matrix_authors_id, sel = get_authors_matrix(columns, path, corpus_size, var)
+	author_vectors = get_author_vectors(vectorizer, path, corpus_size, sel)
 	
 	for i in range(corpus_size):
 		prediction.append((author_vectors[i][1], predict_author(X, matrix_authors_id, author_vectors[i][0], columns, model)))
@@ -176,13 +190,14 @@ if __name__ == "__main__":
 	parser.add_argument('-s','--size', nargs='?', help='Number of authors', type=int, default=7)
 	parser.add_argument('-p','--percent', nargs='?', help='Percentage of rows extracted to calculate confidence value', type=float, default=0.3)
 	parser.add_argument('-c','--columns', nargs='?', help='Number of sample texts per author', type=int, default=1)
-	parser.add_argument('-m','--model', nargs='?', help='Model used to predict', type=str, default="laso")
+	parser.add_argument('-m','--model', nargs='?', help='Model used to predict', type=str, default="lasso")
 	parser.add_argument('-d','--directory', nargs='?', help='Corpus to use', type=str, default="book")
 	parser.add_argument('-ch','--chars', nargs='?', help='Number of chars for each text', type=str, default=0)
+	parser.add_argument('-v','--variance', nargs='?', help='Feature selector that removes all low-variance features', type=float, default=0.0)
 
 	args = vars(parser.parse_args())
 	
-	predict(args['iter'], args['size'], args['percent'], args['columns'], args['model'], args['directory'], args['chars'])
+	predict(args['iter'], args['size'], args['percent'], args['columns'], args['model'], args['directory'], args['chars'], args['variance'])
 
 '''
 from sklearn.decomposition import PCA
