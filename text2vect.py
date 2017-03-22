@@ -1,4 +1,5 @@
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
+from sklearn.decomposition import PCA
 from sklearn import linear_model
 from itertools import repeat
 from pprint import pprint
@@ -84,6 +85,20 @@ def get_authors_matrix(columns, path, corpus_size, var):
 
 
 	############################
+
+	print("PCA...")
+	print(vtf.toarray().T.shape)
+
+	pca = PCA(n_components=8000)
+	X = pca.fit_transform(vtf.toarray())
+	print(X.transpose().shape)
+
+	############################
+
+
+
+
+	############################
 	print("Feature selection...")
 	print(vtf.toarray().T.shape)
 	sel = VarianceThreshold(threshold=(var))
@@ -98,7 +113,7 @@ def predict_author(X, matrix_ids, new_text_vect, columns, model):
 	#Lasso
 	if model == "lasso":
 		model_reg = linear_model.Lasso(alpha = 1.0, fit_intercept=True, max_iter=10000, tol=0.0001)
-
+	
 	elif model == "lars":
 		model_reg = linear_model.Lars(fit_intercept=True)
 	
