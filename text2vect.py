@@ -95,17 +95,12 @@ def get_authors_matrix(columns, path, corpus_size, var):
 
 	############################
 
-
-
-
-	############################
 	print("Feature selection...")
 	print(vtf.toarray().T.shape)
 	sel = VarianceThreshold(threshold=(var))
 	matrix = sel.fit_transform(vtf.toarray())
 	print(matrix.transpose().shape)
 
-	############################
 	return matrix.transpose(), vectorizer, authors_id, sel.get_support()
 
 def predict_author(X, matrix_ids, new_text_vect, columns, model):
