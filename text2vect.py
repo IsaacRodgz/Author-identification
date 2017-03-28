@@ -15,73 +15,30 @@ import os
 import getData
 
 
-def get_author_vectors(vectorizer, path, corpus_size, sel):
-	w_dir = os.getcwd()
-
-	if path == "book":
-		path_ = '/dataAuth/problem/'
-	elif path == "blog":
-		path_ = '/dataBlog/problem2/'
-
-	directory = [x for x in os.walk(w_dir+path_)][0][2]
+def get_author_vectors(vectorizer, corpus_size, sel, test_data, author_index):
 	
 	author_vector_list = []
 
 	#Get text to classify
 	for i in range(corpus_size):
-		dir_new_text = w_dir+path_+directory[i]
-		print(dir_new_text)
-
-		with codecs.open(dir_new_text, 'r', encoding="utf-8", errors="ignore") as outfile:
-			new_text = outfile.read()
 
 		#Convert text to classify into vector
-		new_text_vect = vectorizer.transform([new_text])[0].transpose().toarray()
+		new_text_vect = vectorizer.transform([test_data[i]])[0].transpose().toarray()
 		new_text_vect = new_text_vect.reshape((new_text_vect.shape[0],))[:]
 		
 		new_text_vect = np.array(list(compress(new_text_vect, sel)))
 
-		author_vector_list.append((new_text_vect, directory[i].split(".")[0]))
+		author_vector_list.append((new_text_vect, author_index[i]))
 
 	return author_vector_list
 
-def get_authors_matrix(columns, path, corpus_size, var):
-
-	#Get all author texts
-	w_dir = os.getcwd()
-
-	if path == "book":
-		path_ = '/dataAuth/author'
-	elif path == "blog":
-		path_ = '/dataBlog/author'
-
-	directory = [x[0] for x in os.walk(w_dir+path_)][1:]
-
-	authors_id = [directory[i].split("\\")[6] for i in range(corpus_size)]
-	authors_id = [x for item in authors_id for x in repeat(item, columns)]
-
-	corpus = []
-	if columns > 1:
-		for each_text in directory:
-			text = os.listdir(each_text)
-			for i in range(columns):
-				file = each_text+"\\"+text[i]
-				
-				with codecs.open(file, 'r', encoding="utf-8", errors="ignore") as outfile:
-					corpus.append(outfile.read())
-	else:
-		for i in range(corpus_size):
-			file = directory[i]+"\\"+os.listdir(directory[i])[0]
-			with codecs.open(file, 'r', encoding="utf-8", errors="ignore") as outfile:
-				corpus.append(outfile.read())
+def get_authors_matrix(corpus_size, var, train_data):
 
 	#Transforming texts to matrix
 	vectorizer = CountVectorizer(min_df=2, stop_words='english', ngram_range=(1,4), analyzer = 'char')
 	#vectorizer = StemmedCountVectorizer(min_df=2, stop_words='english', ngram_range=(1,4), analyzer = 'char')
-	vtf = vectorizer.fit_transform(corpus)
-
-	print(authors_id)
-
+	vtf = vectorizer.fit_transform(train_data)
+	print(vtf.shape)
 
 	############################
 
@@ -100,7 +57,7 @@ def get_authors_matrix(columns, path, corpus_size, var):
 	matrix = sel.fit_transform(vtf.toarray())
 	print(matrix.transpose().shape)
 
-	return matrix.transpose(), vectorizer, authors_id, sel.get_support()
+	return matrix.transpose(), vectorizer, sel.get_support()
 
 def predict_author(X, matrix_ids, new_text_vect, columns, model):
 
@@ -154,12 +111,15 @@ def result(prediction, scores, path):
 def predict(iteration, corpus_size, percentage, columns, model, path, chars, var):
 	#Predicted authors
 	prediction = []
-	X, vectorizer, matrix_authors_id, sel = get_authors_matrix(columns, path, corpus_size, var)
-	author_vectors = get_author_vectors(vectorizer, path, corpus_size, sel)
+	train_data, test_data, matrix_authors_id = getData.divide(0, 0, 10)
+	print(matrix_authors_id)
+
+	X, vectorizer, sel = get_authors_matrix(corpus_size, var, train_data)
+	author_vectors = get_author_vectors(vectorizer, corpus_size, sel, test_data, matrix_authors_id)
 	
 	for i in range(corpus_size):
 		prediction.append((author_vectors[i][1], predict_author(X, matrix_authors_id, author_vectors[i][0], columns, model)))
-
+		
 	#Confidence values
 	print("\nNum of rows extracted: "+str(math.ceil(X.shape[0]*percentage))+"\n")
 
