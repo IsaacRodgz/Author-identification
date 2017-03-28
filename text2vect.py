@@ -1,6 +1,8 @@
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
+from sklearn.feature_selection import VarianceThreshold
 from sklearn.decomposition import PCA
 from sklearn import linear_model
+from itertools import compress
 from itertools import repeat
 from pprint import pprint
 import numpy as np
@@ -10,10 +12,8 @@ import codecs
 import json
 import math
 import os
+import getData
 
-from sklearn.feature_selection import VarianceThreshold
-from itertools import compress
-#from random import shuffle
 
 def get_author_vectors(vectorizer, path, corpus_size, sel):
 	w_dir = os.getcwd()
@@ -21,10 +21,9 @@ def get_author_vectors(vectorizer, path, corpus_size, sel):
 	if path == "book":
 		path_ = '/dataAuth/problem/'
 	elif path == "blog":
-		path_ = '/dataBlog/problem/'
+		path_ = '/dataBlog/problem2/'
 
 	directory = [x for x in os.walk(w_dir+path_)][0][2]
-	#shuffle(directory)
 	
 	author_vector_list = []
 
@@ -57,7 +56,7 @@ def get_authors_matrix(columns, path, corpus_size, var):
 		path_ = '/dataBlog/author'
 
 	directory = [x[0] for x in os.walk(w_dir+path_)][1:]
-	#shuffle(directory)
+
 	authors_id = [directory[i].split("\\")[6] for i in range(corpus_size)]
 	authors_id = [x for item in authors_id for x in repeat(item, columns)]
 
