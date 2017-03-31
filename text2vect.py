@@ -108,10 +108,10 @@ def result(prediction, scores, path):
 		for p, s in zip(prediction, scores):
 			print("Author: {0}, Predicted: {1}, Confidence: {2}\n".format(p[0], p[1], s))
 
-def predict(iteration, corpus_size, percentage, columns, model, path, chars, var):
+def predict(iteration, corpus_size, percentage, columns, model, path, chars, var, exp):
 	#Predicted authors
 	prediction = []
-	train_data, test_data, matrix_authors_id = getData.divide(0, 0, 10)
+	train_data, test_data, matrix_authors_id = getData.divide(exp, 0.7, corpus_size)
 	print(matrix_authors_id)
 
 	X, vectorizer, sel = get_authors_matrix(corpus_size, var, train_data)
@@ -156,17 +156,18 @@ if __name__ == "__main__":
 
 	parser = argparse.ArgumentParser(description='This program predicts the author of a text given a set of authors and sample texts')
 	parser.add_argument('-i','--iter', nargs='?', help='Number of iterations to calculate confidence value', type=int, default=10)
-	parser.add_argument('-s','--size', nargs='?', help='Number of authors', type=int, default=7)
+	parser.add_argument('-s','--size', nargs='?', help='Number of authors', type=int, default=10)
 	parser.add_argument('-p','--percent', nargs='?', help='Percentage of rows extracted to calculate confidence value', type=float, default=0.3)
 	parser.add_argument('-c','--columns', nargs='?', help='Number of sample texts per author', type=int, default=1)
-	parser.add_argument('-m','--model', nargs='?', help='Model used to predict', type=str, default="lasso")
-	parser.add_argument('-d','--directory', nargs='?', help='Corpus to use', type=str, default="book")
+	parser.add_argument('-m','--model', nargs='?', help='Model used to predict', type=str, default="lars")
+	parser.add_argument('-d','--directory', nargs='?', help='Corpus to use', type=str, default="blog")
 	parser.add_argument('-ch','--chars', nargs='?', help='Number of chars for each text', type=str, default=0)
 	parser.add_argument('-v','--variance', nargs='?', help='Feature selector that removes all low-variance features', type=float, default=0.0)
+	parser.add_argument('-e','--experiment', nargs='?', help='Type of experiment to run', type=int, default=0)
 
 	args = vars(parser.parse_args())
 	
-	predict(args['iter'], args['size'], args['percent'], args['columns'], args['model'], args['directory'], args['chars'], args['variance'])
+	predict(args['iter'], args['size'], args['percent'], args['columns'], args['model'], args['directory'], args['chars'], args['variance'], args['experiment'])
 
 '''
 from sklearn.decomposition import PCA

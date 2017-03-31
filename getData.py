@@ -3,6 +3,7 @@ import re
 from bs4 import BeautifulSoup
 import codecs
 import math
+import random
 
 def extract_post(blog):
 	i = 0
@@ -67,7 +68,7 @@ def divide(opc, train_size, corpus_size):
 		for i in range(len(corpus)):
 			size = math.floor(len(corpus[i])*p)
 			train.append(concat(corpus[i][:size]))
-			test.append(concat(corpus[i][size+1:size+2]))
+			test.append(concat(corpus[i][size+1]))
 
 	#70 - 30, 60 - 30, 50 - 30, 40 - 30, 30 - 30, 20 - 30
 	elif opc == 2:
@@ -77,7 +78,13 @@ def divide(opc, train_size, corpus_size):
 			test.append(concat(corpus[i][size:]))
 
 	#random time
-	#elif opc == 3:
+	elif opc == 3:
+		for i in range(len(corpus)):
+			train_rows = random.sample(range(len(corpus[i])), math.floor(len(corpus[i])*train_size))
+			test_rows = list(set([i for i in range(len(corpus[i]))]) - set(train_rows))
+			train.append(concat([corpus[i][post] for post in train_rows]))
+			#test.append(concat(corpus[i][random.choice(test_rows)]))
+			test.append(concat([corpus[i][post] for post in test_rows]))
 
 	return train, test, index
 
