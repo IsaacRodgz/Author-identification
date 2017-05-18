@@ -16,11 +16,11 @@ import getData
 
 
 def get_author_vectors(vectorizer, corpus_size, sel, test_data, author_index):
-	
+
 	author_vector_list = []
 
 	#Get text to classify
-	for i in range(corpus_size):
+	for i in range(len(test_data)):
 
 		#Convert text to classify into vector
 		new_text_vect = vectorizer.transform([test_data[i]])[0].transpose().toarray()
@@ -38,20 +38,20 @@ def get_authors_matrix(corpus_size, var, train_data):
 	vectorizer = CountVectorizer(min_df=2, stop_words='english', ngram_range=(1,4), analyzer = 'char')
 	#vectorizer = StemmedCountVectorizer(min_df=2, stop_words='english', ngram_range=(1,4), analyzer = 'char')
 	vtf = vectorizer.fit_transform(train_data)
-	print(vtf.shape)
+	#print(vtf.shape)
 
 	############################
 
-	print("PCA...")
+	print("\nPCA...")
 	print(vtf.toarray().T.shape)
 
-	pca = PCA(n_components=8000)
+	pca = PCA(n_components=100, svd_solver='full')
 	X = pca.fit_transform(vtf.toarray())
 	print(X.transpose().shape)
 
 	############################
 
-	print("Feature selection...")
+	print("\nFeature selection...")
 	print(vtf.toarray().T.shape)
 	sel = VarianceThreshold(threshold=(var))
 	matrix = sel.fit_transform(vtf.toarray())
@@ -146,11 +146,128 @@ def predict(iteration, corpus_size, percentage, columns, model, path, chars, var
 				cs[r]=1
 		prediction_.append(cs)
 
+	score = 0
+	for real, pred in prediction:
+		if real == pred:
+			score += 1
+	score = float(score)/float(len(prediction))
+
 	scores = []
 	for r, p in zip(res, prediction):
 		scores.append(calculate_score(r, p))
 
 	result(prediction, scores, path)
+
+	print("Predicted authors percentage: ")
+	print(score)
+
+
+def get_blog(directory):
+
+	path = os.getcwd()
+	amount = 0
+	corpus = []
+	index = []
+	i = 0
+
+	for i in range(len(directory)):
+		with codecs.open(path+'/blogs/'+directory[i], "r",encoding='utf-8', errors='ignore') as file:
+			blog = file.read().split()
+			posts = getData.extract_post(blog)
+			index.append(int(directory[i].split(".")[0]))
+			corpus.append(posts)
+			amount += 1
+			print("blog "+str(amount))
+
+	train = []
+	test = []
+	p = 0.7
+
+	#70 - 30
+	for i in range(len(corpus)):
+		size = math.floor(len(corpus[i])*p)
+		train.append(getData.concat(corpus[i][:size]))
+		test.append(getData.concat(corpus[i][size:]))
+
+	return train, test, index
+
+def predictN(iteration, corpus_size, percentage, columns, model, path, chars, var, exp, tryn):
+	#Predicted authors
+	random.seed(9001)
+
+	path = os.getcwd()
+	directory = np.array([x[2] for x in os.walk(path+'/blogs')][0])
+
+	selection_f = tryn
+	total_size = 19320
+	total_size_p = total_size
+	tries = math.floor(total_size_p/selection_f)
+
+	for i in range(tries):
+
+		selected_blogs_index = random.sample(range(total_size), selection_f)
+		selected_blogs = directory[selected_blogs_index]
+		directory = np.delete(directory, (selected_blogs_index), axis=0)
+		total_size -= selection_f
+		
+		train_data, test_data, matrix_authors_id = get_blog(selected_blogs)
+
+		index = random.randint(0,selection_f-1)
+		test_data = [test_data[index]]
+		author_id = [matrix_authors_id[index]]
+
+		X, vectorizer, sel = get_authors_matrix(corpus_size, var, train_data)
+		author_vectors = get_author_vectors(vectorizer, corpus_size, sel, test_data, author_id)
+
+		prediction = []
+
+		for j in range(len(test_data)):
+			prediction.append((author_vectors[j][1], predict_author(X, matrix_authors_id, author_vectors[j][0], columns, model)))
+
+		print("\n+++")
+		print(prediction)
+
+		#Confidence values
+		print("\nNum of rows extracted: "+str(math.ceil(X.shape[0]*percentage))+"\n")
+
+		res = [[] for j in range(len(test_data))]
+		X_p = X
+		author_vectors_p = author_vectors
+
+		for j in range(iteration):
+			print('\ninteration: '+str(j))
+			num_rows = math.ceil(X.shape[0]*(1.0-percentage))
+			selected_rows = random.sample(range(X.shape[0]), num_rows)
+			X = cut_array(X_p, selected_rows)
+			for k in range(len(test_data)):
+				new_author_vector = cut_array(author_vectors_p[k][0], selected_rows)
+				res[k].append((author_vectors[k][1], predict_author(X, matrix_authors_id, new_author_vector, columns, model)))
+
+
+		prediction_=[]
+		for j in range(len(test_data)):
+			cs={}
+			for r in res[j]:
+				try:
+					cs[r]+=1
+				except KeyError:
+					cs[r]=1
+			prediction_.append(cs)
+
+
+		for j in range(len(test_data)):
+			try:
+				score = prediction_[j][prediction[j]]/len(res[j])
+			except KeyError:
+				score = 0.0
+
+			print("\nAuthor: {0} | Predicted: {1} | Confidence: {2}".format(prediction[j][0], prediction[j][1], score))			
+
+		print("\n--------- Finished try {0} out of {1} ---------\n".format(i+1, tries))
+		input()
+
+
+
 
 if __name__ == "__main__":
 
@@ -165,9 +282,12 @@ if __name__ == "__main__":
 	parser.add_argument('-v','--variance', nargs='?', help='Feature selector that removes all low-variance features', type=float, default=0.0)
 	parser.add_argument('-e','--experiment', nargs='?', help='Type of experiment to run', type=int, default=0)
 
+	parser.add_argument('-t','--tryn', nargs='?', help='Number of authors for matrix', type=int, default=100)
+
 	args = vars(parser.parse_args())
 	
-	predict(args['iter'], args['size'], args['percent'], args['columns'], args['model'], args['directory'], args['chars'], args['variance'], args['experiment'])
+	#predict(args['iter'], args['size'], args['percent'], args['columns'], args['model'], args['directory'], args['chars'], args['variance'], args['experiment'])
+	predictN(args['iter'], args['size'], args['percent'], args['columns'], args['model'], args['directory'], args['chars'], args['variance'], args['experiment'], args['tryn'])
 
 '''
 from sklearn.decomposition import PCA
