@@ -11,6 +11,7 @@ import random
 import codecs
 import json
 import math
+import csv
 import os
 import getData
 
@@ -191,17 +192,57 @@ def get_blog(directory):
 
 	return train, test, index
 
-def predictN(iteration, corpus_size, percentage, columns, model, path, chars, var, exp, tryn):
-	#Predicted authors
-	random.seed(9001)
+def write_author_names():
 
 	path = os.getcwd()
 	directory = np.array([x[2] for x in os.walk(path+'/blogs')][0])
 
-	selection_f = tryn
-	total_size = 19320
+	author_names = []
+
+	with open("author_post.csv", "w") as csv_file:
+		writer = csv.writer(csv_file, delimiter=',')
+		writer.writerow(["Author", "Npost"])
+
+		for i in range(len(directory)):
+			with codecs.open(path+'/blogs/'+directory[i], "r",encoding='utf-8', errors='ignore') as file:
+				blog = file.read().split()
+				posts = getData.extract_post(blog)
+
+				writer.writerow([directory[i], len(posts)])
+
+			print(i)
+
+
+def read_author_names(min_posts):
+
+	print("Reading author names...\n")
+
+	author_names = []
+
+	with open("author_post.csv", "r") as csv_file:
+		reader = csv.DictReader(csv_file, delimiter=',')
+		for blog in reader:
+			if int(blog["Npost"]) >= 10:
+				author_names.append(blog["Author"])
+
+	return np.array(author_names)
+
+
+def predictN(iteration, corpus_size, percentage, columns, model, path, chars, var, exp, tryn, min_posts):
+	#Predicted authors
+	random.seed(9001)
+	
+	directory = read_author_names(min_posts)
+	dir_len = directory.size
+	print("Blogs read: {0}\n".format(dir_len))
+
+	selection_f = 100
+	total_size = len(directory)
+
 	total_size_p = total_size
 	tries = math.floor(total_size_p/selection_f)
+
+	sum_score = 0
 
 	for i in range(tries):
 
@@ -209,10 +250,13 @@ def predictN(iteration, corpus_size, percentage, columns, model, path, chars, va
 		selected_blogs = directory[selected_blogs_index]
 		directory = np.delete(directory, (selected_blogs_index), axis=0)
 		total_size -= selection_f
+
+		selected_blogs_index = random.sample(range(selection_f), tryn)
+		selected_blogs = selected_blogs[selected_blogs_index]
 		
 		train_data, test_data, matrix_authors_id = get_blog(selected_blogs)
 
-		index = random.randint(0,selection_f-1)
+		index = random.randint(0,tryn-1)
 		test_data = [test_data[index]]
 		author_id = [matrix_authors_id[index]]
 
@@ -254,18 +298,20 @@ def predictN(iteration, corpus_size, percentage, columns, model, path, chars, va
 					cs[r]=1
 			prediction_.append(cs)
 
-
 		for j in range(len(test_data)):
 			try:
 				score = prediction_[j][prediction[j]]/len(res[j])
 			except KeyError:
 				score = 0.0
 
-			print("\nAuthor: {0} | Predicted: {1} | Confidence: {2}".format(prediction[j][0], prediction[j][1], score))			
+			print("\nAuthor: {0} | Predicted: {1} | Confidence: {2}".format(prediction[j][0], prediction[j][1], score))
+
+			if prediction[j][0] == prediction[j][1]:
+				sum_score += 1
 
 		print("\n--------- Finished try {0} out of {1} ---------\n".format(i+1, tries))
-		input()
 
+	print("\nAccuracy: {0}".format(sum_score/tries))
 
 
 
@@ -283,11 +329,12 @@ if __name__ == "__main__":
 	parser.add_argument('-e','--experiment', nargs='?', help='Type of experiment to run', type=int, default=0)
 
 	parser.add_argument('-t','--tryn', nargs='?', help='Number of authors for matrix', type=int, default=100)
+	parser.add_argument('-o','--post', nargs='?', help='Minimum number of posts per blog', type=int, default=10)
 
 	args = vars(parser.parse_args())
 	
 	#predict(args['iter'], args['size'], args['percent'], args['columns'], args['model'], args['directory'], args['chars'], args['variance'], args['experiment'])
-	predictN(args['iter'], args['size'], args['percent'], args['columns'], args['model'], args['directory'], args['chars'], args['variance'], args['experiment'], args['tryn'])
+	predictN(args['iter'], args['size'], args['percent'], args['columns'], args['model'], args['directory'], args['chars'], args['variance'], args['experiment'], args['tryn'], args['post'])
 
 '''
 from sklearn.decomposition import PCA
