@@ -244,6 +244,13 @@ def predictN(iteration, corpus_size, percentage, columns, model, path, chars, va
 
 	sum_score = 0
 
+	TP = 0
+	FN = 0
+	FP = 0
+
+	#List to save all predictions
+	pred_all = []
+
 	for i in range(tries):
 
 		selected_blogs_index = random.sample(range(total_size), selection_f)
@@ -287,7 +294,6 @@ def predictN(iteration, corpus_size, percentage, columns, model, path, chars, va
 				new_author_vector = cut_array(author_vectors_p[k][0], selected_rows)
 				res[k].append((author_vectors[k][1], predict_author(X, matrix_authors_id, new_author_vector, columns, model)))
 
-
 		prediction_=[]
 		for j in range(len(test_data)):
 			cs={}
@@ -309,11 +315,49 @@ def predictN(iteration, corpus_size, percentage, columns, model, path, chars, va
 			if prediction[j][0] == prediction[j][1]:
 				sum_score += 1
 
+			#Save all predictions
+			pred_all.append((prediction[j][0], prediction[j][1], score))
+
+			#Confusion Matrix count
+			p1 = prediction[j][0] == prediction[j][1]
+			p2 = score > 0.3
+
+			if p1 and p2:
+				TP += 1
+			elif p1 and not p2:
+				FN += 1
+			elif not p1:
+				FN += 1
+				FP += 1
+
 		print("\n--------- Finished try {0} out of {1} ---------\n".format(i+1, tries))
 
-	print("\nAccuracy: {0}".format(sum_score/tries))
+	#Precision, Recall, Accuracy
+	Precision = TP/(TP+FP)
+	Recall = TP/(TP+FN)
+	Accuracy = sum_score/tries
 
+	print("\nAccuracy: {0}\nPrecision: {1}\nRecall: {2}".format(Accuracy, Precision, Recall))
 
+	return pred_all
+
+def iter(iteration, corpus_size, percentage, columns, model, path, chars, var, exp, tryn, min_posts):
+
+	for j in range(3,4):
+		res = []
+
+		for  i in range(2,101):
+			pred_all = predictN(iteration, corpus_size, j/10, columns, model, path, chars, var, exp, i, min_posts)
+			res.append(pred_all)
+
+		with open("percent-"+str(j)+".csv", "w") as csv_file:
+			writer = csv.writer(csv_file, delimiter=',')
+			writer.writerow(["author", "predicted", "score"])
+
+			for k in range(len(res)):
+				writer.writerow([k+2, k+2, k+2])
+				for author, predicted, score in res[k]:
+					writer.writerow([author, predicted, score])
 
 if __name__ == "__main__":
 
@@ -328,13 +372,14 @@ if __name__ == "__main__":
 	parser.add_argument('-v','--variance', nargs='?', help='Feature selector that removes all low-variance features', type=float, default=0.0)
 	parser.add_argument('-e','--experiment', nargs='?', help='Type of experiment to run', type=int, default=0)
 
-	parser.add_argument('-t','--tryn', nargs='?', help='Number of authors for matrix', type=int, default=100)
-	parser.add_argument('-o','--post', nargs='?', help='Minimum number of posts per blog', type=int, default=10)
+	parser.add_argument('-t','--tryn', nargs='?', help='Number of authors for matrix', type=int, default=10)
+	parser.add_argument('-o','--post', nargs='?', help='Minimum number of posts per blog', type=int, default=3)
 
 	args = vars(parser.parse_args())
 	
 	#predict(args['iter'], args['size'], args['percent'], args['columns'], args['model'], args['directory'], args['chars'], args['variance'], args['experiment'])
-	predictN(args['iter'], args['size'], args['percent'], args['columns'], args['model'], args['directory'], args['chars'], args['variance'], args['experiment'], args['tryn'], args['post'])
+	#predictN(args['iter'], args['size'], args['percent'], args['columns'], args['model'], args['directory'], args['chars'], args['variance'], args['experiment'], args['tryn'], args['post'])
+	iter(args['iter'], args['size'], args['percent'], args['columns'], args['model'], args['directory'], args['chars'], args['variance'], args['experiment'], args['tryn'], args['post'])
 
 '''
 from sklearn.decomposition import PCA
