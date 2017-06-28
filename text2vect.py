@@ -343,21 +343,23 @@ def predictN(iteration, corpus_size, percentage, columns, model, path, chars, va
 
 def iter(iteration, corpus_size, percentage, columns, model, path, chars, var, exp, tryn, min_posts):
 
-	for j in range(3,4):
+	k = 10
+
+	for j in range(8,9):
 		res = []
 
-		for  i in range(2,101):
+		for  i in range(k,k+1):
 			pred_all = predictN(iteration, corpus_size, j/10, columns, model, path, chars, var, exp, i, min_posts)
 			res.append(pred_all)
+		#input()
 
-		with open("percent-"+str(j)+".csv", "w") as csv_file:
+		with open("res/percent-"+str(k)+".csv", "w") as csv_file:
 			writer = csv.writer(csv_file, delimiter=',')
 			writer.writerow(["author", "predicted", "score"])
 
-			for k in range(len(res)):
-				writer.writerow([k+2, k+2, k+2])
-				for author, predicted, score in res[k]:
-					writer.writerow([author, predicted, score])
+			writer.writerow([k, k, k])
+			for author, predicted, score in res[0]:
+				writer.writerow([author, predicted, score])
 
 if __name__ == "__main__":
 
