@@ -76,6 +76,8 @@ def predict_author(X, matrix_ids, new_text_vect, columns, model):
 	
 	model_reg.fit(X, new_text_vect)
 
+	y_s = []
+
 	#Calculate distances and predict author
 	w_predicted = model_reg.coef_
 	num_authors = X.shape[1]
@@ -85,11 +87,12 @@ def predict_author(X, matrix_ids, new_text_vect, columns, model):
 		w[i] = w_predicted[i]
 		y_hat = np.dot(X,w)
 		residuals.append((np.linalg.norm(y_hat-new_text_vect), matrix_ids[i], y_hat))
+		y_s.append(y_hat)
 
 	if columns > 1:
 		return str(math.floor(int(min(residuals)[1])))
 	else:
-		return min(residuals)
+		return min(residuals), y_s
 
 
 def get_blog(directory):
@@ -168,8 +171,18 @@ author_vectors = get_author_vectors(vectorizer, 10, sel, test_data, author_id)
 prediction = []
 
 for j in range(len(test_data)):
-	p = predict_author(X, matrix_authors_id, author_vectors[j][0], 1, "lars")
+	p, y_s = predict_author(X, matrix_authors_id, author_vectors[j][0], 1, "lars")
 	prediction.append((author_vectors[j][1], p[1]))
+
+print("\nSubstraction")
+for i in range(len(y_s)):
+	print(i)
+	print(y_s[i]-p[2])
+
+print("\ny's predicted")
+C = np.array(y_s).T
+C = np.c_[ C, author_vectors[j][0] ]
+print(C.shape)
 
 print("\n+++")
 print(prediction)
@@ -191,9 +204,9 @@ print(X.shape)
 # print(X_.T.shape)
 # input()
 
-model = TSNE(n_components=2, random_state=0, perplexity=4.0)
+model = TSNE(n_components=2, random_state=0, perplexity=11.0)
 np.set_printoptions(suppress=True)
-X_ = model.fit_transform(X.transpose()).T
+X_ = model.fit_transform(C.transpose()).T
 
 print("\n")
 print("TSNE")
@@ -214,10 +227,14 @@ xs = X_[0,:]
 ys = X_[1,:]
 # predicted 4
 
-for x, y, name in zip(xs[:-1], ys[:-1], authors):
+for x, y, name in zip(xs[:10], ys[:10], authors):
 	plt.scatter(x, y, c='orange')
-	plt.text(x, y, name)
-plt.scatter(xs[-1], ys[-1], c='red')
-plt.text(xs[-1], ys[-1], 4)
+	plt.text(x, y, 'r')
+
+plt.scatter(xs[10], ys[10], c='red')
+plt.text(xs[10], ys[10], 'o')
+
+plt.scatter(xs[3], ys[3], c='blue')
+#plt.text(xs[3], ys[3], 'r')
 
 plt.show()
