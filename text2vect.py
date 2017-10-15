@@ -54,13 +54,14 @@ def get_authors_matrix(corpus_size, var, train_data):
 
     ############################
 
-    print("\nFeature selection...")
-    print(vtf.toarray().T.shape)
+    #print("\nFeature selection...")
+    #print(vtf.toarray().T.shape)
     sel = VarianceThreshold(threshold=(var))
-    matrix = sel.fit_transform(vtf.toarray())
-    print(matrix.transpose().shape)
+    matrix = sel.fit(vtf)
+    matrix = sel.transform(vtf)
+    #print(matrix.transpose().shape)
 
-    return matrix.transpose(), vectorizer, sel.get_support()
+    return matrix.transpose().toarray(), vectorizer, sel.get_support()
 
 
 def predict_author(X, matrix_ids, new_text_vect, columns, model):
@@ -185,6 +186,13 @@ def get_blog(directory):
         with codecs.open(path + '/blogs/' + directory[i], "r", encoding='utf-8', errors='ignore') as file:
             blog = file.read().split()
             posts = getData.extract_post(blog)
+
+            # posts_ = []
+            # for post in posts:
+            #     if len(post) >= 20 and len(post) <= 40:
+            #         posts_.append(post)
+            # posts = posts_[:]
+
             index.append(int(directory[i].split(".")[0]))
             corpus.append(posts)
             amount += 1
@@ -192,7 +200,7 @@ def get_blog(directory):
 
     train = []
     test = []
-    p = 0.7
+    p = 0.2
 
     # 70 - 30
     for i in range(len(corpus)):
@@ -233,7 +241,7 @@ def read_author_names(min_posts):
     with open("author_post.csv", "r") as csv_file:
         reader = csv.DictReader(csv_file, delimiter=',')
         for blog in reader:
-            if int(blog["Npost"]) >= 60 and int(blog["Npost"]) < 80:
+            if int(blog["Npost"]) >= 20 and int(blog["Npost"]) < 40:
                 author_names.append(blog["Author"])
 
     return np.array(author_names)
@@ -259,6 +267,7 @@ def read_authors_sex_age(selector):
 
     return np.array(author_names)
 
+
 def read_authors_sex_age_range(selector):
 
     print("Reading author names...\n")
@@ -279,6 +288,7 @@ def read_authors_sex_age_range(selector):
 
     return np.array(author_names)
 
+
 def predictN(iteration, corpus_size, percentage, columns, model, path, chars, var, exp, tryn, min_posts):
     # Predicted authors
     random.seed(9001)
@@ -289,7 +299,7 @@ def predictN(iteration, corpus_size, percentage, columns, model, path, chars, va
     dir_len = directory.size
     print("Blogs read: {0}\n".format(dir_len))
 
-    selection_f = 10
+    selection_f = tryn
     total_size = len(directory)
 
     total_size_p = total_size
@@ -349,6 +359,28 @@ def predictN(iteration, corpus_size, percentage, columns, model, path, chars, va
                 res[k].append((author_vectors[k][1], predict_author(
                     X, matrix_authors_id, new_author_vector, columns, model)))
 
+        print("TEST")
+        for j in range(iteration):
+            print(res[0][j])
+        print("\n")
+
+        pr = {}
+        for c, p in res[0]:
+            try:
+                pr[p] += 1
+            except KeyError:
+                pr[p] = 1
+        
+        print(list(pr.items()))
+        pr_list = list(pr.items())
+        pr_list.sort(key=lambda x: x[1], reverse=True)
+
+        print("\nCorrect: {0}\n".format(res[0][0][0]))
+        for i in range(len(pr_list)):
+            print("Prediction_{0} with {1} votes: {2}".format(i+1, pr_list[i][1], pr_list[i][0]))
+
+        input()
+
         prediction_ = []
         for j in range(len(test_data)):
             cs = {}
@@ -401,7 +433,7 @@ def predictN(iteration, corpus_size, percentage, columns, model, path, chars, va
 def iter(iteration, corpus_size, percentage, columns, model, path, chars, var, exp, tryn, min_posts):
 
     # numero de autores seleccionados para la matriz y prediccion
-    k = 2
+    k = corpus_size
     # oclusion
     j = 0.8
 
@@ -409,7 +441,7 @@ def iter(iteration, corpus_size, percentage, columns, model, path, chars, var, e
 
     for i in range(k, k + 1):
         pred_all, dir_len = predictN(iteration, corpus_size, j,
-                                         columns, model, path, chars, var, exp, i, min_posts)
+                                     columns, model, path, chars, var, exp, i, min_posts)
         res.append(pred_all)
     # input()
 
