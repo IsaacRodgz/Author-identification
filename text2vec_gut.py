@@ -193,9 +193,13 @@ def parse_df(df, condition):
         test_row = df.loc[df['special'] == True]
         train_rows = df.loc[df['special'] == False]
     else:
-        pass
+        test_row = df.iloc[0]
+        train_rows = df.iloc[1:,:]
 
-    test_doc = parse_gut_doc(list(test_row['directory'])[0])
+    if condition:
+        test_doc = parse_gut_doc(list(test_row['directory'])[0])
+    else:
+        test_doc = parse_gut_doc(test_row['directory'])
 
     for record in train_rows.to_records():     
         train_doc += " " + parse_gut_doc(record[4])
@@ -208,7 +212,7 @@ def get_gutenberg(filename, condition):
     train = []
     test = []
 
-    df = pd.read_csv(os.getcwd()+"/gut_min_max_rand/size3/max/"+filename, sep=',')
+    df = pd.read_csv(os.getcwd()+"/gut_min_max_rand/size11/rand/"+filename, sep=',')
     
     for group in df.groupby(['author']):
         index.append(group[0])
@@ -320,7 +324,7 @@ def predictN(iteration, corpus_size, percentage, columns, model, path, chars, va
     #selected_blogs_index = random.sample(range(selection_f), tryn)
     #selected_blogs = selected_blogs[selected_blogs_index]
 
-    train_data, test_data, matrix_authors_id = get_gutenberg("size3_max_e.csv", True)
+    train_data, test_data, matrix_authors_id = get_gutenberg("size11_rand.csv", False)
 
     for test_text, id_text in zip(test_data, matrix_authors_id):
         print("\n")
