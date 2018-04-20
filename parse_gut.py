@@ -1,4 +1,6 @@
+import operator
 import codecs
+import csv
 import os
 import re
 
@@ -104,6 +106,7 @@ with codecs.open(path+'/gutenberg/GUTINDEX.ALL', "r",encoding='utf-8', errors='i
     info = process('\n'.join(lines), lines[0])
     books_list.append(info)
 
+'''
 authors2plus = []
 for author, count in author_counter.items():
     if count > 1:
@@ -117,3 +120,13 @@ for name in authors2plus:
 
 author_max = max(author_counter, key=author_counter.get)
 print("\n{0} with {1}".format(author_max, author_counter[author_max]))
+'''
+
+books_list = [book for book in books_list if author_counter[book["author"]]>1]
+books_list = sorted(books_list, key=operator.itemgetter('id'))
+
+with open("gut_index.csv", "w") as csv_file:
+    writer = csv.writer(csv_file, delimiter=',')
+    writer.writerow(["id", "author", "bookName"])
+    for book in books_list:
+        writer.writerow([book["id"], book["author"], book["book"]])

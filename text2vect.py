@@ -37,7 +37,7 @@ def get_author_vectors(vectorizer, corpus_size, sel, test_data, author_index):
 def get_authors_matrix(corpus_size, var, train_data):
 
     # Transforming texts to matrix
-    vectorizer = CountVectorizer(min_df=2, stop_words='english',
+    vectorizer = CountVectorizer(min_df=10, max_df=1000, stop_words='english',
                                  ngram_range=(4, 7), analyzer='char')
     # vectorizer = StemmedCountVectorizer(min_df=2, stop_words='english', ngram_range=(1,4), analyzer = 'char')
     vtf = vectorizer.fit_transform(train_data)
@@ -54,12 +54,12 @@ def get_authors_matrix(corpus_size, var, train_data):
 
     ############################
 
-    #print("\nFeature selection...")
-    #print(vtf.toarray().T.shape)
+    print("\nFeature selection...")
+    print(vtf.toarray().T.shape)
     sel = VarianceThreshold(threshold=(var))
     matrix = sel.fit(vtf)
     matrix = sel.transform(vtf)
-    #print(matrix.transpose().shape)
+    print(matrix.transpose().shape)
 
     return matrix.transpose().toarray(), vectorizer, sel.get_support()
 
@@ -71,7 +71,10 @@ def predict_author(X, matrix_ids, new_text_vect, columns, model):
         model_reg = linear_model.Lasso(alpha=1.0, fit_intercept=True, max_iter=10000, tol=0.0001)
 
     elif model == "lars":
-        model_reg = linear_model.Lars(fit_intercept=True)
+        #precompute=True
+        #eps=2.2204460492503131e-16
+        #fit_path=True
+        model_reg = linear_model.Lars(fit_intercept=True, eps=2.2204460492503131e-5)
 
     model_reg.fit(X, new_text_vect)
 
@@ -116,63 +119,6 @@ def result(prediction, scores, path):
     else:
         for p, s in zip(prediction, scores):
             print("Author: {0}, Predicted: {1}, Confidence: {2}\n".format(p[0], p[1], s))
-
-
-def predict(iteration, corpus_size, percentage, columns, model, path, chars, var, exp):
-    # Predicted authors
-    prediction = []
-    train_data, test_data, matrix_authors_id = getData.divide(exp, 0.7, corpus_size)
-    print(matrix_authors_id)
-
-    X, vectorizer, sel = get_authors_matrix(corpus_size, var, train_data)
-    author_vectors = get_author_vectors(vectorizer, corpus_size, sel, test_data, matrix_authors_id)
-
-    for i in range(corpus_size):
-        prediction.append((author_vectors[i][1], predict_author(
-            X, matrix_authors_id, author_vectors[i][0], columns, model)))
-
-    # Confidence values
-    print("\nNum of rows extracted: " + str(math.ceil(X.shape[0] * percentage)) + "\n")
-
-    res = [[] for i in range(corpus_size)]
-    X_p = X
-    author_vectors_p = author_vectors
-
-    for j in range(iteration):
-        print('\ninteration: ' + str(j))
-        num_rows = math.ceil(X.shape[0] * (1.0 - percentage))
-        selected_rows = random.sample(range(X.shape[0]), num_rows)
-        X = cut_array(X_p, selected_rows)
-        for i in range(corpus_size):
-            new_author_vector = cut_array(author_vectors_p[i][0], selected_rows)
-            res[i].append((author_vectors[i][1], predict_author(
-                X, matrix_authors_id, new_author_vector, columns, model)))
-
-    prediction_ = []
-    for i in range(corpus_size):
-        cs = {}
-        for r in res[i]:
-            try:
-                cs[r] += 1
-            except KeyError:
-                cs[r] = 1
-        prediction_.append(cs)
-
-    score = 0
-    for real, pred in prediction:
-        if real == pred:
-            score += 1
-    score = float(score) / float(len(prediction))
-
-    scores = []
-    for r, p in zip(res, prediction):
-        scores.append(calculate_score(r, p))
-
-    result(prediction, scores, path)
-
-    print("Predicted authors percentage: ")
-    print(score)
-
 
 def get_blog(directory):
 
@@ -333,15 +279,6 @@ def predictN(iteration, corpus_size, percentage, columns, model, path, chars, va
         X, vectorizer, sel = get_authors_matrix(corpus_size, var, train_data)
         author_vectors = get_author_vectors(vectorizer, corpus_size, sel, test_data, author_id)
 
-        prediction = []
-
-        for j in range(len(test_data)):
-            prediction.append((author_vectors[j][1], predict_author(
-                X, matrix_authors_id, author_vectors[j][0], columns, model)))
-
-        print("\n+++")
-        print(prediction)
-
         # Confidence values
         print("\nNum of rows extracted: " + str(math.ceil(X.shape[0] * percentage)) + "\n")
 
@@ -359,75 +296,27 @@ def predictN(iteration, corpus_size, percentage, columns, model, path, chars, va
                 res[k].append((author_vectors[k][1], predict_author(
                     X, matrix_authors_id, new_author_vector, columns, model)))
 
-        print("TEST")
-        for j in range(iteration):
-            print(res[0][j])
-        print("\n")
-
         pr = {}
         for c, p in res[0]:
             try:
                 pr[p] += 1
             except KeyError:
                 pr[p] = 1
-        
-        print(list(pr.items()))
+
         pr_list = list(pr.items())
         pr_list.sort(key=lambda x: x[1], reverse=True)
 
         print("\nCorrect: {0}\n".format(res[0][0][0]))
-        for i in range(len(pr_list)):
-            print("Prediction_{0} with {1} votes: {2}".format(i+1, pr_list[i][1], pr_list[i][0]))
+        for j in range(len(pr_list)):
+            print("Prediction_{0} with {1} votes: {2}".format(j+1, pr_list[j][1], pr_list[j][0]))
 
-        input()
-
-        prediction_ = []
-        for j in range(len(test_data)):
-            cs = {}
-            for r in res[j]:
-                try:
-                    cs[r] += 1
-                except KeyError:
-                    cs[r] = 1
-            prediction_.append(cs)
-
-        for j in range(len(test_data)):
-            try:
-                score = prediction_[j][prediction[j]] / len(res[j])
-            except KeyError:
-                score = 0.0
-
-            print("\nAuthor: {0} | Predicted: {1} | Confidence: {2}".format(
-                prediction[j][0], prediction[j][1], score))
-
-            if prediction[j][0] == prediction[j][1]:
-                sum_score += 1
-
-            # Save all predictions
-            pred_all.append((prediction[j][0], prediction[j][1], score))
-
-            # Confusion Matrix count
-            p1 = prediction[j][0] == prediction[j][1]
-            p2 = score > 0.3
-
-            if p1 and p2:
-                TP += 1
-            elif p1 and not p2:
-                FN += 1
-            elif not p1:
-                FN += 1
-                FP += 1
+        with open("Res_"+str(i)+".csv", "a") as csv_file:
+            writer = csv.writer(csv_file, delimiter=',')
+            for pred in pr_list:
+                writer.writerow(pred)
+            writer.writerow(["Correct",res[0][0][0]])
 
         print("\n--------- Finished try {0} out of {1} ---------\n".format(i + 1, tries))
-
-    # Precision, Recall, Accuracy
-    Precision = TP / (TP + FP)
-    Recall = TP / (TP + FN)
-    Accuracy = sum_score / tries
-
-    print("\nAccuracy: {0}\nPrecision: {1}\nRecall: {2}".format(Accuracy, Precision, Recall))
-
-    return pred_all, dir_len
 
 
 def iter(iteration, corpus_size, percentage, columns, model, path, chars, var, exp, tryn, min_posts):
@@ -440,19 +329,7 @@ def iter(iteration, corpus_size, percentage, columns, model, path, chars, var, e
     res = []
 
     for i in range(k, k + 1):
-        pred_all, dir_len = predictN(iteration, corpus_size, j,
-                                     columns, model, path, chars, var, exp, i, min_posts)
-        res.append(pred_all)
-    # input()
-
-    with open("res/" + "EXP" + "-" + str(dir_len) + ".csv", "w") as csv_file:
-        writer = csv.writer(csv_file, delimiter=',')
-        writer.writerow(["author", "predicted", "score"])
-
-        writer.writerow([k, k, k])
-        for author, predicted, score in res[0]:
-            writer.writerow([author, predicted, score])
-
+        predictN(iteration, corpus_size, j,columns, model, path, chars, var, exp, i, min_posts)
 
 if __name__ == "__main__":
 
