@@ -1,4 +1,5 @@
 from sklearn.feature_extraction.text import CountVectorizer
+from math import floor
 import numpy as np
 import pandas as pd
 import random
@@ -166,6 +167,28 @@ df.to_csv("book_scores_ordered.csv", sep=',', encoding='utf-8')
 
 '''
 
+def get_directory(book_id):
+    
+    path_book = os.getcwd()+"/gutenberg"
+
+    if len(book_id) == 1:
+            path_book += '/0/'+book_id+'/'+book_id+".txt"
+    else:
+        for i in range(len(book_id)-1):
+            path_book += '/'+book_id[i]
+        path_book += '/'+book_id
+
+        try:
+            possible_txts = os.listdir(path_book)
+            if path_book.split("/")[-1]+".txt" in possible_txts:
+                path_book += "/"+book_id+".txt"
+            else:
+                path_book += "/"+book_id+"-0.txt"
+        except FileNotFoundError:
+            return ""
+
+    return path_book
+
 random.seed(9001)
 
 # Read scores by author
@@ -188,52 +211,98 @@ df11_sum = pd.pivot_table(df11,index=["author","book1"],values=["score"], aggfun
 
 # Get list of all authors
 distinct_authors_3 = np.array(df3.author.unique())
-distinct_authors_6 = np.array(df6.author.unique())
-distinct_authors_11 = np.array(df11.author.unique())
+total_size_3 = len(distinct_authors_3)
 
-# Number of authors to select
+distinct_authors_6 = np.array(df6.author.unique())
+total_size_6 = len(distinct_authors_6)
+
+distinct_authors_11 = np.array(df11.author.unique())
+total_size_11 = len(distinct_authors_11)
+
+
+# From the N remaining authors we take 100 randomly and iteratively until we consume the N authors. From those 100 authors,
+# we take once again 10 authors randomly which will be used to form the matrix of the model
+
+# Number of author from which 10 (selection_f) authors will be finally selected to be part of the matrix of the model
+selection_r = 100
+
+# Number of authors selected to be part of the matrix of the model
 selection_f = 10
 
 # Remaining books to select once the max/min score books are selected (2 for 3 books, 5 for 6 books and 10 for 11 books)
-remaining_f = 5
+remaining_f = 2
+
+# Choose size
+total_size = total_size_3
+
+# Choose authors size
+distinct_authors = distinct_authors_3[:]
+
+# Number of iterations
+num_iterations = floor(total_size/selection_r)
+
+# Lists containing the final 10 authors of all the iterations
+author_names_list = []
+
+print("Total of {} authors".format(total_size))
 
 # Generate 10 random indexes to select 'selection_f = 10' authors
-selected_authors_index_3 = random.sample(range(len(distinct_authors_3)), selection_f)
-selected_authors_index_6 = random.sample(range(len(distinct_authors_6)), selection_f)
-selected_authors_index_11 = random.sample(range(len(distinct_authors_11)), selection_f)
+for i in range(num_iterations):
 
-# Select 'selection_f = 10' names of authors
-selected_authors_3 = distinct_authors_3[selected_authors_index_3]
-selected_authors_6 = distinct_authors_6[selected_authors_index_6]
-selected_authors_11 = distinct_authors_11[selected_authors_index_11]
+    # take randomly selection_r indexes
+    selected_authors_indexes = random.sample(range(total_size), selection_r)
+
+    # get the author names associated to the indexes generated
+    selected_authors_names = distinct_authors[selected_authors_indexes]
+
+    # delete the author names selected from the list which contains all the author names
+    distinct_authors = np.delete(distinct_authors, (selected_authors_indexes), axis=0)
+
+    # reduce total size after deleting the selected names
+    total_size = len(distinct_authors)
+
+    # take randomly selection_f indexes out of selection_r
+    selected_authors_indexes = random.sample(range(selection_r), selection_f)
+
+    # get the author names associated to the indexes generated
+    selected_authors_names = selected_authors_names[selected_authors_indexes]
+
+    # save the 10 names selected in current iteration
+    author_names_list.append(selected_authors_names)
 
 # Get the 3, 6 or 11 books from each author
 # When 3: 1-Min Known text and 2-Random for matrix, 1-Max Known text and 2-Random for matrix, 1-Random Known text and 2-Random for matrix
 # When 6: 1-Min Known text and 5-Random for matrix, 1-Max Known text and 5-Random for matrix, 1-Random Known text and 5-Random for matrix
 # When 11: 1-Min Known text and 10-Random for matrix, 1-Max Known text and 10-Random for matrix, 1-Random Known text and 10-Random for matrix
-'''
+
 # Min
 print("\n\nMIM\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-with open("size3_min.csv", "a") as csv_file:
-    writer = csv.writer(csv_file, delimiter=',')
-    writer.writerow(["author", "book", "special", "directory"])
-    for author in selected_authors_3:
-        print("________________________________________________________________________")
-        print(author+"\n")
-        author_df = pd.DataFrame(df3_sum.loc[author].to_records()).sort_values('score')
+for i in range(len(author_names_list)):
+    print("iteration: "+str(i+1))
+    print("\n")
+    with open("gut_min_max_rand/size3/min/size3_min_" +str(i+1)+ ".csv", "w") as csv_file:
+        writer = csv.writer(csv_file, delimiter=',')
+        writer.writerow(["author", "book", "special", "directory"])
+        for author in author_names_list[i]:
+            print("________________________________________________________________________")
+            print(author+"\n")
+            author_df = pd.DataFrame(df3_sum.loc[author].to_records()).sort_values('score')
 
-        print("\nMin")
-        print(author_df.iloc[0]['book1'])
-        writer.writerow([author, author_df.iloc[0]['book1'], "True", ""])
+            print("\nMin")
+            print(author_df.iloc[0]['book1'])
+            writer.writerow([author, author_df.iloc[0]['book1'], "True", get_directory(row[1])])
 
-        author_df = author_df.drop(author_df.index[0])
-        remaining_indexes = random.sample(range(len(author_df)), remaining_f)
-        remaining_books = author_df.iloc[remaining_indexes]
-        print("\nRemaining")
+            author_df = author_df.drop(author_df.index[0])
+            remaining_indexes = random.sample(range(len(author_df)), remaining_f)
+            remaining_books = author_df.iloc[remaining_indexes]
+            print("\nRemaining")
 
-        for row in remaining_books.to_records():
-            writer.writerow([author, row[1], "False", ""])
+            for row in remaining_books.to_records():
+                print(row[1])
+                writer.writerow([author, row[1], "False", get_directory(row[1])])
+    input()
 
+'''
 # Max
 print("\n\nMAX\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 with open("size3_max.csv", "a") as csv_file:
