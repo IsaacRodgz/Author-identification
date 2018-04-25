@@ -9,8 +9,8 @@ import csv
 import os
 
 # CLEAN TEXT
-
 '''
+
 path = os.getcwd()+"/gutenberg"
 
 initial_text2cut_1 = "with this eBook or online at www.gutenberg."
@@ -37,17 +37,18 @@ with open("gut_index.csv", "r") as csv_file:
                     path_book += "/"+book["id"]+".txt"
                 else:
                     for possible_txt in possible_txts:
-                        if ".txt" in possible_txt:
+                        if ".txt" in possible_txt and not "readme.txt" in possible_txt:
                             path_book += "/"+possible_txt
                             break;
             except FileNotFoundError:
                 pass
+
         try:
             with codecs.open(path_book, "r",encoding='utf-8', errors='ignore') as book_file:
                 cv = CountVectorizer(min_df=2, stop_words='english',ngram_range=(5, 5), analyzer='word')
                 analyzer = cv.build_tokenizer()
 
-                print(path_book)
+                #print(path_book)
 
                 text = book_file.read()
                 if initial_text2cut_1 in text:
@@ -66,7 +67,7 @@ with open("gut_index.csv", "r") as csv_file:
 
                 text = text[index_start:index_end]
 
-                print(index_start, index_end)
+                #print(index_start, index_end)
                 
                 tokens = analyzer(text)
         except FileNotFoundError as error:
@@ -76,7 +77,7 @@ with open("gut_index.csv", "r") as csv_file:
                     cv = CountVectorizer(min_df=2, stop_words='english',ngram_range=(5, 5), analyzer='word')
                     analyzer = cv.build_tokenizer()
 
-                    print(path_book)
+                    #print(path_book)
 
                     text = book_file.read()
                     if initial_text2cut_1 in text:
@@ -94,19 +95,22 @@ with open("gut_index.csv", "r") as csv_file:
                         index_end = len(text)-200
                     
                     text = text[index_start:index_end]
-                    print(index_start, index_end)
+                    #print(index_start, index_end)
                     tokens = analyzer(text)
             except (IsADirectoryError, FileNotFoundError) as error:
-                pass
+                print(path_book+" ERROR")
+                continue;
         except IsADirectoryError:
-            pass        
+            continue;
+        
+        print(path_book+" OK")
         with open(os.getcwd()+"/ngrams/"+path_book.split("/")[-1][:-4]+".pkl", 'wb') as f:
             pickle.dump(tokens, f)
-'''
+
 
 # CALCULATE SIMILARITY AND RANK BOOKS BY AUTHOR
 
-'''
+
 df = pd.read_csv(os.getcwd()+"/gut_index.csv")
 
 books_by_author = df.groupby('author')
@@ -177,15 +181,18 @@ def get_directory(book_id):
         for i in range(len(book_id)-1):
             path_book += '/'+book_id[i]
         path_book += '/'+book_id
-
+        if path_book[-1] == 'C':
+            path_book = path_book[:-1]
         try:
             possible_txts = os.listdir(path_book)
             if path_book.split("/")[-1]+".txt" in possible_txts:
                 path_book += "/"+book_id+".txt"
-            else:
+            elif path_book.split("/")[-1]+"-0.txt" in possible_txts:
                 path_book += "/"+book_id+"-0.txt"
+            elif path_book.split("/")[-1]+"-8.txt" in possible_txts:
+                path_book += "/"+book_id+"-8.txt"
         except FileNotFoundError:
-            return ""
+            pass
 
     return path_book
 
@@ -290,7 +297,7 @@ for i in range(len(author_names_list)):
 
             print("\nMin")
             print(author_df.iloc[0]['book1'])
-            writer.writerow([author, author_df.iloc[0]['book1'], "True", get_directory(row[1])])
+            writer.writerow([author, author_df.iloc[0]['book1'], "True", get_directory(author_df.iloc[0]['book1'])])
 
             author_df = author_df.drop(author_df.index[0])
             remaining_indexes = random.sample(range(len(author_df)), remaining_f)
@@ -300,7 +307,6 @@ for i in range(len(author_names_list)):
             for row in remaining_books.to_records():
                 print(row[1])
                 writer.writerow([author, row[1], "False", get_directory(row[1])])
-    input()
 
 '''
 # Max

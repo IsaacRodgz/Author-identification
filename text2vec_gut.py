@@ -212,7 +212,7 @@ def get_gutenberg(filename, condition):
     train = []
     test = []
 
-    df = pd.read_csv(os.getcwd()+"/gut_min_max_rand/size11/rand/"+filename, sep=',')
+    df = pd.read_csv(os.getcwd()+filename, sep=',')
     
     for group in df.groupby(['author']):
         index.append(group[0])
@@ -324,7 +324,12 @@ def predictN(iteration, corpus_size, percentage, columns, model, path, chars, va
     #selected_blogs_index = random.sample(range(selection_f), tryn)
     #selected_blogs = selected_blogs[selected_blogs_index]
 
-    train_data, test_data, matrix_authors_id = get_gutenberg("size11_rand.csv", False)
+    num = 5
+    train_data, test_data, matrix_authors_id = get_gutenberg("/gut_min_max_rand/size3/min/size3_min_"+str(num)+".csv", False)
+
+    with open("gut_results/min/"+"min_"+str(num)+".csv", "a") as csv_file:
+        writer = csv.writer(csv_file, delimiter=',')
+        writer.writerow(["author","prediction","confidence"])
 
     for test_text, id_text in zip(test_data, matrix_authors_id):
         print("\n")
@@ -360,6 +365,14 @@ def predictN(iteration, corpus_size, percentage, columns, model, path, chars, va
         print("\nCorrect: {0}\n".format(res[0][0][0]))
         for j in range(len(pr_list)):
             print("Prediction_{0} with {1} votes: {2}".format(j+1, pr_list[j][1], pr_list[j][0]))
+
+        print(pr_list)
+
+        with open("gut_results/min/"+"min_"+str(num)+".csv", "a") as csv_file:
+            writer = csv.writer(csv_file, delimiter=',')
+            for pred in pr_list:
+                writer.writerow([res[0][0][0],pred[0],pred[1]])
+
 '''
         with open("100_3/Res_"+str(id_text)+".csv", "a") as csv_file:
             writer = csv.writer(csv_file, delimiter=',')
