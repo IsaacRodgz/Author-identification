@@ -237,13 +237,13 @@ selection_r = 100
 selection_f = 10
 
 # Remaining books to select once the max/min score books are selected (2 for 3 books, 5 for 6 books and 10 for 11 books)
-remaining_f = 2
+remaining_f = 5
 
 # Choose size
-total_size = total_size_3
+total_size = total_size_6
 
 # Choose authors size
-distinct_authors = distinct_authors_3[:]
+distinct_authors = distinct_authors_6[:]
 
 # Number of iterations
 num_iterations = floor(total_size/selection_r)
@@ -282,6 +282,7 @@ for i in range(num_iterations):
 # When 6: 1-Min Known text and 5-Random for matrix, 1-Max Known text and 5-Random for matrix, 1-Random Known text and 5-Random for matrix
 # When 11: 1-Min Known text and 10-Random for matrix, 1-Max Known text and 10-Random for matrix, 1-Random Known text and 10-Random for matrix
 
+'''
 # Min
 print("\n\nMIM\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 for i in range(len(author_names_list)):
@@ -308,43 +309,52 @@ for i in range(len(author_names_list)):
                 print(row[1])
                 writer.writerow([author, row[1], "False", get_directory(row[1])])
 
-'''
+
 # Max
 print("\n\nMAX\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-with open("size3_max.csv", "a") as csv_file:
-    writer = csv.writer(csv_file, delimiter=',')
-    writer.writerow(["author", "book", "special", "directory"])
-    for author in selected_authors_3:
-        print("________________________________________________________________________")
-        print(author+"\n")
-        author_df = pd.DataFrame(df3_sum.loc[author].to_records()).sort_values('score')
+for i in range(len(author_names_list)):
+    print("iteration: "+str(i+1))
+    print("\n")
+    with open("gut_min_max_rand/size3/max/size3_max_" +str(i+1)+ ".csv", "w") as csv_file:
+        writer = csv.writer(csv_file, delimiter=',')
+        writer.writerow(["author", "book", "special", "directory"])
+        for author in author_names_list[i]:
+            print("________________________________________________________________________")
+            print(author+"\n")
+            author_df = pd.DataFrame(df3_sum.loc[author].to_records()).sort_values('score')
 
-        print("\nMax")
-        print(author_df.iloc[-1]['book1'])
-        writer.writerow([author, author_df.iloc[-1]['book1'], "True", ""])
+            print("\nMax")
+            print(author_df.iloc[-1]['book1'])
+            writer.writerow([author, author_df.iloc[-1]['book1'], "True", get_directory(author_df.iloc[-1]['book1'])])
 
-        author_df = author_df.drop(author_df.index[-1])
-        remaining_indexes = random.sample(range(len(author_df)), remaining_f)
-        remaining_books = author_df.iloc[remaining_indexes]
-        print("\nRemaining")
+            author_df = author_df.drop(author_df.index[-1])
+            remaining_indexes = random.sample(range(len(author_df)), remaining_f)
+            remaining_books = author_df.iloc[remaining_indexes]
+            print("\nRemaining")
 
-        for row in remaining_books.to_records():
-            writer.writerow([author, row[1], "False", ""])
+            for row in remaining_books.to_records():
+                print(row[1])
+                writer.writerow([author, row[1], "False", get_directory(row[1])])
 
+'''
 # Random
 print("\n\nRANDOM\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-with open("size6_rand.csv", "a") as csv_file:
-    writer = csv.writer(csv_file, delimiter=',')
-    writer.writerow(["author", "book", "special", "directory"])
-    for author in selected_authors_6:
-        print("________________________________________________________________________")
-        print(author+"\n")
-        author_df = pd.DataFrame(df6_sum.loc[author].to_records()).sort_values('score')
-        print(author_df)
-        print("len: ", len(author_df), "selection_factor: ", remaining_f+1)
-        remaining_indexes = random.sample(range(len(author_df)), remaining_f+1)
-        remaining_books = author_df.iloc[remaining_indexes]
+for i in range(len(author_names_list)):
+    print("iteration: "+str(i+1))
+    print("\n")
+    with open("gut_min_max_rand/size6/rand/size6_rand_" +str(i+1)+ ".csv", "w") as csv_file:
+        writer = csv.writer(csv_file, delimiter=',')
+        writer.writerow(["author", "book", "special", "directory"])
+        for author in author_names_list[i]:
+            print("________________________________________________________________________")
+            print(author+"\n")
+            author_df = pd.DataFrame(df6_sum.loc[author].to_records())
 
-        for row in remaining_books.to_records():
-            writer.writerow([author, row[1], "False", ""])
-'''
+            print(author_df)
+            print("len: ", len(author_df), "selection_factor: ", remaining_f+1)
+            remaining_indexes = random.sample(range(len(author_df)), remaining_f+1)
+            remaining_books = author_df.iloc[remaining_indexes]
+
+            for row in remaining_books.to_records():
+                writer.writerow([author, row[1], "False", get_directory(row[1])])
+

@@ -324,10 +324,10 @@ def predictN(iteration, corpus_size, percentage, columns, model, path, chars, va
     #selected_blogs_index = random.sample(range(selection_f), tryn)
     #selected_blogs = selected_blogs[selected_blogs_index]
 
-    num = 5
-    train_data, test_data, matrix_authors_id = get_gutenberg("/gut_min_max_rand/size3/min/size3_min_"+str(num)+".csv", False)
+    num = 4
+    train_data, test_data, matrix_authors_id = get_gutenberg("/gut_min_max_rand/size6/rand/size6_rand_"+str(num)+".csv", False)
 
-    with open("gut_results/min/"+"min_"+str(num)+".csv", "a") as csv_file:
+    with open("gut_results/rand6/"+"rand6_"+str(num)+".csv", "a") as csv_file:
         writer = csv.writer(csv_file, delimiter=',')
         writer.writerow(["author","prediction","confidence"])
 
@@ -368,7 +368,7 @@ def predictN(iteration, corpus_size, percentage, columns, model, path, chars, va
 
         print(pr_list)
 
-        with open("gut_results/min/"+"min_"+str(num)+".csv", "a") as csv_file:
+        with open("gut_results/rand6/"+"rand6_"+str(num)+".csv", "a") as csv_file:
             writer = csv.writer(csv_file, delimiter=',')
             for pred in pr_list:
                 writer.writerow([res[0][0][0],pred[0],pred[1]])
